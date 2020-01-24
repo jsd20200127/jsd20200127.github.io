@@ -10,54 +10,5 @@
 	<atom:link href="/homework-assignments/index.xml" rel="self" type="application/rss+xml" />
     
     
-    <item>
-      <title>HW Assignment #1</title>
-      <link>/homework-assignments/hw-assignment-01/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/homework-assignments/hw-assignment-01/</guid>
-      <description> Summary of this week&amp;rsquo;s homework assignment: Due Date: Thursday, October 24th
-Complete Homework #1 - Functions  You are tasked with completing the problem set which is hosted on Github, see the url below:
- Github Repo for Homework #1 - Functions  Use the Assignment Submission Git Workflow (detailed here) to access and submit the assignment
-  </description>
-    </item>
-    
-    <item>
-      <title>HW Assignment #2</title>
-      <link>/homework-assignments/hw-assignment-02/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/homework-assignments/hw-assignment-02/</guid>
-      <description>Summary of this week&amp;rsquo;s homework assignment: Due Date: Thursday, October 31st
-Complete Homework #2 - Iterators  You are tasked with completing the problem set
- Only use either .map(), .find() or .filter() to solve the problems in the problem set
- Do not use .forEach()
-  The problem set for this assignment is hosted on Github, see the url below:
- Github Repo for Homework #2 - Iterators  Use the Assignment Submission Git Workflow (detailed here) to access and submit the assignment</description>
-    </item>
-    
-    <item>
-      <title>HW Assignment #3</title>
-      <link>/homework-assignments/hw-assignment-03/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/homework-assignments/hw-assignment-03/</guid>
-      <description> Summary of this week&amp;rsquo;s homework assignment: Due Date: Wednesday, November 7th
-Complete Homework #3 - Rock, Paper, Scissors Application  You are tasked with finishing the partially built Rock, Paper, Scissors application. The code is hosted on Github, see the url below:
- Github Repo for Homework #3 - Rock, Paper, Scissors Application  Use the Assignment Submission Git Workflow (detailed here) to access and submit the assignment
-  </description>
-    </item>
-    
-    <item>
-      <title>HW Assignment #4</title>
-      <link>/homework-assignments/hw-assignment-04/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/homework-assignments/hw-assignment-04/</guid>
-      <description>Summary of this week&amp;rsquo;s homework assignment: Due Date: Tuesday, November 19th
-Complete Homework #4 - Weather App using OpenWeather API  You are tasked with leveraging the API from OpenWeatherMap to display the current weather for a given city. The starter code is hosted on Github, see the url below:
- Github Repo for Homework #4 - Weather App using OpenWeather API  Use the Assignment Submission Git Workflow (detailed here) to access and submit the assignment</description>
-    </item>
-    
   </channel>
 </rss>
