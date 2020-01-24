@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Lab: SAT Vocab Flashcards App on JavaScript</title>
+    <link>/11-lab-sat-vocab-flash-cards/</link>
+    <description>Recent content in Lab: SAT Vocab Flashcards App on JavaScript</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="/11-lab-sat-vocab-flash-cards/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Objectives</title>
+      <link>/11-lab-sat-vocab-flash-cards/objectives/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/11-lab-sat-vocab-flash-cards/objectives/</guid>
+      <description> Leverage knowledge of Promises to build an application that makes asynchronous requests to multiple APIs  </description>
+    </item>
+    
+    <item>
+      <title>Instructions</title>
+      <link>/11-lab-sat-vocab-flash-cards/instructions/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/11-lab-sat-vocab-flash-cards/instructions/</guid>
+      <description> Overview You are tasked with building an application that leverages different APIs to display a random SAT word and it&amp;rsquo;s Scrabble score
+Instructions 1) Download starter code
+ The starter code for this code along is hosted on Github, see the url below:
+ Lab: SAT Vocab Flashcards App  Use the Assignment Submission Git Workflow (detailed here) to access and submit the assignment
+  </description>
+    </item>
+    
+    <item>
+      <title>Requirements</title>
+      <link>/11-lab-sat-vocab-flash-cards/requirements/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/11-lab-sat-vocab-flash-cards/requirements/</guid>
+      <description>Requirements Requirement #1: Make API Request to the SAT Vocabulary API to fetch Random SAT Word When users press the &amp;ldquo;Get New SAT Word&amp;rdquo; button the following should happen:
+ The application should make an API request the to the API endpoint below to receive a random SAT vocabulary word:
+GET https://sat-words-api.herokuapp.com/api/v1/words/random  Note: This API does not require an API key
+ The application should display both the word and its definition in the UI</description>
+    </item>
+    
+  </channel>
+</rss>

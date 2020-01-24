@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Object Oriented Programming (OOP) on JavaScript</title>
+    <link>/13-object-oriented-programming/</link>
+    <description>Recent content in Object Oriented Programming (OOP) on JavaScript</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="/13-object-oriented-programming/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Objectives</title>
+      <link>/13-object-oriented-programming/objectives/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/13-object-oriented-programming/objectives/</guid>
+      <description> Learn how OOP concepts can be applied using JavaScript
+ Understand the benefit of OOP
+ Understand the benefits of using Classes
+ Create Classes with a public and private interface
+ Create Classes that inherit properties and methods from another Class
+  </description>
+    </item>
+    
+    <item>
+      <title>Code Along: Bank ATM</title>
+      <link>/13-object-oriented-programming/code-along-bank-atm/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/13-object-oriented-programming/code-along-bank-atm/</guid>
+      <description> Code Along: Bank ATM We&amp;rsquo;re going to use Classes to complete an application that simulates basic functionality of an ATM
+Get the starter code  The starter code for this lab is hosted on Github, see the url below:
+ Code Along: Bank ATM  Use the Assignment Submission Git Workflow (detailed here) to access and submit the assignment
+  </description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>DOM &amp; jQuery III on JavaScript</title>
+    <link>/08-dom-jquery-iii/</link>
+    <description>Recent content in DOM &amp; jQuery III on JavaScript</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="/08-dom-jquery-iii/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Code Along: HiLo</title>
+      <link>/08-dom-jquery-iii/code-along-hilo/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/08-dom-jquery-iii/code-along-hilo/</guid>
+      <description> Code Along: HiLo  The starter code for this code along is hosted on Github, see the url below:
+ Code Along: HiLo  Use the Assignment Submission Git Workflow (detailed here) to access and submit the assignment
+  </description>
+    </item>
+    
+    <item>
+      <title>Lab: CitiPix</title>
+      <link>/08-dom-jquery-iii/lab-citipix/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/08-dom-jquery-iii/lab-citipix/</guid>
+      <description> Lab: CitiPix  The starter code for this lab is hosted on Github, see the url below:
+ Lab: CitiPix  Use the Assignment Submission Git Workflow (detailed here) to access and submit the assignment
+  </description>
+    </item>
+    
+  </channel>
+</rss>

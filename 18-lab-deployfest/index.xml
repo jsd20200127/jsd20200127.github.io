@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Lab: Deployfest on JavaScript</title>
+    <link>/18-lab-deployfest/</link>
+    <description>Recent content in Lab: Deployfest on JavaScript</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="/18-lab-deployfest/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Lab: Deployfest</title>
+      <link>/18-lab-deployfest/lab-deployfest/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/18-lab-deployfest/lab-deployfest/</guid>
+      <description> Use class time to deploy and host your final projects using either Github Pages, Surge or Heroku (whichever is most appropriate for your project)
+ Project Check-ins with Instructor
+ In-class time to work on Final Projects
+  </description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,1394 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>/01-course-intro-and-tools/</loc>
+  </url>
+  
+  <url>
+    <loc>/02-javascript-basics/objectives/</loc>
+  </url>
+  
+  <url>
+    <loc>/03-control-flow-and-loops/objectives/</loc>
+  </url>
+  
+  <url>
+    <loc>/04-functions-and-scope/objectives/</loc>
+  </url>
+  
+  <url>
+    <loc>/05-arrays-objects/objectives/</loc>
+  </url>
+  
+  <url>
+    <loc>/06-dom-and-jquery/objectives/</loc>
+  </url>
+  
+  <url>
+    <loc>/07-dom-and-jquery-ii/objectives/</loc>
+  </url>
+  
+  <url>
+    <loc>/command-line-js-and-git/objectives/</loc>
+  </url>
+  
+  <url>
+    <loc>/continue-learning/free-courses-guides/</loc>
+  </url>
+  
+  <url>
+    <loc>/class-resources/office-hours/</loc>
+  </url>
+  
+  <url>
+    <loc>/09-http-and-apis/ajax/overview/</loc>
+  </url>
+  
+  <url>
+    <loc>/09-http-and-apis/apis/overview/</loc>
+  </url>
+  
+  <url>
+    <loc>/09-http-and-apis/http/overview/</loc>
+  </url>
+  
+  <url>
+    <loc>/09-http-and-apis/json/overview/</loc>
+  </url>
+  
+  <url>
+    <loc>/06-dom-and-jquery/warm-up-iterators-practice/</loc>
+  </url>
+  
+  <url>
+    <loc>/05-arrays-objects/warm-up-js-basics-control-flow-loops-practice/</loc>
+  </url>
+  
+  <url>
+    <loc>/06-dom-and-jquery/jquery-overview/what-is-jquery/</loc>
+  </url>
+  
+  <url>
+    <loc>/06-dom-and-jquery/jquery-overview/add-jquery/via-download/</loc>
+  </url>
+  
+  <url>
+    <loc>/09-http-and-apis/ajax/ajax-request-native-js/</loc>
+  </url>
+  
+  <url>
+    <loc>/solutions/classwork-lab-solutions/</loc>
+  </url>
+  
+  <url>
+    <loc>/05-arrays-objects/objects/creating-objects/</loc>
+  </url>
+  
+  <url>
+    <loc>/06-dom-and-jquery/dom-intro/</loc>
+  </url>
+  
+  <url>
+    <loc>/class-resources/documentation/</loc>
+  </url>
+  
+  <url>
+    <loc>/06-dom-and-jquery/jquery-events/event-handlers/</loc>
+  </url>
+  
+  <url>
+    <loc>/09-http-and-apis/apis/finding-apis/</loc>
+  </url>
+  
+  <url>
+    <loc>/04-functions-and-scope/function-overview/</loc>
+  </url>
+  
+  <url>
+    <loc>/09-http-and-apis/http/http-request/http-methods/get/</loc>
+  </url>
+  
+  <url>
+    <loc>/04-functions-and-scope/scope/global-scope/</loc>
+  </url>
+  
+  <url>
+    <loc>/09-http-and-apis/http/http-request/</loc>
+  </url>
+  
+  <url>
+    <loc>/09-http-and-apis/json/json-stringify/</loc>
+  </url>
+  
+  <url>
+    <loc>/18-lab-deployfest/lab-deployfest/</loc>
+  </url>
+  
+  <url>
+    <loc>/19-final-projects-lab/lab-final-projects/</loc>
+  </url>
+  
+  <url>
+    <loc>/09-http-and-apis/objectives/</loc>
+  </url>
+  
+  <url>
+    <loc>/10-asynchronous-js-and-promises/objectives/</loc>
+  </url>
+  
+  <url>
+    <loc>/11-lab-sat-vocab-flash-cards/objectives/</loc>
+  </url>
+  
+  <url>
+    <loc>/12-project-build-a-slackbot/objectives/</loc>
+  </url>
+  
+  <url>
+    <loc>/13-object-oriented-programming/objectives/</loc>
+  </url>
+  
+  <url>
+    <loc>/14-oop-order-checkout-app/objectives/</loc>
+  </url>
+  
+  <url>
+    <loc>/15-intro-to-crud-and-firebase/objectives/</loc>
+  </url>
+  
+  <url>
+    <loc>/16-project-firebase-todo-app/objectives/</loc>
+  </url>
+  
+  <url>
+    <loc>/17-deploying-and-hosting/objectives/</loc>
+  </url>
+  
+  <url>
+    <loc>/10-asynchronous-js-and-promises/async-await/overview/</loc>
+  </url>
+  
+  <url>
+    <loc>/10-asynchronous-js-and-promises/promises/overview/</loc>
+  </url>
+  
+  <url>
+    <loc>/13-object-oriented-programming/classes/methods/overview/</loc>
+  </url>
+  
+  <url>
+    <loc>/13-object-oriented-programming/classes/overview/</loc>
+  </url>
+  
+  <url>
+    <loc>/13-object-oriented-programming/inheritance/overview/</loc>
+  </url>
+  
+  <url>
+    <loc>/15-intro-to-crud-and-firebase/firebase/overview/</loc>
+  </url>
+  
+  <url>
+    <loc>/final-projects/overview-requirements/</loc>
+  </url>
+  
+  <url>
+    <loc>/20-final-project-presentations/presentation-script/</loc>
+  </url>
+  
+  <url>
+    <loc>/command-line-js-and-git/git-vocabulary/repository/</loc>
+  </url>
+  
+  <url>
+    <loc>/09-http-and-apis/http/http-response/status-codes/</loc>
+  </url>
+  
+  <url>
+    <loc>/12-project-build-a-slackbot/tutorial/step-1-new-slack-workspace/</loc>
+  </url>
+  
+  <url>
+    <loc>/17-deploying-and-hosting/code-along-hosting-with-heroku/step-1-install-heroku/</loc>
+  </url>
+  
+  <url>
+    <loc>/02-javascript-basics/data-types/strings/</loc>
+  </url>
+  
+  <url>
+    <loc>/09-http-and-apis/http/http-request/urls/</loc>
+  </url>
+  
+  <url>
+    <loc>/05-arrays-objects/warm-up-functions-practice/</loc>
+  </url>
+  
+  <url>
+    <loc>/02-javascript-basics/variables/what-are-variables/</loc>
+  </url>
+  
+  <url>
+    <loc>/class-resources/git-commands/</loc>
+  </url>
+  
+  <url>
+    <loc>/command-line-js-and-git/intro-to-the-command-line/</loc>
+  </url>
+  
+  <url>
+    <loc>/command-line-js-and-git/code-along-command-line-intro/</loc>
+  </url>
+  
+  <url>
+    <loc>/class-resources/git-workflow-submitting-assignments/</loc>
+  </url>
+  
+  <url>
+    <loc>/class-resources/keyboard-shortcuts/</loc>
+    <lastmod>2017-01-22T18:05:18-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/07-dom-and-jquery-ii/jquery-this/</loc>
+  </url>
+  
+  <url>
+    <loc>/06-dom-and-jquery/jquery-manipulation/inserting-removing-content/append/</loc>
+  </url>
+  
+  <url>
+    <loc>/06-dom-and-jquery/jquery-events/form-events/change/</loc>
+  </url>
+  
+  <url>
+    <loc>/06-dom-and-jquery/jquery-events/mouse-events/click/</loc>
+  </url>
+  
+  <url>
+    <loc>/06-dom-and-jquery/jquery-manipulation/css-style-manipulation/css/</loc>
+  </url>
+  
+  <url>
+    <loc>/05-arrays-objects/array-iterators/for-each/</loc>
+  </url>
+  
+  <url>
+    <loc>/05-arrays-objects/array-review/adding-removing-items/push/</loc>
+  </url>
+  
+  <url>
+    <loc>/06-dom-and-jquery/jquery-effects/show-hide/</loc>
+  </url>
+  
+  <url>
+    <loc>/06-dom-and-jquery/jquery-manipulation/getting-setting-content/text/</loc>
+  </url>
+  
+  <url>
+    <loc>/05-arrays-objects/objects/accessing-properties/</loc>
+  </url>
+  
+  <url>
+    <loc>/06-dom-and-jquery/jquery-overview/add-jquery/via-cdn/</loc>
+  </url>
+  
+  <url>
+    <loc>/09-http-and-apis/ajax/ajax-request-jquery/</loc>
+  </url>
+  
+  <url>
+    <loc>/06-dom-and-jquery/jquery-traversing/ancestors/</loc>
+  </url>
+  
+  <url>
+    <loc>/05-arrays-objects/array-review/</loc>
+  </url>
+  
+  <url>
+    <loc>/15-intro-to-crud-and-firebase/firebase/benefits/</loc>
+  </url>
+  
+  <url>
+    <loc>/06-dom-and-jquery/jquery-overview/benefits-of-jquery/</loc>
+  </url>
+  
+  <url>
+    <loc>/13-object-oriented-programming/classes/</loc>
+  </url>
+  
+  <url>
+    <loc>/09-http-and-apis/clients-servers/</loc>
+  </url>
+  
+  <url>
+    <loc>/command-line-js-and-git/git-vocabulary/commit/</loc>
+  </url>
+  
+  <url>
+    <loc>/03-control-flow-and-loops/conditionals/</loc>
+  </url>
+  
+  <url>
+    <loc>/13-object-oriented-programming/classes/constructor/</loc>
+  </url>
+  
+  <url>
+    <loc>/05-arrays-objects/array-review/creating-arrays/</loc>
+  </url>
+  
+  <url>
+    <loc>/10-asynchronous-js-and-promises/promises/creating-promises/</loc>
+  </url>
+  
+  <url>
+    <loc>/15-intro-to-crud-and-firebase/crud/</loc>
+  </url>
+  
+  <url>
+    <loc>/09-http-and-apis/apis/data-formats/</loc>
+  </url>
+  
+  <url>
+    <loc>/04-functions-and-scope/declaring-functions/</loc>
+  </url>
+  
+  <url>
+    <loc>/02-javascript-basics/variables/declaring-variables/</loc>
+  </url>
+  
+  <url>
+    <loc>/06-dom-and-jquery/jquery-overview/document-ready/</loc>
+  </url>
+  
+  <url>
+    <loc>/05-arrays-objects/objects/accessing-properties/dot-notation/</loc>
+  </url>
+  
+  <url>
+    <loc>/13-object-oriented-programming/classes/methods/getters-and-setters/</loc>
+  </url>
+  
+  <url>
+    <loc>/06-dom-and-jquery/jquery-manipulation/getting-setting-content/</loc>
+  </url>
+  
+  <url>
+    <loc>/17-deploying-and-hosting/github-pages/</loc>
+  </url>
+  
+  <url>
+    <loc>/10-asynchronous-js-and-promises/async-await/handling-async-issues-with-async-await/</loc>
+  </url>
+  
+  <url>
+    <loc>/solutions/homework-solutions/</loc>
+  </url>
+  
+  <url>
+    <loc>/09-http-and-apis/http/</loc>
+  </url>
+  
+  <url>
+    <loc>/09-http-and-apis/http/http-request/http-methods/</loc>
+  </url>
+  
+  <url>
+    <loc>/09-http-and-apis/http/http-response/</loc>
+  </url>
+  
+  <url>
+    <loc>/homework-assignments/hw-assignment-01/</loc>
+  </url>
+  
+  <url>
+    <loc>/03-control-flow-and-loops/conditionals/if-statement/</loc>
+  </url>
+  
+  <url>
+    <loc>/11-lab-sat-vocab-flash-cards/instructions/</loc>
+  </url>
+  
+  <url>
+    <loc>/14-oop-order-checkout-app/instructions/</loc>
+  </url>
+  
+  <url>
+    <loc>/16-project-firebase-todo-app/instructions/</loc>
+  </url>
+  
+  <url>
+    <loc>/02-javascript-basics/</loc>
+  </url>
+  
+  <url>
+    <loc>/06-dom-and-jquery/jquery-overview/</loc>
+  </url>
+  
+  <url>
+    <loc>/09-http-and-apis/json/json-parse/</loc>
+  </url>
+  
+  <url>
+    <loc>/04-functions-and-scope/scope/local-scope/</loc>
+  </url>
+  
+  <url>
+    <loc>/class-resources/node-git-installation/mac-os-x/</loc>
+  </url>
+  
+  <url>
+    <loc>/final-projects/milestones-due-dates/</loc>
+  </url>
+  
+  <url>
+    <loc>/06-dom-and-jquery/jquery-events/mouse-events/</loc>
+  </url>
+  
+  <url>
+    <loc>/02-javascript-basics/data-types/numbers/</loc>
+  </url>
+  
+  <url>
+    <loc>/01-course-intro-and-tools/objectives/</loc>
+  </url>
+  
+  <url>
+    <loc>/09-http-and-apis/http/http-request/http-methods/post/</loc>
+  </url>
+  
+  <url>
+    <loc>/12-project-build-a-slackbot/project-overview/</loc>
+  </url>
+  
+  <url>
+    <loc>/04-functions-and-scope/scope/block-statements/</loc>
+  </url>
+  
+  <url>
+    <loc>/12-project-build-a-slackbot/tutorial/step-2-create-new-slack-app/</loc>
+  </url>
+  
+  <url>
+    <loc>/17-deploying-and-hosting/code-along-hosting-with-heroku/step-2-prepare-the-app/</loc>
+  </url>
+  
+  <url>
+    <loc>/final-projects/milestones-due-dates/submit-project-ideas/</loc>
+  </url>
+  
+  <url>
+    <loc>/13-object-oriented-programming/inheritance/super-and-extends/</loc>
+  </url>
+  
+  <url>
+    <loc>/10-asynchronous-js-and-promises/synchronous-programming/</loc>
+  </url>
+  
+  <url>
+    <loc>/03-control-flow-and-loops/loops-and-iteration/while-loops/</loc>
+  </url>
+  
+  <url>
+    <loc>/09-http-and-apis/code-along-crud-api-requests/</loc>
+  </url>
+  
+  <url>
+    <loc>/13-object-oriented-programming/classes/encapsulation/</loc>
+  </url>
+  
+  <url>
+    <loc>/09-http-and-apis/apis/</loc>
+  </url>
+  
+  <url>
+    <loc>/06-dom-and-jquery/jquery-effects/toggle/</loc>
+  </url>
+  
+  <url>
+    <loc>/06-dom-and-jquery/jquery-overview/add-jquery/</loc>
+  </url>
+  
+  <url>
+    <loc>/09-http-and-apis/apis/api-keys/</loc>
+  </url>
+  
+  <url>
+    <loc>/10-asynchronous-js-and-promises/asynchronous-programming/</loc>
+  </url>
+  
+  <url>
+    <loc>/02-javascript-basics/data-types/booleans/</loc>
+  </url>
+  
+  <url>
+    <loc>/command-line-js-and-git/git-vocabulary/branch/</loc>
+  </url>
+  
+  <url>
+    <loc>/04-functions-and-scope/calling-functions/</loc>
+  </url>
+  
+  <url>
+    <loc>/17-deploying-and-hosting/code-along-hosting-with-github-pages/</loc>
+  </url>
+  
+  <url>
+    <loc>/10-asynchronous-js-and-promises/promises/consuming-promises/</loc>
+  </url>
+  
+  <url>
+    <loc>/03-control-flow-and-loops/</loc>
+  </url>
+  
+  <url>
+    <loc>/12-project-build-a-slackbot/documentaton/</loc>
+  </url>
+  
+  <url>
+    <loc>/15-intro-to-crud-and-firebase/firebase/</loc>
+  </url>
+  
+  <url>
+    <loc>/13-object-oriented-programming/classes/methods/general-methods/</loc>
+  </url>
+  
+  <url>
+    <loc>/final-projects/milestones-due-dates/get-idea-approved/</loc>
+  </url>
+  
+  <url>
+    <loc>/13-object-oriented-programming/classes/instances/</loc>
+  </url>
+  
+  <url>
+    <loc>/09-http-and-apis/json/</loc>
+  </url>
+  
+  <url>
+    <loc>/15-intro-to-crud-and-firebase/firebase/nosql-databases/</loc>
+  </url>
+  
+  <url>
+    <loc>/10-asynchronous-js-and-promises/async-await/passing-values-with-async-await/</loc>
+  </url>
+  
+  <url>
+    <loc>/09-http-and-apis/http/http-request/http-methods/put/</loc>
+  </url>
+  
+  <url>
+    <loc>/class-resources/atom-editor-settings/</loc>
+  </url>
+  
+  <url>
+    <loc>/11-lab-sat-vocab-flash-cards/requirements/</loc>
+  </url>
+  
+  <url>
+    <loc>/14-oop-order-checkout-app/requirements/</loc>
+  </url>
+  
+  <url>
+    <loc>/16-project-firebase-todo-app/requirements/</loc>
+  </url>
+  
+  <url>
+    <loc>/17-deploying-and-hosting/code-along-hosting-with-heroku/step-3-run-heroku-locally/</loc>
+  </url>
+  
+  <url>
+    <loc>/12-project-build-a-slackbot/tutorial/step-3-set-up-node-application/</loc>
+  </url>
+  
+  <url>
+    <loc>/03-control-flow-and-loops/switch-statement/</loc>
+  </url>
+  
+  <url>
+    <loc>/02-javascript-basics/variables/updating-variables/</loc>
+  </url>
+  
+  <url>
+    <loc>/02-javascript-basics/variables/</loc>
+  </url>
+  
+  <url>
+    <loc>/06-dom-and-jquery/jquery-manipulation/css-style-manipulation/add-class/</loc>
+  </url>
+  
+  <url>
+    <loc>/06-dom-and-jquery/jquery-manipulation/getting-setting-content/html/</loc>
+  </url>
+  
+  <url>
+    <loc>/05-arrays-objects/array-iterators/map/</loc>
+  </url>
+  
+  <url>
+    <loc>/05-arrays-objects/array-review/adding-removing-items/pop/</loc>
+  </url>
+  
+  <url>
+    <loc>/06-dom-and-jquery/jquery-manipulation/inserting-removing-content/prepend/</loc>
+  </url>
+  
+  <url>
+    <loc>/06-dom-and-jquery/jquery-effects/slide-up-slide-down/</loc>
+  </url>
+  
+  <url>
+    <loc>/06-dom-and-jquery/jquery-events/form-events/submit/</loc>
+  </url>
+  
+  <url>
+    <loc>/05-arrays-objects/array-review/accessing-array-values/</loc>
+  </url>
+  
+  <url>
+    <loc>/09-http-and-apis/ajax/</loc>
+  </url>
+  
+  <url>
+    <loc>/05-arrays-objects/array-iterators/</loc>
+  </url>
+  
+  <url>
+    <loc>/02-javascript-basics/data-types/arrays/</loc>
+  </url>
+  
+  <url>
+    <loc>/05-arrays-objects/objects/assigning-properties/</loc>
+  </url>
+  
+  <url>
+    <loc>/05-arrays-objects/objects/accessing-properties/bracket-notation/</loc>
+  </url>
+  
+  <url>
+    <loc>/15-intro-to-crud-and-firebase/code-along-firebase-playlist-app/</loc>
+  </url>
+  
+  <url>
+    <loc>/final-projects/milestones-due-dates/create-github-repository-for-final-project/</loc>
+  </url>
+  
+  <url>
+    <loc>/02-javascript-basics/data-types/</loc>
+  </url>
+  
+  <url>
+    <loc>/09-http-and-apis/http/http-request/http-methods/delete/</loc>
+  </url>
+  
+  <url>
+    <loc>/06-dom-and-jquery/jquery-traversing/descendants/</loc>
+  </url>
+  
+  <url>
+    <loc>/03-control-flow-and-loops/loops-and-iteration/do-while-loops/</loc>
+  </url>
+  
+  <url>
+    <loc>/10-asynchronous-js-and-promises/async-await/error-handling-with-async-await/</loc>
+  </url>
+  
+  <url>
+    <loc>/07-dom-and-jquery-ii/event-current-target/</loc>
+  </url>
+  
+  <url>
+    <loc>/15-intro-to-crud-and-firebase/firebase/firestore-database/</loc>
+  </url>
+  
+  <url>
+    <loc>/06-dom-and-jquery/jquery-events/form-events/</loc>
+  </url>
+  
+  <url>
+    <loc>/04-functions-and-scope/</loc>
+  </url>
+  
+  <url>
+    <loc>/command-line-js-and-git/git-overview/</loc>
+  </url>
+  
+  <url>
+    <loc>/10-asynchronous-js-and-promises/promises/handling-async-issues-with-promises/</loc>
+  </url>
+  
+  <url>
+    <loc>/04-functions-and-scope/hoisting/</loc>
+  </url>
+  
+  <url>
+    <loc>/homework-assignments/hw-assignment-02/</loc>
+  </url>
+  
+  <url>
+    <loc>/03-control-flow-and-loops/conditionals/if-else/</loc>
+  </url>
+  
+  <url>
+    <loc>/06-dom-and-jquery/jquery-manipulation/inserting-removing-content/</loc>
+  </url>
+  
+  <url>
+    <loc>/06-dom-and-jquery/jquery-overview/jquery-syntax/</loc>
+  </url>
+  
+  <url>
+    <loc>/03-control-flow-and-loops/loops-and-iteration/</loc>
+  </url>
+  
+  <url>
+    <loc>/command-line-js-and-git/git-vocabulary/master-branch/</loc>
+  </url>
+  
+  <url>
+    <loc>/13-object-oriented-programming/classes/methods/</loc>
+  </url>
+  
+  <url>
+    <loc>/02-javascript-basics/variables/naming-rules/</loc>
+  </url>
+  
+  <url>
+    <loc>/02-javascript-basics/data-types/objects/</loc>
+  </url>
+  
+  <url>
+    <loc>/class-resources/opening-atom-from-command-line/</loc>
+  </url>
+  
+  <url>
+    <loc>/10-asynchronous-js-and-promises/simulating-async-operations/</loc>
+  </url>
+  
+  <url>
+    <loc>/13-object-oriented-programming/classes/methods/static-methods/</loc>
+  </url>
+  
+  <url>
+    <loc>/17-deploying-and-hosting/code-along-hosting-with-heroku/step-4-deploy-to-heroku/</loc>
+  </url>
+  
+  <url>
+    <loc>/12-project-build-a-slackbot/tutorial/step-4-run-ngrok/</loc>
+  </url>
+  
+  <url>
+    <loc>/17-deploying-and-hosting/surge/</loc>
+  </url>
+  
+  <url>
+    <loc>/12-project-build-a-slackbot/tutorial/</loc>
+  </url>
+  
+  <url>
+    <loc>/class-resources/node-git-installation/windows/</loc>
+  </url>
+  
+  <url>
+    <loc>/class-resources/atom-themes/</loc>
+  </url>
+  
+  <url>
+    <loc>/command-line-js-and-git/github/</loc>
+  </url>
+  
+  <url>
+    <loc>/02-javascript-basics/arithmetic-operators/</loc>
+  </url>
+  
+  <url>
+    <loc>/05-arrays-objects/</loc>
+  </url>
+  
+  <url>
+    <loc>/10-asynchronous-js-and-promises/challenges-of-async-programming/</loc>
+  </url>
+  
+  <url>
+    <loc>/17-deploying-and-hosting/code-along-hosting-with-surge/</loc>
+  </url>
+  
+  <url>
+    <loc>/final-projects/milestones-due-dates/create-submit-wireframes/</loc>
+  </url>
+  
+  <url>
+    <loc>/command-line-js-and-git/git-vocabulary/</loc>
+  </url>
+  
+  <url>
+    <loc>/13-object-oriented-programming/inheritance/</loc>
+  </url>
+  
+  <url>
+    <loc>/06-dom-and-jquery/jquery-overview/jquery-selectors/</loc>
+  </url>
+  
+  <url>
+    <loc>/command-line-js-and-git/git-vocabulary/merge/</loc>
+  </url>
+  
+  <url>
+    <loc>/10-asynchronous-js-and-promises/promises/passing-values-with-promises/</loc>
+  </url>
+  
+  <url>
+    <loc>/04-functions-and-scope/returning-values-from-functions/</loc>
+  </url>
+  
+  <url>
+    <loc>/class-resources/atom-show-git-ignored-files/</loc>
+  </url>
+  
+  <url>
+    <loc>/12-project-build-a-slackbot/tutorial/step-5-create-a-test-slash-command/</loc>
+  </url>
+  
+  <url>
+    <loc>/02-javascript-basics/variables/var-keyword/</loc>
+  </url>
+  
+  <url>
+    <loc>/command-line-js-and-git/git-basics/</loc>
+  </url>
+  
+  <url>
+    <loc>/06-dom-and-jquery/jquery-overview/jquery-objects/</loc>
+  </url>
+  
+  <url>
+    <loc>/06-dom-and-jquery/jquery-manipulation/inserting-removing-content/before/</loc>
+  </url>
+  
+  <url>
+    <loc>/05-arrays-objects/array-iterators/find/</loc>
+  </url>
+  
+  <url>
+    <loc>/06-dom-and-jquery/jquery-events/mouse-events/hover/</loc>
+  </url>
+  
+  <url>
+    <loc>/06-dom-and-jquery/jquery-manipulation/css-style-manipulation/remove-class/</loc>
+  </url>
+  
+  <url>
+    <loc>/05-arrays-objects/array-review/adding-removing-items/shift/</loc>
+  </url>
+  
+  <url>
+    <loc>/06-dom-and-jquery/jquery-effects/slide-toggle/</loc>
+  </url>
+  
+  <url>
+    <loc>/06-dom-and-jquery/jquery-manipulation/getting-setting-content/val/</loc>
+  </url>
+  
+  <url>
+    <loc>/01-course-intro-and-tools/class-logistics-materials/</loc>
+  </url>
+  
+  <url>
+    <loc>/13-object-oriented-programming/code-along-bank-atm/</loc>
+  </url>
+  
+  <url>
+    <loc>/command-line-js-and-git/code-along-basic-git-workflow/</loc>
+  </url>
+  
+  <url>
+    <loc>/07-dom-and-jquery-ii/code-along-color-scheme-switcher-jquery/</loc>
+  </url>
+  
+  <url>
+    <loc>/02-javascript-basics/variables/const/</loc>
+  </url>
+  
+  <url>
+    <loc>/final-projects/milestones-due-dates/create-project-plan/</loc>
+  </url>
+  
+  <url>
+    <loc>/06-dom-and-jquery/jquery-manipulation/css-style-manipulation/</loc>
+  </url>
+  
+  <url>
+    <loc>/06-dom-and-jquery/</loc>
+  </url>
+  
+  <url>
+    <loc>/10-asynchronous-js-and-promises/promises/error-handling-with-catch/</loc>
+  </url>
+  
+  <url>
+    <loc>/03-control-flow-and-loops/loops-and-iteration/for-loop/</loc>
+  </url>
+  
+  <url>
+    <loc>/10-asynchronous-js-and-promises/handling-async-issue-with-callbacks/</loc>
+  </url>
+  
+  <url>
+    <loc>/homework-assignments/hw-assignment-03/</loc>
+  </url>
+  
+  <url>
+    <loc>/03-control-flow-and-loops/conditionals/if-else-if/</loc>
+  </url>
+  
+  <url>
+    <loc>/03-control-flow-and-loops/lab-js-basics-control-flow-loops/</loc>
+  </url>
+  
+  <url>
+    <loc>/class-resources/node-git-installation/linux/</loc>
+  </url>
+  
+  <url>
+    <loc>/05-arrays-objects/objects/methods/</loc>
+  </url>
+  
+  <url>
+    <loc>/05-arrays-objects/objects/</loc>
+  </url>
+  
+  <url>
+    <loc>/06-dom-and-jquery/jquery-events/other-events/</loc>
+  </url>
+  
+  <url>
+    <loc>/command-line-js-and-git/git-vocabulary/push/</loc>
+  </url>
+  
+  <url>
+    <loc>/17-deploying-and-hosting/securing-sensitive-credentials-with-parcel/</loc>
+  </url>
+  
+  <url>
+    <loc>/12-project-build-a-slackbot/tutorial/step-6-install-app-to-workspace/</loc>
+  </url>
+  
+  <url>
+    <loc>/05-arrays-objects/array-review/updating-array-values/</loc>
+  </url>
+  
+  <url>
+    <loc>/04-functions-and-scope/working-with-parameters/</loc>
+  </url>
+  
+  <url>
+    <loc>/command-line-js-and-git/code-along-git-branching-merging/</loc>
+  </url>
+  
+  <url>
+    <loc>/05-arrays-objects/array-review/adding-removing-items/unshift/</loc>
+  </url>
+  
+  <url>
+    <loc>/09-http-and-apis/code-along-giphy-api/</loc>
+  </url>
+  
+  <url>
+    <loc>/17-deploying-and-hosting/code-along-using-env-variables-with-parcel/</loc>
+  </url>
+  
+  <url>
+    <loc>/02-javascript-basics/comparison-operators/</loc>
+  </url>
+  
+  <url>
+    <loc>/01-course-intro-and-tools/course-structure/</loc>
+  </url>
+  
+  <url>
+    <loc>/07-dom-and-jquery-ii/</loc>
+  </url>
+  
+  <url>
+    <loc>/04-functions-and-scope/functions-calling-other-functions/</loc>
+  </url>
+  
+  <url>
+    <loc>/final-projects/milestones-due-dates/host-final-project/</loc>
+  </url>
+  
+  <url>
+    <loc>/homework-assignments/hw-assignment-04/</loc>
+  </url>
+  
+  <url>
+    <loc>/10-asynchronous-js-and-promises/promises/</loc>
+  </url>
+  
+  <url>
+    <loc>/command-line-js-and-git/git-vocabulary/pull/</loc>
+  </url>
+  
+  <url>
+    <loc>/12-project-build-a-slackbot/tutorial/step-7-responding-to-slash-commands/</loc>
+  </url>
+  
+  <url>
+    <loc>/02-javascript-basics/variables/when-to-use-let-vs-const/</loc>
+  </url>
+  
+  <url>
+    <loc>/10-asynchronous-js-and-promises/code-along-random-color-api-with-promises/</loc>
+  </url>
+  
+  <url>
+    <loc>/08-dom-jquery-iii/</loc>
+  </url>
+  
+  <url>
+    <loc>/04-functions-and-scope/function-expressions-anonymous-functions/</loc>
+  </url>
+  
+  <url>
+    <loc>/01-course-intro-and-tools/tools/</loc>
+  </url>
+  
+  <url>
+    <loc>/04-functions-and-scope/arrow-functions/</loc>
+  </url>
+  
+  <url>
+    <loc>/06-dom-and-jquery/jquery-manipulation/inserting-removing-content/after/</loc>
+  </url>
+  
+  <url>
+    <loc>/06-dom-and-jquery/jquery-manipulation/getting-setting-content/attr/</loc>
+  </url>
+  
+  <url>
+    <loc>/06-dom-and-jquery/jquery-effects/fade-in-fade-out/</loc>
+  </url>
+  
+  <url>
+    <loc>/05-arrays-objects/array-iterators/filter/</loc>
+  </url>
+  
+  <url>
+    <loc>/05-arrays-objects/array-review/adding-removing-items/slice/</loc>
+  </url>
+  
+  <url>
+    <loc>/06-dom-and-jquery/jquery-manipulation/css-style-manipulation/toggle-class/</loc>
+  </url>
+  
+  <url>
+    <loc>/05-arrays-objects/array-review/adding-removing-items/</loc>
+  </url>
+  
+  <url>
+    <loc>/10-asynchronous-js-and-promises/async-await/</loc>
+  </url>
+  
+  <url>
+    <loc>/07-dom-and-jquery-ii/code-along-traffic-light/</loc>
+  </url>
+  
+  <url>
+    <loc>/03-control-flow-and-loops/loops-and-iteration/for-each/</loc>
+  </url>
+  
+  <url>
+    <loc>/17-deploying-and-hosting/heroku/</loc>
+  </url>
+  
+  <url>
+    <loc>/09-http-and-apis/</loc>
+  </url>
+  
+  <url>
+    <loc>/09-http-and-apis/lab-random-color-api-with-ajax/</loc>
+  </url>
+  
+  <url>
+    <loc>/05-arrays-objects/array-review/length-property/</loc>
+  </url>
+  
+  <url>
+    <loc>/02-javascript-basics/logical-operators/</loc>
+  </url>
+  
+  <url>
+    <loc>/05-arrays-objects/objects/nested-objects/</loc>
+  </url>
+  
+  <url>
+    <loc>/04-functions-and-scope/scope/</loc>
+  </url>
+  
+  <url>
+    <loc>/12-project-build-a-slackbot/tutorial/step-8-test-your-slash-command/</loc>
+  </url>
+  
+  <url>
+    <loc>/12-project-build-a-slackbot/tutorial/step-9-access-slash-command-parameters/</loc>
+  </url>
+  
+  <url>
+    <loc>/03-control-flow-and-loops/conditionals/ternary-operator/</loc>
+  </url>
+  
+  <url>
+    <loc>/10-asynchronous-js-and-promises/code-along-random-color-api-with-async-await/</loc>
+  </url>
+  
+  <url>
+    <loc>/12-project-build-a-slackbot/tutorial/step-10-create-weather-slash-command/</loc>
+  </url>
+  
+  <url>
+    <loc>/06-dom-and-jquery/code-along-rolling-dice-jquery/</loc>
+  </url>
+  
+  <url>
+    <loc>/10-asynchronous-js-and-promises/</loc>
+  </url>
+  
+  <url>
+    <loc>/17-deploying-and-hosting/code-along-hosting-with-heroku/</loc>
+  </url>
+  
+  <url>
+    <loc>/final-projects/milestones-due-dates/complete-final-project/</loc>
+  </url>
+  
+  <url>
+    <loc>/command-line-js-and-git/git-vocabulary/fork/</loc>
+  </url>
+  
+  <url>
+    <loc>/06-dom-and-jquery/jquery-events/</loc>
+  </url>
+  
+  <url>
+    <loc>/10-asynchronous-js-and-promises/lab-giphy-api-with-promises/</loc>
+  </url>
+  
+  <url>
+    <loc>/04-functions-and-scope/single-responsibility-principle/</loc>
+  </url>
+  
+  <url>
+    <loc>/12-project-build-a-slackbot/tutorial/step-11-make-api-request-to-openweather/</loc>
+  </url>
+  
+  <url>
+    <loc>/10-asynchronous-js-and-promises/lab-giphy-api-with-async-await/</loc>
+  </url>
+  
+  <url>
+    <loc>/command-line-js-and-git/git-vocabulary/clone/</loc>
+  </url>
+  
+  <url>
+    <loc>/07-dom-and-jquery-ii/code-along-score-keeper/</loc>
+  </url>
+  
+  <url>
+    <loc>/01-course-intro-and-tools/folder-structure/</loc>
+  </url>
+  
+  <url>
+    <loc>/06-dom-and-jquery/jquery-manipulation/</loc>
+  </url>
+  
+  <url>
+    <loc>/11-lab-sat-vocab-flash-cards/</loc>
+  </url>
+  
+  <url>
+    <loc>/class-resources/node-git-installation/</loc>
+  </url>
+  
+  <url>
+    <loc>/06-dom-and-jquery/jquery-effects/other-effects/</loc>
+  </url>
+  
+  <url>
+    <loc>/06-dom-and-jquery/jquery-traversing/other-traversal-methods/</loc>
+  </url>
+  
+  <url>
+    <loc>/12-project-build-a-slackbot/tutorial/step-12-respond-to-slack-with-current-weather/</loc>
+  </url>
+  
+  <url>
+    <loc>/01-course-intro-and-tools/confirm-node-git-installation/</loc>
+  </url>
+  
+  <url>
+    <loc>/12-project-build-a-slackbot/</loc>
+  </url>
+  
+  <url>
+    <loc>/command-line-js-and-git/git-vocabulary/pull-request/</loc>
+  </url>
+  
+  <url>
+    <loc>/08-dom-jquery-iii/code-along-hilo/</loc>
+  </url>
+  
+  <url>
+    <loc>/04-functions-and-scope/code-along-rolling-dice/</loc>
+  </url>
+  
+  <url>
+    <loc>/13-object-oriented-programming/</loc>
+  </url>
+  
+  <url>
+    <loc>/12-project-build-a-slackbot/tutorial/step-13-use-environment-variables-to-protect-secure-credentials/</loc>
+  </url>
+  
+  <url>
+    <loc>/01-course-intro-and-tools/what-is-programming/</loc>
+  </url>
+  
+  <url>
+    <loc>/14-oop-order-checkout-app/</loc>
+  </url>
+  
+  <url>
+    <loc>/12-project-build-a-slackbot/tutorial/step-14-handle-errors-gracefully/</loc>
+  </url>
+  
+  <url>
+    <loc>/class-resources/keys-to-success/</loc>
+    <lastmod>2019-03-16T17:11:17-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/05-arrays-objects/array-iterators/reduce/</loc>
+  </url>
+  
+  <url>
+    <loc>/15-intro-to-crud-and-firebase/</loc>
+  </url>
+  
+  <url>
+    <loc>/06-dom-and-jquery/jquery-effects/</loc>
+  </url>
+  
+  <url>
+    <loc>/08-dom-jquery-iii/lab-citipix/</loc>
+  </url>
+  
+  <url>
+    <loc>/12-project-build-a-slackbot/tutorial/step-15-enhance-weather-response-with-emojis/</loc>
+  </url>
+  
+  <url>
+    <loc>/01-course-intro-and-tools/what-is-javascript/</loc>
+  </url>
+  
+  <url>
+    <loc>/16-project-firebase-todo-app/</loc>
+  </url>
+  
+  <url>
+    <loc>/17-deploying-and-hosting/</loc>
+  </url>
+  
+  <url>
+    <loc>/06-dom-and-jquery/jquery-traversing/</loc>
+  </url>
+  
+  <url>
+    <loc>/class-resources/learning-html-css/</loc>
+  </url>
+  
+  <url>
+    <loc>/05-arrays-objects/array-iterators/other-iterators/</loc>
+  </url>
+  
+  <url>
+    <loc>/01-course-intro-and-tools/pseudocode/</loc>
+  </url>
+  
+  <url>
+    <loc>/class-resources/coding-challenge-sites/</loc>
+  </url>
+  
+  <url>
+    <loc>/18-lab-deployfest/</loc>
+  </url>
+  
+  <url>
+    <loc>/01-course-intro-and-tools/class-exercise-smart-thermostat-pseudocode/</loc>
+  </url>
+  
+  <url>
+    <loc>/class-resources/cors/</loc>
+  </url>
+  
+  <url>
+    <loc>/19-final-projects-lab/</loc>
+  </url>
+  
+  <url>
+    <loc>/class-resources/common-final-project-tasks/</loc>
+  </url>
+  
+  <url>
+    <loc>/20-final-project-presentations/</loc>
+  </url>
+  
+  <url>
+    <loc>/01-course-intro-and-tools/group-exercise-rock-paper-scissors/</loc>
+  </url>
+  
+  <url>
+    <loc>/class-resources/</loc>
+    <lastmod>2019-03-16T17:11:17-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/homework-assignments/</loc>
+  </url>
+  
+  <url>
+    <loc>/final-projects/</loc>
+  </url>
+  
+  <url>
+    <loc>/command-line-js-and-git/</loc>
+  </url>
+  
+  <url>
+    <loc>/solutions/</loc>
+  </url>
+  
+  <url>
+    <loc>/continue-learning/</loc>
+  </url>
+  
+  <url>
+    <loc>/</loc>
+    <lastmod>2019-03-16T17:11:17-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/02-javascript-basics/truthy-falsey/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/</loc>
+  </url>
+  
+  <url>
+    <loc>/tags/</loc>
+  </url>
+  
+</urlset>

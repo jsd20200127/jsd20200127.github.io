@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Lab: OOP Order Checkout App on JavaScript</title>
+    <link>/14-oop-order-checkout-app/</link>
+    <description>Recent content in Lab: OOP Order Checkout App on JavaScript</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="/14-oop-order-checkout-app/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Objectives</title>
+      <link>/14-oop-order-checkout-app/objectives/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/14-oop-order-checkout-app/objectives/</guid>
+      <description> Leverage knowledge of OOP to complete an application that mimics a basic order checkout application  </description>
+    </item>
+    
+    <item>
+      <title>Instructions</title>
+      <link>/14-oop-order-checkout-app/instructions/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/14-oop-order-checkout-app/instructions/</guid>
+      <description> Overview You are tasked with completing an application that mimics a rudimentary ordering system
+Instructions 1) Download starter code
+ The starter code for this code along is hosted on Github, see the url below:
+ Lab: OOP Order Checkout App  Use the Assignment Submission Git Workflow (detailed here) to access and submit the assignment
+  </description>
+    </item>
+    
+    <item>
+      <title>Requirements</title>
+      <link>/14-oop-order-checkout-app/requirements/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/14-oop-order-checkout-app/requirements/</guid>
+      <description>Requirements Requirement #1: Add OOP Logic For this exercise you will be creating a Checkout class
+It will have the following properties&amp;hellip;
+ items: which should be start out as an empty array
+ subtotal: which should start out as 0
+  It should have the following methods&amp;hellip;
+ addItem(item):
+ accepts an item object as a parameter
+ this method adds a new item to the items property (remember this property should be an array)</description>
+    </item>
+    
+  </channel>
+</rss>

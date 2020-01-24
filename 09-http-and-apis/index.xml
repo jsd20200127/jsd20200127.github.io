@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>HTTP and APIs on JavaScript</title>
+    <link>/09-http-and-apis/</link>
+    <description>Recent content in HTTP and APIs on JavaScript</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="/09-http-and-apis/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Objectives</title>
+      <link>/09-http-and-apis/objectives/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/09-http-and-apis/objectives/</guid>
+      <description> Learn about APIs and understand how they are used
+ Understand APIs and why they are used
+ Explore a real use case of API usage
+  </description>
+    </item>
+    
+    <item>
+      <title>Clients &amp; Servers</title>
+      <link>/09-http-and-apis/clients-servers/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/09-http-and-apis/clients-servers/</guid>
+      <description>Client &amp;amp; Servers  Computers connected to the web are called clients and servers
+ Communication between the client and server are done through requests and responses
+ A simplified diagram of how they interact might look like this:
+  Clients  Typically user-facing devices connected to the internet:
+ Computers
+ Mobile devices
+ Smart Speakers (Amazon Echo, Google Home)
+ Smart Appliances (Ring Doorbell, Nest Thermostat, etc)</description>
+    </item>
+    
+    <item>
+      <title>Code Along: CRUD API Requests</title>
+      <link>/09-http-and-apis/code-along-crud-api-requests/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/09-http-and-apis/code-along-crud-api-requests/</guid>
+      <description>Code Along: CRUD API Requests with Colors API During this Code Along, we&amp;rsquo;ll be using Insomnia to make API requests to a REST-based API
+BASE API URL: https://css-colors-api.herokuapp.com/api/v1
+API Endpoints:    Endpoint Description     GET /colors retrieve list of colors   GET /colors/:id retrieve details for one color   POST /colors create a new color   PUT /colors/:id update an existing color   DELETE /colors/:id delete an existing color   GET /colors/search?</description>
+    </item>
+    
+    <item>
+      <title>Code Along: Giphy API</title>
+      <link>/09-http-and-apis/code-along-giphy-api/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/09-http-and-apis/code-along-giphy-api/</guid>
+      <description> Code Along: Giphy Search API We&amp;rsquo;re going to build an application that uses Giphy&amp;rsquo;s API to display gifs based on search terms provided by users
+ The starter code for this code along is hosted on Github, see the url below:
+ Code Along: Giphy Search API  Use the Assignment Submission Git Workflow (detailed here) to access and submit the assignment
+  </description>
+    </item>
+    
+    <item>
+      <title>Lab: Random Color API with $.ajax()</title>
+      <link>/09-http-and-apis/lab-random-color-api-with-ajax/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/09-http-and-apis/lab-random-color-api-with-ajax/</guid>
+      <description>Lab: Random Color API with $.ajax() Use the CSS Colors API to fetch a random color and use the color and it&amp;rsquo;s details to update the UI of the provided application
+1) Get the starter code  The starter code for this lab is hosted on Github, see the url below:
+ Lab: Random Color API  Use the Assignment Submission Git Workflow (detailed here) to access and submit the assignment</description>
+    </item>
+    
+  </channel>
+</rss>
