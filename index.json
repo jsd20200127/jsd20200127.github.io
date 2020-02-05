@@ -672,6 +672,13 @@
 	"content": " HTTP Responses  An HTTP response is made by a server to a client\n The aim of the response is to provide the client with the resource it requested, or inform the client that the action it requested has been carried out; or else to inform the client that an error occurred in processing its request\n An HTTP response contains:\n A status line\n A series of HTTP headers, or header fields\n A message body, which is usually needed\n   The Server is responsible for constructing the status line of a request\n -- "
 },
 {
+	"uri": "/homework-assignments/hw-assignment-01/",
+	"title": "HW Assignment #1",
+	"tags": [],
+	"description": "",
+	"content": " Summary of this week\u0026rsquo;s homework assignment: Due Date: Wednesday, February 12th\nComplete Homework #1 - JS Basics, Control Flow \u0026amp; Loops  You are tasked with completing the problem set which is hosted on Github, see the url below:\n Github Repo for Homework #1 - JS Basics, Control Flow \u0026amp; Loops  Use the Assignment Submission Git Workflow (detailed here) to access and submit the assignment\n  "
+},
+{
 	"uri": "/03-control-flow-and-loops/conditionals/if-statement/",
 	"title": "if Statement",
 	"tags": [],

@@ -10,5 +10,17 @@
 	<atom:link href="/homework-assignments/index.xml" rel="self" type="application/rss+xml" />
     
     
+    <item>
+      <title>HW Assignment #1</title>
+      <link>/homework-assignments/hw-assignment-01/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/homework-assignments/hw-assignment-01/</guid>
+      <description> Summary of this week&amp;rsquo;s homework assignment: Due Date: Wednesday, February 12th
+Complete Homework #1 - JS Basics, Control Flow &amp;amp; Loops  You are tasked with completing the problem set which is hosted on Github, see the url below:
+ Github Repo for Homework #1 - JS Basics, Control Flow &amp;amp; Loops  Use the Assignment Submission Git Workflow (detailed here) to access and submit the assignment
+  </description>
+    </item>
+    
   </channel>
 </rss>
