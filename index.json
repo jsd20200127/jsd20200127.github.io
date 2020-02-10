@@ -98,13 +98,6 @@
 	"content": " Warm Up: Iterators Practice  Work in groups of 2-3 to solve problems using functions\n Only use either .map(), .find(), .filter() or .reduce() to solve the problems in the problem set\n Do not use .forEach()\n The problem set for this warm up is hosted on Github, see the url below:\n Warm Up: Countries Iterators Practice  Use the Assignment Submission Git Workflow (detailed here) to access and submit the assignment\n  "
 },
 {
-	"uri": "/05-arrays-objects/warm-up-js-basics-control-flow-loops-practice/",
-	"title": "Warm Up: JS Basics, Control Flow and Loops Practice",
-	"tags": [],
-	"description": "",
-	"content": " Warm Up: JS Basics, Control Flow and Loops  Work in groups of 2-3 to solve problems using Control Flow and Loops\n The problem set for this warm up is hosted on Github, see the url below:\n Warm Up: JS Basics, Control Flow and Loops Practice  Use the Assignment Submission Git Workflow (detailed here) to access and submit the assignment\n  "
-},
-{
 	"uri": "/06-dom-and-jquery/jquery-overview/what-is-jquery/",
 	"title": "What is jQuery?",
 	"tags": [],

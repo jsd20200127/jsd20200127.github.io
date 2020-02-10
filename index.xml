@@ -184,18 +184,6 @@
     </item>
     
     <item>
-      <title>Warm Up: JS Basics, Control Flow and Loops Practice</title>
-      <link>/05-arrays-objects/warm-up-js-basics-control-flow-loops-practice/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/05-arrays-objects/warm-up-js-basics-control-flow-loops-practice/</guid>
-      <description> Warm Up: JS Basics, Control Flow and Loops  Work in groups of 2-3 to solve problems using Control Flow and Loops
- The problem set for this warm up is hosted on Github, see the url below:
- Warm Up: JS Basics, Control Flow and Loops Practice  Use the Assignment Submission Git Workflow (detailed here) to access and submit the assignment
-  </description>
-    </item>
-    
-    <item>
       <title>What is jQuery?</title>
       <link>/06-dom-and-jquery/jquery-overview/what-is-jquery/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
