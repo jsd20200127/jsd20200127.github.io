@@ -1211,6 +1211,13 @@
 	"content": " Hoisting  Hoisting is a feature in JavaScript which allows access to function declarations before they’re defined\n This means that we can place a function call before our function declaration and everything will still work as expected\n  Example // Calling greetWorld() BEFORE it\u0026#39;s function declararion greetWorld() // declaration of greetWorld() function greetWorld() { console.log(\u0026#39;Hello, World!\u0026#39;) }  JS Bin on jsbin.com\n Notice how hoisting allowed greetWorld() to be called before the greetWorld() function was defined\n This is not considered a best practice, but you should be aware that the feature exists\n  "
 },
 {
+	"uri": "/homework-assignments/hw-assignment-02/",
+	"title": "HW Assignment #2",
+	"tags": [],
+	"description": "",
+	"content": " Summary of this week\u0026rsquo;s homework assignment: Due Date: Wednesday, February 19th\nComplete Homework #2 - Functions  You are tasked with completing the problem set which is hosted on Github, see the url below:\n Github Repo for Homework #2 - Functions  Use the Assignment Submission Git Workflow (detailed here) to access and submit the assignment\n  "
+},
+{
 	"uri": "/03-control-flow-and-loops/conditionals/if-else/",
 	"title": "if..else Statement",
 	"tags": [],
