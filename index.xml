@@ -1918,7 +1918,7 @@ $ npm install --global surge
  Programmatically select (or grab) an element, then
  Add an event listener to it or manipulate (change) it in some way
   jQuery allows us to use css selectors to select elements:
-// We can use css selectors to programmatically select elements $(&#39;p&#39;) // Type (Tag) selector $(&#39;.feature&#39;) // Class selector $(&#39;#checkout&#39;) // ID selector $(&#39;li strong&#39;) // Descendant selector $(&#39;em, i&#39;) // Multiple selector $(&#39;a[target=&amp;quot;_blank&amp;quot;]&#39;) // Attribute selector $(&#39;p:nth-child(2)&#39;) // Pseudo-class selector  ID, Class, Type and Descendant selectors are the selectors we&amp;rsquo;ll be using the most during this course</description>
+// We can use css selectors to programmatically select elements $(&#39;p&#39;) // Type (Tag) selector $(&#39;.feature&#39;) // Class selector $(&#39;#checkout&#39;) // ID selector $(&#39;li .</description>
     </item>
     
     <item>
@@ -2477,12 +2477,13 @@ const getArea = (width, height) =&amp;gt; { const area = width * height return a
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/05-arrays-objects/array-iterators/filter/</guid>
-      <description>.filter()  Returns the value of the first element in the array that satisfies the provided testing function
+      <description>.filter()  Returns an array of all elements that satisfies the provided testing function
  undefined is returned if no element satisfies testing function
- The callback function for .find() accepts the following parameters:
+ The callback function for .filter() accepts the following parameters:
  element: (required) current element being processed in the array.
  index: (optional) index of the current element being processed in the array
- array: (optional) the array map was called upon</description>
+ array: (optional) the array map was called upon
+  .filter() returns a new array containing all elements that match the testing function</description>
     </item>
     
     <item>

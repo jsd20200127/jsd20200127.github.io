@@ -57,12 +57,13 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/05-arrays-objects/array-iterators/filter/</guid>
-      <description>.filter()  Returns the value of the first element in the array that satisfies the provided testing function
+      <description>.filter()  Returns an array of all elements that satisfies the provided testing function
  undefined is returned if no element satisfies testing function
- The callback function for .find() accepts the following parameters:
+ The callback function for .filter() accepts the following parameters:
  element: (required) current element being processed in the array.
  index: (optional) index of the current element being processed in the array
- array: (optional) the array map was called upon</description>
+ array: (optional) the array map was called upon
+  .filter() returns a new array containing all elements that match the testing function</description>
     </item>
     
     <item>
