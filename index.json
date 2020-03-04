@@ -266,13 +266,6 @@
 	"content": " Leverage knowledge of Firebase to add persistent data storage to a Todo Application  "
 },
 {
-	"uri": "/17-deploying-and-hosting/objectives/",
-	"title": "Objectives",
-	"tags": [],
-	"description": "",
-	"content": " Deploy a JavaScript-based application using Github Pages, Surge or Heroku\n Learn how to secure sensitive credentials in a \u0026ldquo;non node-based\u0026rdquo; front-end application\n Deploy your final projects the approach that best fits your application\u0026rsquo;s needs\n  "
-},
-{
 	"uri": "/10-asynchronous-js-and-promises/async-await/overview/",
 	"title": "Overview",
 	"tags": [],
@@ -315,6 +308,13 @@
 	"content": " What is Firebase?  Firebase is a mobile and web application platform for developers\n Acquired by Google in 2014\n Offers many other services but we\u0026rsquo;ll be covering the basics of Firebase\u0026rsquo;s real-time backend database and seeing how we can use this in our applications\n  "
 },
 {
+	"uri": "/final-projects/overview-requirements/",
+	"title": "Overview &amp; Requirements",
+	"tags": [],
+	"description": "",
+	"content": " Overview  Final Projects are a requirement of \u0026ldquo;course completion\u0026rdquo;\n Project should be something that you are passionate about\n We\u0026rsquo;ve established some milestones (and due dates) that will help you stay on track to complete your projects on time\n Each milestone will include a deliverable  Instruction team will actively work with you to help you manage scope and come up with a project plan\n  Requirements For the final project, you\u0026rsquo;ll be designing and building a web application of your choice. This project will test your knowledge of JavaScript and ask you to apply everything you\u0026rsquo;ve learned in this course. The result will be a web app that you can add to your portfolio.\nYou could create anything from: a blog users can comment on; an app that allows users to search for social media posts; or a web-based game (memory, tic-tac-toe, etc). Use of an API is optional but highly recommended (because it\u0026rsquo;s fun!).\nI\u0026rsquo;ll work with you to determine the scope and feasibility of your ideas considering the amount of time remaining in the class and other other factors.\nYour final projects must make use of the following:\n JavaScript\n Adhere to DRY principle (Don\u0026rsquo;t Repeat Yourself)\n Code is properly indented\n Follow best practices for file/folder structure\n  Using APIs for your final projects  Use of an API is optional\n Here\u0026rsquo;s a list of API options and things to consider when using APIs for your projects\n using front-end friendly APIs   "
+},
+{
 	"uri": "/command-line-js-and-git/git-vocabulary/repository/",
 	"title": "Repository",
 	"tags": [],
@@ -334,13 +334,6 @@
 	"tags": [],
 	"description": "",
 	"content": " Step 1: Create New Slack Workspace We\u0026rsquo;re going to need a Slack workspace to test our bot. Click on the link below and follow the instructions to create a new Slack workspace\nCreate a new workspace\n"
-},
-{
-	"uri": "/17-deploying-and-hosting/code-along-hosting-with-heroku/step-1-install-heroku/",
-	"title": "Step 1: Install Heroku",
-	"tags": [],
-	"description": "",
-	"content": " Step 1: Install Heroku a. Sign up for a free Heroku account  Sign up here: https://signup.heroku.com/signup/dc  \nb. Install Heroku Command Line Interface (CLI)  Follow the instructions for your Operation System found here: https://devcenter.heroku.com/articles/getting-started-with-nodejs?singlepage=true#set-up  \nc. Use the Heroku CLI to log into your Heroku Account  Once installed, open your terminal and run the command below to log into the Heroku CLI\n$ heroku login   "
 },
 {
 	"uri": "/02-javascript-basics/data-types/strings/",
@@ -623,13 +616,6 @@
 	"content": " Getting \u0026amp; Setting Content  .text()   .html()   .val()   .attr()   "
 },
 {
-	"uri": "/17-deploying-and-hosting/github-pages/",
-	"title": "Github Pages",
-	"tags": [],
-	"description": "",
-	"content": " What is Github Pages?  GitHub Pages is a static site hosting service designed to host your personal, organization, or project pages directly from a GitHub repository\n GitHub Pages is a static site hosting service and doesn\u0026rsquo;t support server-side code such as, Express (via Node JS), Ruby, Python or PHP\n  "
-},
-{
 	"uri": "/10-asynchronous-js-and-promises/async-await/handling-async-issues-with-async-await/",
 	"title": "Handling Async Issues with Async / Await",
 	"tags": [],
@@ -739,7 +725,7 @@
 	"title": "Milestones &amp; Due Dates",
 	"tags": [],
 	"description": "",
-	"content": ""
+	"content": " Throughout the course you will be providing deliverables that will help keep your final projects on track to be completed on time.\nMilestones    Milestone Due Date     Submit three (3) of project ideas Mon, Mar 9th   Get your project idea approved Wed, Mar 11th   Create github repository for your final project Wed, Mar 11th   Create and submit wireframes Mon, Mar 16th   Provide a project plan for your final project Fri, Mar 20th   Host / Deploy your project Wed, Apr 1st   Complete your final project Mon, Apr 6th     Final Presentations will be delivered on the last day of class: Wed, Apr 8th  "
 },
 {
 	"uri": "/06-dom-and-jquery/jquery-events/mouse-events/",
@@ -791,11 +777,11 @@
 	"content": " Step 2: Create New Slack App Slack bots are packaged as Slack apps. Slack apps allow you to add more functionality into your Slack workspace\n To create your new Slack app, go to this page: https://api.slack.com/apps?new_app=1 and set your app name to OpenWeatherBot.\n Set the \u0026ldquo;Development Slack Workspace\u0026rdquo; to the new workspace you created in Step 1.\n  "
 },
 {
-	"uri": "/17-deploying-and-hosting/code-along-hosting-with-heroku/step-2-prepare-the-app/",
-	"title": "Step 2: Prepare the App",
+	"uri": "/final-projects/milestones-due-dates/submit-project-ideas/",
+	"title": "Submit Project Ideas",
 	"tags": [],
 	"description": "",
-	"content": " Prepare the App During this step we are going to get the application ready for a Heroku deployment\na. Install parcel-bundler locally Since this application used Parcel, we need to instruct Heroku\u0026rsquo;s servers to install Parcel before it tries to \u0026ldquo;build\u0026rdquo; the application in the cloud\n In your terminal, navigate to the project folder and run the following command:\n$ npm install parcel-bundler   Do not include the -g or --global flag here\n  Check your package.json file to confirm that parcel-bundler is listed in the dependencies section  \nb. Update the scripts section of your package.json file The scripts section of the package.json are commands that can be run to carry about any type of action; they are usually meant to automate the process of manually typing in commands in the terminal\nWe are going to add scripts that will be responsible for building and running our Parcel application both locally and in Heroku\n Replace the contents of the scripts section of package.json to following snippet below (leave the rest of the file unchanged):  \u0026#34;scripts\u0026#34;: { \u0026#34;start\u0026#34;: \u0026#34;npm run prepare-prod \u0026amp;\u0026amp; npm run build-prod\u0026#34;, \u0026#34;build-prod\u0026#34;: \u0026#34;./node_modules/parcel-bundler/bin/cli.js index.html\u0026#34;, \u0026#34;prepare-prod\u0026#34;: \u0026#34;parcel build index.html\u0026#34;, \u0026#34;build-dev\u0026#34;: \u0026#34;parcel index.html\u0026#34; },   Here\u0026rsquo;s a summary of each script:     Script name command description     build-dev parcel index.html runs local Parcel web server   prepare-prod parcel build index.html Parcel command used to prepare app for production   build-prod ./node_modules/parcel-bundler/bin/cli.js index.html This command use the Parcel CLI to build the application in production (i.e. on Heroku or another host provider)   start npm run prepare-prod \u0026amp;\u0026amp; npm run build-prod This command run the prepare-prod and build-prod command in sequence    Heroku is configured to run npm start during the deploy process (see docs)\n c. Specify your current node version in package.json Heroku recommends that specify a Node.js version that matches the runtime you’re developing and testing with\n Find which version of Node your computer is currently running on by entering the following command:\n$ node -v  Make note of the node version that is printed as a result of the above command and update your package.json according to the instructions below\n For example, if the result of node -v was v12.1.0 then you should update your package.json by adding an engines property to the json object and updating to look like the snippet below (leave the rest of the file unchanged):\n  \u0026#34;scripts\u0026#34;: { \u0026#34;start\u0026#34;: \u0026#34;npm run prepare-prod \u0026amp;\u0026amp; npm run build-prod\u0026#34;, \u0026#34;build-prod\u0026#34;: \u0026#34;./node_modules/parcel-bundler/bin/cli.js index.html\u0026#34;, \u0026#34;prepare-prod\u0026#34;: \u0026#34;parcel build index.html\u0026#34;, \u0026#34;build-dev\u0026#34;: \u0026#34;parcel index.html\u0026#34; }, \u0026#34;engines\u0026#34;: { \u0026#34;node\u0026#34;: \u0026#34;12.1.0\u0026#34; },  The node version entered in the engines section should reflect the node version running on your local computer; do not include the \u0026ldquo;v\u0026rdquo;\n "
+	"content": " Milestone I: Submit Project Ideas  Submit three (3) ideas for your final project\n Due Date: Mon, Mar 9th\n Deliverable: Use this form to submit your final project ideas\n After your project ideas are submitted, I will schedule some time to meet with you to discuss your ideas\n  "
 },
 {
 	"uri": "/13-object-oriented-programming/inheritance/super-and-extends/",
@@ -889,13 +875,6 @@
 	"content": " Calling a Function  Calling a function means you are using the function (as opposed to defining a function which only tells us what the function can do)\n To call a function you simply write function name followed by parentheses (don’t forget the parentheses!)\n Now you can call this function as many times as you want\n  /** define / declare a function named shout() by itself this doesn\u0026#39;t do anything, we must \u0026#34;Call\u0026#34; it in order to use it **/ function shout() { console.log(\u0026#34;HELLO!\u0026#34;) } /** Calling the function named shout we call a function by writing the name of the function followed by parentheses **/ shout()  JS Bin on jsbin.com\nExercise:  Create a function named beAnnoying that logs 'yolo'. Next, use your knowledge of calling functions to ensure that 'yolo' is printed 3 times in the console  JS Bin on jsbin.com\n"
 },
 {
-	"uri": "/17-deploying-and-hosting/code-along-hosting-with-github-pages/",
-	"title": "Code Along: Hosting with Github Pages",
-	"tags": [],
-	"description": "",
-	"content": " Code Along: Hosting with Github Pages  Together we\u0026rsquo;ll walk through the process of hosting a static application, an application that does not have a server (i.e. Express), on Github Pages  Instructions 1. Find Traffic Light project Using your operating system\u0026rsquo;s finder / explorer application, copy your Traffic Light application (project name: traffic-light) application from a lesson earlier in the course folder to your lesson_17 folder\n If you do not have a working version of traffic-light you can clone down a working version here  \n2. Set up Git for the Traffic Light application  On the command line, navigate to the project folder for the traffic-light application in your lesson_17 folder and delete the .git folder by running the following command:\n$ rm -rf .git  This command will remove the local repository from this copy of the traffic-light application\n Initialize a new git repository and run git add . and git commit -m \u0026quot;initial commit\u0026quot;\n$ git init \u0026amp;\u0026amp; git add . \u0026amp;\u0026amp; git commit -m \u0026quot;initial commit\u0026quot;   \n3. Host the project on Github Pages  We\u0026rsquo;re going to follow the instructions found in the link below:\n Step by Step Instructions for hosting on Github Pages   \n4. Delete the Github Pages repository (Only do this after you\u0026rsquo;ve completed Step #3)  Congrats, you\u0026rsquo;ve successfully launched a static application on Github Pages\n Since Github only allows you to have one \u0026ldquo;Github Pages repository\u0026rdquo; per Github account, you should delete this repository so it can be available for your Final Project or some other application or site you\u0026rsquo;d like to host in the future\n Follow the steps below to delete your Github Pages repository (your_account_name/your_account_name.github.io):\n Deleting a Repository   "
-},
-{
 	"uri": "/10-asynchronous-js-and-promises/promises/consuming-promises/",
 	"title": "Consuming Promises",
 	"tags": [],
@@ -929,6 +908,13 @@
 	"tags": [],
 	"description": "",
 	"content": " General Methods  You can specify \u0026ldquo;regular\u0026rdquo; methods that allow you do things other than simply getting and setting the property values  Example class Car { constructor(make, model) { this._make = make this._model = model this._miles = 30 } get make() { return this._make } get model() { return this._model } get miles() { return this._miles } set model(newModel) { this._model = newModel } drive(newMiles) { console.log(`driving ${newMiles}miles`) this._miles = this._miles + newMiles } } const myTesla = new Car(\u0026#34;Telsa\u0026#34;, \u0026#34;Model 3\u0026#34;) console.log(myTesla.make) console.log(myTesla.miles) // call instance.addMilage() method  // to add additional miles  myTesla.drive(15) myTesla.drive(7) console.log(myTesla.miles)  Here\u0026rsquo;s a summary of the code above:\n We\u0026rsquo;ve specified a new property miles and set it to 30 for each new Car instance\n Next, we added a getter method for miles, that simply returns the value stored in the miles property\n Then, we created a \u0026ldquo;regular\u0026rdquo; method drive() that accepts a parameter (newMiles) and updates our miles property with a new value\n  JS Bin on jsbin.com\n"
+},
+{
+	"uri": "/final-projects/milestones-due-dates/get-idea-approved/",
+	"title": "Get Idea Approved",
+	"tags": [],
+	"description": "",
+	"content": " Milestone II: Get Final Project Idea Approved  Due Date: Wed, Mar 11th\n After meeting with the instructor and discussing your idea, you\u0026rsquo;ll formally decide what you want to build   "
 },
 {
 	"uri": "/13-object-oriented-programming/classes/instances/",
@@ -992,13 +978,6 @@
 	"tags": [],
 	"description": "",
 	"content": " Requirements Requirement #1: Add Create Functionality When users attempt to add a new task using the #addItem form, the task should be successfully saved in the app\u0026rsquo;s Firebase database. Within your Firebase database, the name of the new task should be stored as name and the completed value of every newly created task should be set to false\nRequirement #2: Add Read Functionality The Doit app should list all tasks stored in your Firebase database within the #taskList div. Make sure you comment out the hardcoded tasks after you\u0026rsquo;ve successfully completed this step.\nRequirement #3: Add Update Functionality 2a: Users should be able update a task name and have that change reflected in the app\u0026rsquo;s Firebase database.\n2b: Users should be able toggle the checkbox (i.e. check and uncheck) to change the completed status of a task. The updated completed status (resulting from a checkbox change) should be reflected in the app\u0026rsquo;s Firebase database.\nRequirement #4: Add Delete Functionality Users should be able delete a task and have that task also deleted from the app\u0026rsquo;s Firebase database.\n"
-},
-{
-	"uri": "/17-deploying-and-hosting/code-along-hosting-with-heroku/step-3-run-heroku-locally/",
-	"title": "Step 3: Run Heroku Locally",
-	"tags": [],
-	"description": "",
-	"content": " Step 3: Run Heroku Locally Heroku\u0026rsquo;s CLI has a feature that allows us to run application locally in a \u0026ldquo;heroku production-like\u0026rdquo; environment\nThis is a great way to catch issues before deploying the production\na. Copy .env.local to .env When running heroku locally it, heroku will automatically look for the .env (and not .env.local) for any potential environment variables\n Run the following command from the project folder to copy .env.local to .env\n$ cp .env.local .env   Remember we needed .env.local to meet Parcel\u0026rsquo;s requirements of using environment variables using its web server\n  Add .env to .gitignore\n.env.local /node_modules .env   \nb. Run the application locally  In your terminal, run the following command (from within the project folder) to start the application locally using heroku\n$ heroku local  Heroku\u0026rsquo;s local default web server is http://localhost:5000, navigate to this url in your browser and confirm that the application works as expected\n  "
 },
 {
 	"uri": "/12-project-build-a-slackbot/tutorial/step-3-set-up-node-application/",
@@ -1125,6 +1104,13 @@
 	"tags": [],
 	"description": "",
 	"content": " Code Along: Firebase Playlist App  Together we\u0026rsquo;ll walk through creating a playlist application that has its data persisted in Firebase\u0026rsquo;s Firestore Database (see docs)  1. Get the starter code for this code along  The starter code for this code along is hosted on Github, see the url below:\n Code Along: Firebase Playlist App\n Use the Assignment Submission Git Workflow (detailed here) to access and submit the assignment\n   2. Create a Firebase account  Create a free Firebase Account using the following link: create account  "
+},
+{
+	"uri": "/final-projects/milestones-due-dates/create-github-repository-for-final-project/",
+	"title": "Create Github Repository for Final Project",
+	"tags": [],
+	"description": "",
+	"content": " Milestone III: Create Github Repository for Final Project  Due Date: Wed, Mar 11th\n Create a github repository for your final project, clone the project down to your \u0026lsquo;github\u0026rsquo; folder on your laptop\n Submit a link to your final project\u0026rsquo;s github repository\n Here\u0026rsquo;s an example of what link should look like: https://github.com/kareemgrant/kg-awesome-game  Deliverable: Use this form to submit your repository url\n  Do not include spaces in your github repository names\n - **Deliverable**: Submit a link to your github repo here -- "
 },
 {
 	"uri": "/02-javascript-basics/data-types/",
@@ -1295,25 +1281,11 @@
 	"content": " Static Methods  Static method calls are made directly on the class and are not callable on instances of the class\n Static methods are prepended with the static keyword\n  class Car { constructor(make, model, price) { this._make = make this._model = model this._price = price } // instance methods  get price() { return this._price } drive() { console.log(\u0026#39;calling \u0026#34;this\u0026#34; in an instance method\u0026#39;, this) console.log(`driving ${this._make}${this._model}`) } // static method  static mostExpensiveCar(cars) { console.log(\u0026#39;calling \u0026#34;this\u0026#34; in a static method\u0026#39;, this) return cars.sort((a, b) =\u0026gt; b.price - a.price)[0] } } // Create 3 instances of the Car class  const car1 = new Car(\u0026#34;honda\u0026#34;, \u0026#34;accord\u0026#34;, 20000) const car2 = new Car(\u0026#34;aston martin\u0026#34;, \u0026#34;db7\u0026#34;, 110000) const car3 = new Car(\u0026#34;bmw\u0026#34;, \u0026#34;5 series\u0026#34;, 50000) // call static method mostExpensiveCar() on the Class (Car)  // not the instance  const priceyCar = Car.mostExpensiveCar([car1, car2, car3]) console.log(priceyCar)  JS Bin on jsbin.com\n"
 },
 {
-	"uri": "/17-deploying-and-hosting/code-along-hosting-with-heroku/step-4-deploy-to-heroku/",
-	"title": "Step 4: Deploy to Heroku",
-	"tags": [],
-	"description": "",
-	"content": " Step 4: Deploy to Heroku Now it\u0026rsquo;s time to deploy our application to production (i.e. Heroku\u0026rsquo;s cloud servers)\na. Create a \u0026ldquo;Heroku app\u0026rdquo;  In your terminal (from within your project folder) run the following command to create a Heroku app\n$ heroku create  This will result in output that looks like the following:\n   heroku create did the following:\n Added a new remote repository for your project that points to Heroku\u0026rsquo;s servers (we\u0026rsquo;ll soon see that Heroku uses to the git toolchain, similar to Github, for deployment)\n Provides you with an url on their servers, this is the url where your application will live when it is deployed\n   \nb. Make Heroku aware of your application\u0026rsquo;s environment variables When your application is deployed to Heroku, it will live on their servers. In order for Heroku to recognize process.env.GIPHY_API_KEY line in app.js, we will need to let Heroku know what GIPHY_API_KEY represents\nThe Heroku CLI makes it easy to add \u0026ldquo;production\u0026rdquo; environment variables for your app to reference while on running on Heroku\u0026rsquo;s servers\n Run following command (from within your project folder) to add \u0026ldquo;production\u0026rdquo; environment variables that your app will reference when it\u0026rsquo;s deployed to Heroku (see docs)\n$ heroku config:set GIPHY_API_KEY=add_your_api_key_here  If you ever need to confirm or review your environment variables set on Heroku (for your app) you can run the following command:\n$ heroku config   \nc. Stage and Commit any recent changes to codebase  Stage and Commit any uncommitted changes\n$ git add . \u0026amp;\u0026amp; git commit -m \u0026quot;add your commit message here\u0026quot;   You\u0026rsquo;ll need to do this step before every deploy to ensure any recent changes to your app\u0026rsquo;s codebase are sent to Heroku; remember Heroku uses to the git toolchain (similar to Github) for deployment\n \nd. Deploy app to Heroku Now it\u0026rsquo;s time to push our code to Heroku\n Run the following command (from within the project folder) to deploy your application to Heroku\n$ git push heroku master    Run the following command to open your application\u0026rsquo;s heroku url in your computer\u0026rsquo;s browser\n$ heroku open   Alternatively, you can open a browser and navigate to the Heroku url the old fashioned way\n\nCongrats! You\u0026rsquo;ve successfully deployed your application to Heroku!\n\nTroubleshooting If you are encountering errors, try to following:\n Ensure that you have staged and committed your latest changes, Heroku uses the git toolchain to deploy your application; it will only deploy code that has been committed\n View the heroku logs to help determine the root cause of the error\n In another terminal, window (within the project folder) run the following command to view the heroku logs for your app\n$ heroku logs --tail    "
-},
-{
 	"uri": "/12-project-build-a-slackbot/tutorial/step-4-run-ngrok/",
 	"title": "Step 4: Run ngrok",
 	"tags": [],
 	"description": "",
 	"content": " Run ngrok  Next we need to give our local server access to the internet so our slack app can communicate with it\n ngrok is a tool that allows developers to create \u0026ldquo;tunnels\u0026rdquo; that connect the server running locally (i.e. on your computer) to the internet\n  1. Run ngrok command from within project folder  In a new command line tab run the following command (make sure you run this within the project folder)\n$ ngrok http 3000  Here, we are are telling ngrok to create a local tunnel that connects our server running on port 3000 (i.e. http://localhost:3000) and to ngrok url that is accessible to the internet\n You ngrok command should display output that looks similar to the following (the urls will be unique to your server and will not match the output below):\n  2. Confirm your local server is accessible via the internet At this point in the project, you will want to have multiple tabs open in your command line application. In order for the Slack to be able to communicate with our server both our local server and ngrok must be running in their own separate tabs.\n  Copy the ngrok \u0026ldquo;forwarding\u0026rdquo; url (from our ngrok tab) that begins with https and paste it into the address bar of a new browser tab\n Confirm that the welcome message is successfully displayed when using the ngrok url to access your server\n  "
-},
-{
-	"uri": "/17-deploying-and-hosting/surge/",
-	"title": "Surge",
-	"tags": [],
-	"description": "",
-	"content": " What is Surge?  An alternative to Github pages\n Best used for Static websites\n Simple to deploy\n  "
 },
 {
 	"uri": "/12-project-build-a-slackbot/tutorial/",
@@ -1365,11 +1337,11 @@
 	"content": " Challenges of Asynchronous Programming  Asynchronous programming presents a challenge when we want make multiple asynchronous requests and we want to control the order of the responses  Example Let\u0026rsquo;s see an example of this below:\n/* Modify printLetter() to make it an async function by using .setTimeout After the changes, the letter will be print at a random interval from 0 seconds to 3 seconds */ function printLetter(letter) { setTimeout(() =\u0026gt; { console.log(letter) }, Math.floor(Math.random() * 3000)) } function printAll(){ printLetter(\u0026#34;A\u0026#34;) printLetter(\u0026#34;B\u0026#34;) printLetter(\u0026#34;C\u0026#34;) } console.log(\u0026#39;Calling printAll function\u0026#39;) printAll() console.log(\u0026#39;End of code\u0026#39;)   In the code example above we have turned .printLetter() into an asynchronous function through the use of .setTimeout to randomly delay each function call from anywhere between 0 seconds and 3 seconds\n Run the jsbin below (multiple times) and notice how the order of the printed letters is no longer predictable and that A, B, and C print in a different and random order each time you call printAll\n  JS Bin on jsbin.com\n One way to fix this issue is to use callbacks  "
 },
 {
-	"uri": "/17-deploying-and-hosting/code-along-hosting-with-surge/",
-	"title": "Code Along: Hosting with Surge",
+	"uri": "/final-projects/milestones-due-dates/create-submit-wireframes/",
+	"title": "Create &amp; Submit Wireframes",
 	"tags": [],
 	"description": "",
-	"content": " Code Along: Hosting with Surge  Together we\u0026rsquo;ll walk through the process of hosting a static website / application (that does not have a backend server like Express) using Surge  Instructions 1. Install the surge package on your computer  Run the following from your command line (from any folder location) to install surge globally on your computer\n$ npm install --global surge   \n2. Run surge from the Traffic Light project folder  On the command line, navigate to the project folder of the Traffic Light app (the one we used in the Github Pages code along)\n Then, run the following command from within the project folder:\n$ surge  Press \u0026ldquo;enter\u0026rdquo; twice to confirm the project path and the surge domain url\n  3. Open surge-provided url in browser and confirm successful deploy  Open your browser and navigate to the surge-provided domain url assigned to your project\n Confirm that a fully functional Traffic Light app is available at the surge-provided domain url\n  "
+	"content": " Milestone IV: Create and Submit Wireframes  Due Date: Mon, Mar 16th\n Create wireframes for each page layout (assuming you have multiple pages with different layouts) of your final project\n Instructions\n  The following assumes you have already created a github repository for your final project and cloned the project down to your \u0026lsquo;github\u0026rsquo; folder on your laptop (see Milestone II)\n  Add a new folder to your project files/folders for final project (created in Milestone II) called wireframes\n Add the digital version of your wireframe files to the newly created wireframes folder\n In Github Desktop: Commit your updates that includes the newly added wireframe files\n In Github Desktop: Push your commit to the remote repository for final project on Github.com so your changes can be reflected on Github.com\n Navigate to the repository on Github.com, open the wireframe folder (on Github.com) and copy the url (this url leads directly to your wireframes)\n Deliverable: Submit the url that leads directly to your wireframe files using this form\n  Here\u0026rsquo;s an example of what link should look like: https://github.com/kareemgrant/kg-awesome-game/tree/master/wireframes\n"
 },
 {
 	"uri": "/command-line-js-and-git/git-vocabulary/",
@@ -1533,6 +1505,13 @@
 	"content": " const  Stands for constant\n The values of these variables can not be changed through reassignment (i.e. have it\u0026rsquo;s value changed using =)\n This help make your code easier to debug and protects certain values from accidentally being overridden in your codebase\n  Declaring a variable using const const are the same as let but with one key difference, values can only be assigned once to a const variable\n// declare a constant named \u0026#39;school\u0026#39;  const school = \u0026#34;General Assembly\u0026#34;  An error will occur if you try to update the value of a const\n// correctly declare a constant using \u0026#34;const\u0026#34; keyword const greeting = \u0026#34;Hello\u0026#34; // const values cannot be updated, if you attempt to do so // an error will occur  greeting = \u0026#34;Good Morning\u0026#34; // this will throw an error  Variables declared with const can still be mutated When dealing with arrays and objects you will find that you are still able to mutate their respective values because updating their values does not require reassignment\nHere\u0026rsquo;s an example of working with arrays declared with const:\n// declare an array using const const myNumbers = [1, 2, 3] /* add a new number to the array and no error will occur, because we did not \u0026#34;reassign\u0026#34; new values directly to the myNumbers variables using `=` */ myNnumbers.push(4) console.log(myNumbers) // [1, 2, 3, 4]  /* However, uncomment the line below and observe the error when we attempt to \u0026#34;reassign\u0026#34; myNumbers */ // myNumbers = [4, 5] // an error will occur  JS Bin on jsbin.com\nObjects declared with const can have their properties changes without any issues:\n// declare an object using const const myObject = {a: 1, b: 2, c: 3} /* add update an existing property and add a new property to myObject and no error will occur, because we did not \u0026#34;reassign\u0026#34; new values directly to the myObject variable using `=` */ myObject.c = 30 myObject.d = 4 console.log(myObject) // { a: 1, b: 2, c: 30, d: 4}  /* However, uncomment the line below and observe the error when we attempt to \u0026#34;reassign\u0026#34; values directly to myObject */ // myObject = {e: 5, g: 6} // an error will occur  JS Bin on jsbin.com\n"
 },
 {
+	"uri": "/final-projects/milestones-due-dates/create-project-plan/",
+	"title": "Create Project Plan",
+	"tags": [],
+	"description": "",
+	"content": " Milestone V: Create Project Plan  Due Date: Fri, Mar 20th\n Work with the instructor team to break up your final project into a series of steps that you\u0026rsquo;ll turn into tasks\n  Details:\n Create a \u0026ldquo;Github Project\u0026rdquo; for Final Project\u0026rsquo;s Github repository (see instructions found here )\n Here\u0026rsquo;s a list of the (most common final project tasks) to help you get started as you create your project plans\n Invite Kareem (github username: kareemgrant) as a collaborator for your Final Project\u0026rsquo;s Github repository\n  Deliverable: Use this form to confirm that you\u0026rsquo;ve completed this step\n"
+},
+{
 	"uri": "/06-dom-and-jquery/jquery-manipulation/css-style-manipulation/",
 	"title": "CSS &amp; Style Manipulation",
 	"tags": [],
@@ -1624,13 +1603,6 @@
 	"content": " Push  Refers to sending your committed changes to a remote repository such as GitHub.com\n For instance, if you change something locally, you\u0026rsquo;d want to then push those changes so that others may access them\n  "
 },
 {
-	"uri": "/17-deploying-and-hosting/securing-sensitive-credentials-with-parcel/",
-	"title": "Securing Sensitive Credentials with Parcel",
-	"tags": [],
-	"description": "",
-	"content": " Securing Sensitive Credentials with Parcel  Often times when using an API in our applications, those API providers require that we send an API Key with our API requests\n Those API keys should be considered sensitive credentials and the best practice is to use Environment Variables to prevent those sensitive credentials from being exposed\n However, the use of Environment Variables have traditionally only been available to applications that have a backend server (i.e. Express (via Node))\n Static applications (application without a built-in backend server) that need to secure sensitive credentials (i.e API Keys, Secret tokens, etc) can use Parcel\n  What is Parcel?  Parcel is an easy-to-use Web Application Bundler that requires very little configuration\n Parcel is a lighter-weight version of another popular Web Application Bundler - Webpack\n  Benefits  Bundles all your assets (html, css, js, images, etc) and automatically minimizes file sizes with for faster loading performance\n Hot Module Replacement - automatic reloading for any code changes (no more having to manually refresh after code changes); commonly referred to as \u0026ldquo;Hot Reloading\u0026rdquo; or \u0026ldquo;Hot Re-booting\u0026rdquo;\n Built-in support for ES6 and all it\u0026rsquo;s features\n Supports use of Environment Variables for static applications\n  "
-},
-{
 	"uri": "/12-project-build-a-slackbot/tutorial/step-6-install-app-to-workspace/",
 	"title": "Step 6: Install App to Workspace",
 	"tags": [],
@@ -1673,13 +1645,6 @@
 	"content": " Code Along: Giphy Search API We\u0026rsquo;re going to build an application that uses Giphy\u0026rsquo;s API to display gifs based on search terms provided by users\n The starter code for this code along is hosted on Github, see the url below:\n Code Along: Giphy Search API  Use the Assignment Submission Git Workflow (detailed here) to access and submit the assignment\n  "
 },
 {
-	"uri": "/17-deploying-and-hosting/code-along-using-env-variables-with-parcel/",
-	"title": "Code Along: Using Environment Variables with Parcel",
-	"tags": [],
-	"description": "",
-	"content": " Code Along: Using Environment Variables with Parcel  Together we\u0026rsquo;ll walk through the process of using Parcel to bundle a static application that needs to secure sensitive credentials  Instructions 1. Access your Giphy API project from a class session earlier in the course  Using your operating system\u0026rsquo;s finder / explorer application, copy your Giphy Search API application (project name: giphy-search-api) application an earlier lesson to your lesson_17 folder\n If you do not have a working version of giphy-search-api you can clone down a working version here\n If you choose this option, make sure you add your Giphy API Key to app.js where you see the following line of code:\nconst apiKey = 'ADD_YOUR_API_KEY_HERE'    \n-- 2. Install Parcel We\u0026rsquo;ll be following the set up instructions found here: https://parceljs.org/getting_started.html\n In the terminal, run the following command to install parcel globally\n$ npm install -g parcel-bundler   \n3. Create a package.json file inside your project folder  While inside your project folder, run the following command to create a package.json file\n$ npm init -y   \n4. Run Parcel development server Parcel has a development server built in, which will automatically rebuild your app as you change files and supports hot module replacement for fast development\n Run the following command from the command line to start parcel\u0026rsquo;s local development server:\n$ parcel index.html  Now open your browser and navigate to http:localhost:1234\n Test the app and confirm that it\u0026rsquo;s fully functional\n  \n5. Create .env file Parcel uses the dotenv to support loading environment variables from .env files (see docs)\nThis means we dot not have to explicitly install dotenv since parcel already has it installed as a dependency. However, we still need to the create the .env file.\n Run the following command from within the project folder\n$ touch .env.local  Parcel has a specific way it wants developers to set up .env files; .env.local is communicates to Parcel that these environment variables should be used \u0026ldquo;locally\u0026rdquo; (i.e. on your computer) (see docs)\n  \n6. Create and use Environment Variables to secure your API key Next, we\u0026rsquo;re going to to create an Environment Variable that will represent our app\u0026rsquo;s Giphy API key\n Open .env.local in your text editor and the following snippet:\nGIPHY_API_KEY=add_your_api_key_here   Replace add_your_api_key_here with your actual Giphy API key  Next, update app.js to replace your hardcoded API key process.env.GIPHY_API_KEY\n Here\u0026rsquo;s what search() should look like after the update in app.js:\nfunction search (searchTerm) { const url = \u0026#39;https://api.giphy.com/v1/gifs/search\u0026#39; const apiKey = process.env.GIPHY_API_KEY // \u0026lt;- this line was updated  $.ajax({ url: url, type: \u0026#39;GET\u0026#39;, data: { q: searchTerm, limit: 50, api_key: apiKey } }) .done((response) =\u0026gt; { // execute this function if request is successful  console.log(response) displayResults(response.data) }) .fail(() =\u0026gt; { // execute this function if request fails  console.log(\u0026#39;error occurred\u0026#39;) }) } })   \n7. Restart the Parcel development server  Shut down the Parcel server (from your command line) using Ctrl-C\n Restart the Parcel local development server:\n$ parcel index.html  Now open your browser and navigate to http:localhost:1234\n Confirm that the app remains fully functional with the use of the Environment Variable\n  \n8. Create a .gitignore file to prevent .env.local from being included in your git repository Git allows developers to specify files that they do not want to be tracked and committed to their git repository. These files will essentially be ignored by git\nWe accomplish this by creating a .gitignore file and adding the path of any files that we\u0026rsquo;d like to be ignored\n Create a .gitignore file\n$ touch .gitignore  Open .gitignore in your editor and add the following:\n.env.local /node_modules   Here we are adding .env.local to prevent our secure credentials from tracked. We\u0026rsquo;ve also followed the best practice of ignoring the /node_modules directory\n\nCongrats! You\u0026rsquo;ve successfully set up a development environment for your front-end application that the use of Environment Variables to secure your sensitive credentials\nImportant: Going forward, you will need to run parcel index.html so your app will be able handle Environment Variables without any issues\nIf you attempt to use the app without running parcel index.html you will receive the error depicted in the image below:\nFront-end websites that are not running on Node-based server cannot reference the process object; this is the benefit of using a bundler like Parcel, it provides us with a local web server\n"
-},
-{
 	"uri": "/02-javascript-basics/comparison-operators/",
 	"title": "Comparison Operators",
 	"tags": [],
@@ -1706,6 +1671,20 @@
 	"tags": [],
 	"description": "",
 	"content": " Functions can call other functions  Function reusability is key results in cleaner code\n Reusing functions leverages key programming principle - Don\u0026rsquo;t Repeat Yourself (DRY)\n  Example  In the example of below, the surfaceAreaOfCube function calls another function (areaOfSquare) instead of duplicating work that was already done  // Function that calculates area of a square  function areaOfSquare(side){ return side * side } areaOfSquare(3) // returns 9  // This is a function that calculates the // surface area of a cube that *reuses* the areaOfSquare function  function surfaceAreaOfCube(side){ return 6 * areaOfSquare(side) } surfaceAreaOfCube(7) // returns 294  JS Bin on jsbin.com\nExercise  Create a function named surfaceAreaOfSphere that calculates the surface area of the Sphere using the following formula: 4 * PI * r**2; the function MUST reuse the provided areaOfCircle function  JS Bin on jsbin.com\n"
+},
+{
+	"uri": "/final-projects/milestones-due-dates/host-final-project/",
+	"title": "Host Final Project",
+	"tags": [],
+	"description": "",
+	"content": " Milestone VI: Host Final Project  Due Date: Wed, Apr 1st\n Deploy and host your fully-functioning project on Netlify (which we will go over during the Deploying and Hosting lesson)\n  Note: DO NOT wait until your project is complete before you successfully host / deploy your application. The process of deploying / hosting application can be tricky, so figuring it out early ensures that you will avoid scrambling to get this done at the last minute. The process of deploying your application is a continuous process. Meaning you can deploy your application (i.e. your production environment) and afterwards if you make any changes to your code of your application (in your local environment), you can deploy your application again to ensure your hosted version of application contains latest changes.\n Deliverable: Submit the url that leads to the hosted version of your application using this form  "
+},
+{
+	"uri": "/homework-assignments/hw-assignment-04/",
+	"title": "HW Assignment #4",
+	"tags": [],
+	"description": "",
+	"content": " Summary of this week\u0026rsquo;s homework assignment: Due Date: Friday, March 13th\nComplete Homework #4 - Rock, Paper, Scissors Application  You are tasked with finishing the partially built Rock, Paper, Scissors application. The code is hosted on Github, see the url below:\n Github Repo for Homework #4 - Rock, Paper, Scissors Application  Use the Assignment Submission Git Workflow (detailed here) to access and submit the assignment\n  "
 },
 {
 	"uri": "/10-asynchronous-js-and-promises/promises/",
@@ -1841,13 +1820,6 @@
 	"content": " forEach Loop  forEach() is an Array method executes a provided function once for each item (or element) in the array\n The function used in forEach is called a callback function because it is being passed as a parameter into another function (we\u0026rsquo;ll cover these concepts in more detail in a later class)\n The callback function for forEach provides the following:\n element - this current element from the array that is being evaluated\n index - this represents the current element\u0026rsquo;s index (or position in the array)\n   callbacks are used extensively in JavaScript; we will discuss them more in detail when we do a deeper dive into functions later in the course\n someArray.forEach(function(element, index) { // code block to be executed for each element in the array })  Example const chipmunks = [\u0026#34;alvin\u0026#34;, \u0026#34;simon\u0026#34;, \u0026#34;theodore\u0026#34;] chipmunks.forEach(function(element, index) { console.log(`${element}is at index ${index}`) })  JS Bin on jsbin.com\nExercise Write a program that uses a forEach loop to print each of the fruit names (found in the provided fruits array) in all caps\nJS Bin on jsbin.com\n"
 },
 {
-	"uri": "/17-deploying-and-hosting/heroku/",
-	"title": "Heroku",
-	"tags": [],
-	"description": "",
-	"content": " What is Heroku?  Heroku is a PaaS (Platform as a Service) that enables developers to easily host (deploy), monitor and scale their applications\n Supports many different languages (Node.js (JavaScript), Ruby, Python, Jav, PHP, etc) and supports virtually any type of application (from static websites to server-backed applications connected to a database)\n Heroku\u0026rsquo;s focus is to take the pain of deploying applications and maintaining environment (server updates \u0026amp; scalability, database backups, etc) so developers can focus solely on building their applications\n  "
-},
-{
 	"uri": "/09-http-and-apis/",
 	"title": "HTTP and APIs",
 	"tags": [],
@@ -1943,7 +1915,14 @@
 	"title": "Code Along: Hosting with Heroku",
 	"tags": [],
 	"description": "",
-	"content": " Code Along: Hosting with Heroku During this code along, we\u0026rsquo;ll be walking through the process of hosting the \u0026ldquo;Parcel-enabled\u0026rdquo; Giphy Search API application (from the previous code along) on Heroku\n Step 1: Install Heroku   Step 2: Prepare the App   Step 3: Run Heroku Locally   Step 4: Deploy to Heroku   "
+	"content": ""
+},
+{
+	"uri": "/final-projects/milestones-due-dates/complete-final-project/",
+	"title": "Complete Final Project",
+	"tags": [],
+	"description": "",
+	"content": " Milestone VII: Complete Final Project  Complete your final project\n Due Date: Mon, Apr 6th\n  "
 },
 {
 	"uri": "/command-line-js-and-git/git-vocabulary/fork/",
@@ -2237,7 +2216,7 @@
 	"title": "CORS",
 	"tags": [],
 	"description": "",
-	"content": " CORS  CORS is the policy that defines this, an acronym that stands for \u0026ldquo;Cross-Origin Resource Sharing\u0026rdquo;\n You cannot normally make an AJAX request across different domains\n Some domains don\u0026rsquo;t allow you to ping them from other domains and some do\n  Click here for more information about CORS\n "
+	"content": " CORS  CORS is the policy that defines this, an acronym that stands for \u0026ldquo;Cross-Origin Resource Sharing\u0026rdquo;\n You cannot normally make an AJAX request (i.e. JavaScript initiated requests) across different domains\n Some domains don\u0026rsquo;t allow you to ping them from other domains and some do\n  Click here for more information about CORS\n "
 },
 {
 	"uri": "/19-final-projects-lab/",
@@ -2266,6 +2245,13 @@
 	"tags": [],
 	"description": "",
 	"content": " Group Exercise: Rock, Paper and Scissors Form groups (of 2 or 3) and write pseudocode describing a game of Rock, Paper, Scissors\n"
+},
+{
+	"uri": "/class-resources/front-end-friendly-apis/",
+	"title": "Front-end friendly APIs",
+	"tags": [],
+	"description": "",
+	"content": " Why does it matter if an API is considered \u0026ldquo;front-end friendly\u0026rdquo;?  Some APIs are built in such a way that calls to the API can only be made via the backend server. This is due to a security feature that is built into browsers which restrict JavaScript-initiated \u0026ldquo;cross-origin\u0026rdquo; HTTP requests between two different domains (e.g. from javascript.com to programming.com).\n However, making cross-origin request is a common tasks when attempting to share data between two servers (on different domains). As a result, a workaround was created called CORS (Cross Origin Resource Sharing).\n In order for CORS to work, applications will need to send an additional request called a pre-flight request to the server they are looking to make a request to.\n In most cases, these pre-flight requests can only be made from a backend server.\n Since your projects will be front-end only applications, you should confine your search for APIs (assuming you want to use an API) to APIs that don\u0026rsquo;t require \u0026ldquo;pre-flight\u0026rdquo; requests\n  APIs that are front-end friendly  Star Wars: https://swapi.co/ Weather: https://openweathermap.org/api News: https://newsapi.org/ Giphy: https://developers.giphy.com/ Unsplash (images): https://unsplash.com/developers NYC Public Data (wide variety of data via an API): https://opendata.cityofnewyork.us/ TMDB (movies and tv shows): https://developers.themoviedb.org/3/getting-started Pokemon: http://pokeapi.co/ Card Deck: https://deckofcardsapi.com/ City of Chicago: https://data.cityofchicago.org/ Stocks (IEX): https://iexcloud.io/ Beer: https://www.brewerydb.com/developers Chuck Norris: http://www.icndb.com/ Rick and Morty: https://rickandmortyapi.com/documentation/#rest CryptoCurrency: https://coinmarketcap.com/api/documentation/v1/#\n For comprehensive lists of Public APIs, check the following. (PLEASE NOTE, we do not maintain, review, or recommended all of these APIs. These lists are simply of all publicly available APIs and are maintained by third parties. It\u0026rsquo;s your responsibility to make sure the API is \u0026ldquo;front-end friendly\u0026rdquo;.)\n https://github.com/toddmotto/public-apis https://github.com/abhishekbanthia/Public-APIs   NOTE: Please refrain from using any APIs found on RapidAPI - their business model is to try to trick you into paying for APIs that are normally free\n"
 },
 {
 	"uri": "/class-resources/",

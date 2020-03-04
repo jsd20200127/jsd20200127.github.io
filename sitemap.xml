@@ -155,10 +155,6 @@
   </url>
   
   <url>
-    <loc>/17-deploying-and-hosting/objectives/</loc>
-  </url>
-  
-  <url>
     <loc>/10-asynchronous-js-and-promises/async-await/overview/</loc>
   </url>
   
@@ -183,6 +179,10 @@
   </url>
   
   <url>
+    <loc>/final-projects/overview-requirements/</loc>
+  </url>
+  
+  <url>
     <loc>/command-line-js-and-git/git-vocabulary/repository/</loc>
   </url>
   
@@ -192,10 +192,6 @@
   
   <url>
     <loc>/12-project-build-a-slackbot/tutorial/step-1-new-slack-workspace/</loc>
-  </url>
-  
-  <url>
-    <loc>/17-deploying-and-hosting/code-along-hosting-with-heroku/step-1-install-heroku/</loc>
   </url>
   
   <url>
@@ -360,10 +356,6 @@
   </url>
   
   <url>
-    <loc>/17-deploying-and-hosting/github-pages/</loc>
-  </url>
-  
-  <url>
     <loc>/10-asynchronous-js-and-promises/async-await/handling-async-issues-with-async-await/</loc>
   </url>
   
@@ -456,7 +448,7 @@
   </url>
   
   <url>
-    <loc>/17-deploying-and-hosting/code-along-hosting-with-heroku/step-2-prepare-the-app/</loc>
+    <loc>/final-projects/milestones-due-dates/submit-project-ideas/</loc>
   </url>
   
   <url>
@@ -512,10 +504,6 @@
   </url>
   
   <url>
-    <loc>/17-deploying-and-hosting/code-along-hosting-with-github-pages/</loc>
-  </url>
-  
-  <url>
     <loc>/10-asynchronous-js-and-promises/promises/consuming-promises/</loc>
   </url>
   
@@ -533,6 +521,10 @@
   
   <url>
     <loc>/13-object-oriented-programming/classes/methods/general-methods/</loc>
+  </url>
+  
+  <url>
+    <loc>/final-projects/milestones-due-dates/get-idea-approved/</loc>
   </url>
   
   <url>
@@ -569,10 +561,6 @@
   
   <url>
     <loc>/16-project-firebase-todo-app/requirements/</loc>
-  </url>
-  
-  <url>
-    <loc>/17-deploying-and-hosting/code-along-hosting-with-heroku/step-3-run-heroku-locally/</loc>
   </url>
   
   <url>
@@ -645,6 +633,10 @@
   
   <url>
     <loc>/15-intro-to-crud-and-firebase/code-along-firebase-playlist-app/</loc>
+  </url>
+  
+  <url>
+    <loc>/final-projects/milestones-due-dates/create-github-repository-for-final-project/</loc>
   </url>
   
   <url>
@@ -744,15 +736,7 @@
   </url>
   
   <url>
-    <loc>/17-deploying-and-hosting/code-along-hosting-with-heroku/step-4-deploy-to-heroku/</loc>
-  </url>
-  
-  <url>
     <loc>/12-project-build-a-slackbot/tutorial/step-4-run-ngrok/</loc>
-  </url>
-  
-  <url>
-    <loc>/17-deploying-and-hosting/surge/</loc>
   </url>
   
   <url>
@@ -784,7 +768,7 @@
   </url>
   
   <url>
-    <loc>/17-deploying-and-hosting/code-along-hosting-with-surge/</loc>
+    <loc>/final-projects/milestones-due-dates/create-submit-wireframes/</loc>
   </url>
   
   <url>
@@ -880,6 +864,10 @@
   </url>
   
   <url>
+    <loc>/final-projects/milestones-due-dates/create-project-plan/</loc>
+  </url>
+  
+  <url>
     <loc>/06-dom-and-jquery/jquery-manipulation/css-style-manipulation/</loc>
   </url>
   
@@ -932,10 +920,6 @@
   </url>
   
   <url>
-    <loc>/17-deploying-and-hosting/securing-sensitive-credentials-with-parcel/</loc>
-  </url>
-  
-  <url>
     <loc>/12-project-build-a-slackbot/tutorial/step-6-install-app-to-workspace/</loc>
   </url>
   
@@ -960,10 +944,6 @@
   </url>
   
   <url>
-    <loc>/17-deploying-and-hosting/code-along-using-env-variables-with-parcel/</loc>
-  </url>
-  
-  <url>
     <loc>/02-javascript-basics/comparison-operators/</loc>
   </url>
   
@@ -977,6 +957,14 @@
   
   <url>
     <loc>/04-functions-and-scope/functions-calling-other-functions/</loc>
+  </url>
+  
+  <url>
+    <loc>/final-projects/milestones-due-dates/host-final-project/</loc>
+  </url>
+  
+  <url>
+    <loc>/homework-assignments/hw-assignment-04/</loc>
   </url>
   
   <url>
@@ -1056,10 +1044,6 @@
   </url>
   
   <url>
-    <loc>/17-deploying-and-hosting/heroku/</loc>
-  </url>
-  
-  <url>
     <loc>/09-http-and-apis/</loc>
   </url>
   
@@ -1113,6 +1097,10 @@
   
   <url>
     <loc>/17-deploying-and-hosting/code-along-hosting-with-heroku/</loc>
+  </url>
+  
+  <url>
+    <loc>/final-projects/milestones-due-dates/complete-final-project/</loc>
   </url>
   
   <url>
@@ -1298,6 +1286,10 @@
   
   <url>
     <loc>/01-course-intro-and-tools/group-exercise-rock-paper-scissors/</loc>
+  </url>
+  
+  <url>
+    <loc>/class-resources/front-end-friendly-apis/</loc>
   </url>
   
   <url>
