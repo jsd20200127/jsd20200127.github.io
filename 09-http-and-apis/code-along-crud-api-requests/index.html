@@ -12,21 +12,21 @@
     <title>Code Along: CRUD API Requests :: JavaScript</title>
 
     
-    <link href="/css/nucleus.css?1583423367" rel="stylesheet">
-    <link href="/css/fontawesome-all.min.css?1583423367" rel="stylesheet">
-    <link href="/css/hybrid.css?1583423367" rel="stylesheet">
-    <link href="/css/featherlight.min.css?1583423367" rel="stylesheet">
-    <link href="/css/perfect-scrollbar.min.css?1583423367" rel="stylesheet">
-    <link href="/css/auto-complete.css?1583423367" rel="stylesheet">
-    <link href="/css/atom-one-dark-reasonable.css?1583423367" rel="stylesheet">
-    <link href="/css/theme.css?1583423367" rel="stylesheet">
-    <link href="/css/hugo-theme.css?1583423367" rel="stylesheet">
-    <link href="/css/syntax.css?1583423367" rel="stylesheet">
+    <link href="/css/nucleus.css?1583789788" rel="stylesheet">
+    <link href="/css/fontawesome-all.min.css?1583789788" rel="stylesheet">
+    <link href="/css/hybrid.css?1583789788" rel="stylesheet">
+    <link href="/css/featherlight.min.css?1583789788" rel="stylesheet">
+    <link href="/css/perfect-scrollbar.min.css?1583789788" rel="stylesheet">
+    <link href="/css/auto-complete.css?1583789788" rel="stylesheet">
+    <link href="/css/atom-one-dark-reasonable.css?1583789788" rel="stylesheet">
+    <link href="/css/theme.css?1583789788" rel="stylesheet">
+    <link href="/css/hugo-theme.css?1583789788" rel="stylesheet">
+    <link href="/css/syntax.css?1583789788" rel="stylesheet">
     
-      <link href="/css/theme-blue.css?1583423367" rel="stylesheet">
+      <link href="/css/theme-blue.css?1583789788" rel="stylesheet">
     
 
-    <script src="/js/jquery-3.3.1.min.js?1583423367"></script>
+    <script src="/js/jquery-3.3.1.min.js?1583789788"></script>
 
     <style>
       :root #header + #content > #left > #rlblock_left{
@@ -89,14 +89,14 @@
     <span data-search-clear=""><i class="fas fa-times"></i></span>
 </div>
 
-<script type="text/javascript" src="/js/lunr.min.js?1583423367"></script>
-<script type="text/javascript" src="/js/auto-complete.js?1583423367"></script>
+<script type="text/javascript" src="/js/lunr.min.js?1583789788"></script>
+<script type="text/javascript" src="/js/auto-complete.js?1583789788"></script>
 <script type="text/javascript">
     
         var baseurl = "\/";
     
 </script>
-<script type="text/javascript" src="/js/search.js?1583423367"></script>
+<script type="text/javascript" src="/js/search.js?1583789788"></script>
 
     
   </div>
@@ -7380,6 +7380,7 @@
 <ul>
 <li><a href="#base-api-url">BASE API URL:</a></li>
 <li><a href="#api-endpoints">API Endpoints:</a></li>
+<li><a href="#examples">Examples</a></li>
 </ul></li>
 </ul></li>
 </ul></li>
@@ -7464,6 +7465,115 @@
 </tr>
 </tbody>
 </table>
+
+<hr />
+
+<h4 id="examples">Examples</h4>
+
+<ul>
+<li>Retrieve list of all colors (<code>GET /colors</code>)</li>
+</ul>
+
+<div class="highlight"><pre class="chroma"><code class="language-zsh" data-lang="zsh"><span class="o">(</span>GET<span class="o">)</span> https://css-colors-api.herokuapp.com/api/v1/colors</code></pre></div>
+
+<hr />
+
+<ul>
+<li><p>Retrieve details for one color (<code>GET /colors/:id</code>)</p>
+
+<ul>
+<li>Fetch the color associated with id = 3</li>
+</ul></li>
+</ul>
+
+<div class="highlight"><pre class="chroma"><code class="language-zsh" data-lang="zsh"><span class="o">(</span>GET<span class="o">)</span> https://css-colors-api.herokuapp.com/api/v1/colors/3</code></pre></div>
+
+<hr />
+
+<ul>
+<li><p>Create a new color (<code>POST /colors</code>)</p>
+
+<ul>
+<li><p>Here we need to give the server additional information, the name and hexcode of the color we want to <strong>create</strong></p></li>
+
+<li><p>We are sending this additional information through a &ldquo;body&rdquo; of the request</p></li>
+</ul></li>
+</ul>
+
+<div class="highlight"><pre class="chroma"><code class="language-zsh" data-lang="zsh">  <span class="o">(</span>POST<span class="o">)</span> https://css-colors-api.herokuapp.com/api/v1/colors
+  </code></pre></div>
+
+<p>request body:</p>
+
+<pre><code class="language-json">  {
+  	&quot;color&quot;: {
+  		&quot;name&quot;: &quot;Kareem Gray&quot;,
+  		&quot;hexcode&quot;: &quot;#728ca0&quot;
+  	}
+  }
+</code></pre>
+
+<hr />
+
+<ul>
+<li><p>Update an existing color (<code>PUT /colors/:id</code>)</p>
+
+<ul>
+<li><p>Here we need to tell the server which color we want to update <strong>and</strong> the information we want to update</p></li>
+
+<li><p>The update info is sent via a the &ldquo;request body&rdquo;</p></li>
+
+<li><p>Here&rsquo;s an example of updating the &ldquo;name&rdquo; of the color with the id = 7 to &ldquo;Sky Blue&rdquo;</p></li>
+</ul></li>
+</ul>
+
+<div class="highlight"><pre class="chroma"><code class="language-zsh" data-lang="zsh">  <span class="o">(</span>PUT<span class="o">)</span> https://css-colors-api.herokuapp.com/api/v1/colors/7
+  </code></pre></div>
+
+<p>request body:</p>
+
+<pre><code class="language-json">  {
+  	&quot;color&quot;: {
+  		&quot;name&quot;: &quot;Sky Blue&quot;,
+  	}
+  }
+</code></pre>
+
+<hr />
+
+<ul>
+<li><p>Delete a color (<code>DELETE /colors/:id</code>)</p>
+
+<ul>
+<li>Delete the color associated with id = 28</li>
+</ul></li>
+</ul>
+
+<div class="highlight"><pre class="chroma"><code class="language-zsh" data-lang="zsh"><span class="o">(</span>DELETE<span class="o">)</span> https://css-colors-api.herokuapp.com/api/v1/colors/28</code></pre></div>
+
+<hr />
+
+<ul>
+<li><p>Search for color by name or hexcode (<code>GET /colors/search?q={searchTerm}</code>)</p>
+
+<ul>
+<li>Search for all the colors that have the text &ldquo;blue&rdquo; in their name</li>
+</ul></li>
+</ul>
+
+<div class="highlight"><pre class="chroma"><code class="language-zsh" data-lang="zsh"><span class="o">(</span>GET<span class="o">)</span> https://css-colors-api.herokuapp.com/api/v1/colors/search?q<span class="o">=</span>blue</code></pre></div>
+
+<hr />
+
+<ul>
+<li><p>Get all colors created by users (<code>GET /colors/user_generated</code>)</p>
+
+<ul>
+<li>Retrieve all the colors that have been created by users (via a POST request)</li>
+</ul></li>
+</ul>
+
+<div class="highlight"><pre class="chroma"><code class="language-zsh" data-lang="zsh"><span class="o">(</span>GET<span class="o">)</span> https://css-colors-api.herokuapp.com/api/v1/colors/user_generated</code></pre></div>
 
 
 <footer class=" footline" >
@@ -33074,20 +33184,20 @@
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="/js/clipboard.min.js?1583423367"></script>
-    <script src="/js/perfect-scrollbar.min.js?1583423367"></script>
-    <script src="/js/perfect-scrollbar.jquery.min.js?1583423367"></script>
-    <script src="/js/jquery.sticky.js?1583423367"></script>
-    <script src="/js/featherlight.min.js?1583423367"></script>
-    <script src="/js/html5shiv-printshiv.min.js?1583423367"></script>
-    <script src="/js/highlight.pack.js?1583423367"></script>
+    <script src="/js/clipboard.min.js?1583789788"></script>
+    <script src="/js/perfect-scrollbar.min.js?1583789788"></script>
+    <script src="/js/perfect-scrollbar.jquery.min.js?1583789788"></script>
+    <script src="/js/jquery.sticky.js?1583789788"></script>
+    <script src="/js/featherlight.min.js?1583789788"></script>
+    <script src="/js/html5shiv-printshiv.min.js?1583789788"></script>
+    <script src="/js/highlight.pack.js?1583789788"></script>
     <script>hljs.initHighlightingOnLoad();</script>
-    <script src="/js/modernizr.custom-3.6.0.js?1583423367"></script>
-    <script src="/js/learn.js?1583423367"></script>
-    <script src="/js/hugo-learn.js?1583423367"></script>
+    <script src="/js/modernizr.custom-3.6.0.js?1583789788"></script>
+    <script src="/js/learn.js?1583789788"></script>
+    <script src="/js/hugo-learn.js?1583789788"></script>
 
-    <link href="/mermaid/mermaid.css?1583423367" rel="stylesheet" />
-    <script src="/mermaid/mermaid.js?1583423367"></script>
+    <link href="/mermaid/mermaid.css?1583789788" rel="stylesheet" />
+    <script src="/mermaid/mermaid.js?1583789788"></script>
     <script>
         mermaid.initialize({ startOnLoad: true });
     </script>
