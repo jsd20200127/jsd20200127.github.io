@@ -523,6 +523,15 @@ List Of Commonly Used APIs Here is a short list of commonly used APIs for testin
     </item>
     
     <item>
+      <title>Recordings</title>
+      <link>/lesson-recordings/recordings/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/lesson-recordings/recordings/</guid>
+      <description> Lesson Recordings    Lesson Date Link Notes     09 3/11/2020 lesson 09 recording     </description>
+    </item>
+    
+    <item>
       <title>Repository</title>
       <link>/command-line-js-and-git/git-vocabulary/repository/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -2514,6 +2523,17 @@ const getArea = (width, height) =&amp;gt; { const area = width * height return a
  The function used in forEach is called a callback function because it is being passed as a parameter into another function (we&amp;rsquo;ll cover these concepts in more detail in a later class)
  The callback function for forEach provides the following:
  element - this current element from the array that is being evaluated</description>
+    </item>
+    
+    <item>
+      <title>HW Assignment #5</title>
+      <link>/homework-assignments/hw-assignment-05/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/homework-assignments/hw-assignment-05/</guid>
+      <description>Summary of this week&amp;rsquo;s homework assignment: Due Date: Friday, March 20th
+Complete Homework #5 - Weather App using OpenWeather API  You are tasked with leveraging the API from OpenWeatherMap to display the current weather for a given city. The starter code is hosted on Github, see the url below:
+ Github Repo for Homework #5 - Weather App using OpenWeather API  Use the Assignment Submission Git Workflow (detailed here) to access and submit the assignment</description>
     </item>
     
     <item>

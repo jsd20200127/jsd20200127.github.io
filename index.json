@@ -123,7 +123,7 @@
 	"title": "Classwork &amp; Lab Solutions",
 	"tags": [],
 	"description": "",
-	"content": " Solutions Disclaimer: These files are not meant to be viewed as the \u0026ldquo;right answer, instead view them as a way to learn how another developer approached the same problem.\n Lesson 03: Control Flow \u0026amp; Loops  JS Basics, Control Flow \u0026amp; Loops Lab Solution  Lesson 04: Functions \u0026amp; Scope  Rolling Dice (vanilla JavaScript) Solution  Lesson 05: Arrays \u0026amp; Objects  Warmup Functions Practice Solution  Lesson 06: DOM \u0026amp; jQuery  Warmup Iterators Practice (Countries) Solution\n Rolling Dice (jQuery) Solution\n  Lesson 07: DOM \u0026amp; jQuery II  Color Scheme Switcher Solution\n Traffic Light Solution\n Score Keeper Solution\n  Lesson 08: DOM \u0026amp; jQuery III  HiLo Solution  "
+	"content": " Solutions Disclaimer: These files are not meant to be viewed as the \u0026ldquo;right answer, instead view them as a way to learn how another developer approached the same problem.\n Lesson 03: Control Flow \u0026amp; Loops  JS Basics, Control Flow \u0026amp; Loops Lab Solution  Lesson 04: Functions \u0026amp; Scope  Rolling Dice (vanilla JavaScript) Solution  Lesson 05: Arrays \u0026amp; Objects  Warmup Functions Practice Solution  Lesson 06: DOM \u0026amp; jQuery  Warmup Iterators Practice (Countries) Solution\n Rolling Dice (jQuery) Solution\n  Lesson 07: DOM \u0026amp; jQuery II  Color Scheme Switcher Solution\n Traffic Light Solution\n Score Keeper Solution\n  Lesson 08: DOM \u0026amp; jQuery III  HiLo Solution  Lesson 09: HTTP and APIs  Giphy API Solution\n Random Color API Solution\n  "
 },
 {
 	"uri": "/05-arrays-objects/objects/creating-objects/",
@@ -313,6 +313,13 @@
 	"tags": [],
 	"description": "",
 	"content": " Overview  Final Projects are a requirement of \u0026ldquo;course completion\u0026rdquo;\n Project should be something that you are passionate about\n We\u0026rsquo;ve established some milestones (and due dates) that will help you stay on track to complete your projects on time\n Each milestone will include a deliverable  Instruction team will actively work with you to help you manage scope and come up with a project plan\n  Requirements For the final project, you\u0026rsquo;ll be designing and building a web application of your choice. This project will test your knowledge of JavaScript and ask you to apply everything you\u0026rsquo;ve learned in this course. The result will be a web app that you can add to your portfolio.\nYou could create anything from: a blog users can comment on; an app that allows users to search for social media posts; or a web-based game (memory, tic-tac-toe, etc). Use of an API is optional but highly recommended (because it\u0026rsquo;s fun!).\nI\u0026rsquo;ll work with you to determine the scope and feasibility of your ideas considering the amount of time remaining in the class and other other factors.\nYour final projects must make use of the following:\n JavaScript\n Adhere to DRY principle (Don\u0026rsquo;t Repeat Yourself)\n Code is properly indented\n Follow best practices for file/folder structure\n  Using APIs for your final projects  Use of an API is optional\n Here\u0026rsquo;s a list of API options and things to consider when using APIs for your projects\n using front-end friendly APIs   "
+},
+{
+	"uri": "/lesson-recordings/recordings/",
+	"title": "Recordings",
+	"tags": [],
+	"description": "",
+	"content": " Lesson Recordings    Lesson Date Link Notes     09 3/11/2020 lesson 09 recording     "
 },
 {
 	"uri": "/command-line-js-and-git/git-vocabulary/repository/",
@@ -627,7 +634,7 @@
 	"title": "Homework Solutions",
 	"tags": [],
 	"description": "",
-	"content": " Homework Solutions Disclaimer: These files are not meant to be viewed as the \u0026ldquo;right answer, instead view them as a way to learn how another developer approached the same problem.\n Homework #1:  Homework #1: JS Basics, Control Flow Loops Solution\n Homework #2: Functions Solution\n  "
+	"content": " Homework Solutions Disclaimer: These files are not meant to be viewed as the \u0026ldquo;right answer, instead view them as a way to learn how another developer approached the same problem.\n Homework #1:  Homework #1: JS Basics, Control Flow Loops Solution  Homework #2:  Homework #2: Functions Solution  Homework #3:  Homework #3: Iterators Solution  "
 },
 {
 	"uri": "/09-http-and-apis/http/",
@@ -1827,6 +1834,13 @@
 	"content": " Lesson 09 HTTP and APIs "
 },
 {
+	"uri": "/homework-assignments/hw-assignment-05/",
+	"title": "HW Assignment #5",
+	"tags": [],
+	"description": "",
+	"content": " Summary of this week\u0026rsquo;s homework assignment: Due Date: Friday, March 20th\nComplete Homework #5 - Weather App using OpenWeather API  You are tasked with leveraging the API from OpenWeatherMap to display the current weather for a given city. The starter code is hosted on Github, see the url below:\n Github Repo for Homework #5 - Weather App using OpenWeather API  Use the Assignment Submission Git Workflow (detailed here) to access and submit the assignment\n  "
+},
+{
 	"uri": "/09-http-and-apis/lab-random-color-api-with-ajax/",
 	"title": "Lab: Random Color API with $.ajax()",
 	"tags": [],
@@ -2280,6 +2294,13 @@
 	"tags": [],
 	"description": "",
 	"content": " Appendix D Command Line JavaScript \u0026amp; Git "
+},
+{
+	"uri": "/lesson-recordings/",
+	"title": "Lesson Recordings",
+	"tags": [],
+	"description": "",
+	"content": " Lesson Recordings "
 },
 {
 	"uri": "/solutions/",

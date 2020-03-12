@@ -183,6 +183,10 @@
   </url>
   
   <url>
+    <loc>/lesson-recordings/recordings/</loc>
+  </url>
+  
+  <url>
     <loc>/command-line-js-and-git/git-vocabulary/repository/</loc>
   </url>
   
@@ -1048,6 +1052,10 @@
   </url>
   
   <url>
+    <loc>/homework-assignments/hw-assignment-05/</loc>
+  </url>
+  
+  <url>
     <loc>/09-http-and-apis/lab-random-color-api-with-ajax/</loc>
   </url>
   
@@ -1307,6 +1315,10 @@
   
   <url>
     <loc>/command-line-js-and-git/</loc>
+  </url>
+  
+  <url>
+    <loc>/lesson-recordings/</loc>
   </url>
   
   <url>
