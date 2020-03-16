@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Final Projects Lab on JavaScript</title>
+    <link>/15-final-projects-lab/</link>
+    <description>Recent content in Final Projects Lab on JavaScript</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="/15-final-projects-lab/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Lab: Deployfest</title>
+      <link>/15-final-projects-lab/lab-deployfest/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/15-final-projects-lab/lab-deployfest/</guid>
+      <description> Use class time to deploy and host your final projects using Netlify
+ Project Check-ins with Instructor
+ In-class time to work on Final Projects
+  </description>
+    </item>
+    
+    <item>
+      <title>Lab: Final Projects</title>
+      <link>/15-final-projects-lab/lab-final-projects/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/15-final-projects-lab/lab-final-projects/</guid>
+      <description> Use class time to work on your finalizing your projects  </description>
+    </item>
+    
+  </channel>
+</rss>

@@ -328,11 +328,11 @@ List Of Commonly Used APIs Here is a short list of commonly used APIs for testin
     
     <item>
       <title>Lab: Deployfest</title>
-      <link>/18-lab-deployfest/lab-deployfest/</link>
+      <link>/15-final-projects-lab/lab-deployfest/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/18-lab-deployfest/lab-deployfest/</guid>
-      <description> Use class time to deploy and host your final projects using either Github Pages, Surge or Heroku (whichever is most appropriate for your project)
+      <guid>/15-final-projects-lab/lab-deployfest/</guid>
+      <description> Use class time to deploy and host your final projects using Netlify
  Project Check-ins with Instructor
  In-class time to work on Final Projects
   </description>
@@ -340,14 +340,11 @@ List Of Commonly Used APIs Here is a short list of commonly used APIs for testin
     
     <item>
       <title>Lab: Final Projects</title>
-      <link>/19-final-projects-lab/lab-final-projects/</link>
+      <link>/15-final-projects-lab/lab-final-projects/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/19-final-projects-lab/lab-final-projects/</guid>
-      <description> Use class time to work on your finalizing your projects
- Ensure your project is deployed &amp;amp; hosted using either Github Pages, Surge or Heroku
- You should avoid adding new features at this point (Feature freeze)
-  </description>
+      <guid>/15-final-projects-lab/lab-final-projects/</guid>
+      <description> Use class time to work on your finalizing your projects  </description>
     </item>
     
     <item>
@@ -410,32 +407,14 @@ List Of Commonly Used APIs Here is a short list of commonly used APIs for testin
     
     <item>
       <title>Objectives</title>
-      <link>/14-oop-order-checkout-app/objectives/</link>
+      <link>/14-intro-to-crud-and-firebase/objectives/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/14-oop-order-checkout-app/objectives/</guid>
-      <description> Leverage knowledge of OOP to complete an application that mimics a basic order checkout application  </description>
-    </item>
-    
-    <item>
-      <title>Objectives</title>
-      <link>/15-intro-to-crud-and-firebase/objectives/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/15-intro-to-crud-and-firebase/objectives/</guid>
+      <guid>/14-intro-to-crud-and-firebase/objectives/</guid>
       <description> Explain what CRUD means
  Learn about Firebase and its benefits
  Use Firebase&amp;rsquo;s Firestore database to provide data persistence to a front-end app
   </description>
-    </item>
-    
-    <item>
-      <title>Objectives</title>
-      <link>/16-project-firebase-todo-app/objectives/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/16-project-firebase-todo-app/objectives/</guid>
-      <description> Leverage knowledge of Firebase to add persistent data storage to a Todo Application  </description>
     </item>
     
     <item>
@@ -499,10 +478,10 @@ List Of Commonly Used APIs Here is a short list of commonly used APIs for testin
     
     <item>
       <title>Overview</title>
-      <link>/15-intro-to-crud-and-firebase/firebase/overview/</link>
+      <link>/14-intro-to-crud-and-firebase/firebase/overview/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/15-intro-to-crud-and-firebase/firebase/overview/</guid>
+      <guid>/14-intro-to-crud-and-firebase/firebase/overview/</guid>
       <description> What is Firebase?  Firebase is a mobile and web application platform for developers
  Acquired by Google in 2014
  Offers many other services but we&amp;rsquo;ll be covering the basics of Firebase&amp;rsquo;s real-time backend database and seeing how we can use this in our applications
@@ -787,10 +766,10 @@ We&amp;rsquo;ll discuss currentTarget and the .find() method later in the course
     
     <item>
       <title>Benefits</title>
-      <link>/15-intro-to-crud-and-firebase/firebase/benefits/</link>
+      <link>/14-intro-to-crud-and-firebase/firebase/benefits/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/15-intro-to-crud-and-firebase/firebase/benefits/</guid>
+      <guid>/14-intro-to-crud-and-firebase/firebase/benefits/</guid>
       <description> Firebase Benefits  Firebase provides a seamless way for front-end developers to add data persistence to their front-end applications
  Relieves developers from having to build out backend to support their apps
  Firebase platform offers a variety of products such as realtime database, authentication, file storage, analytics, hosting, etc
@@ -875,10 +854,10 @@ const executorFunction = (resolve, reject) =&amp;gt; { } const myPromise = new P
     
     <item>
       <title>CRUD</title>
-      <link>/15-intro-to-crud-and-firebase/crud/</link>
+      <link>/14-intro-to-crud-and-firebase/crud/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/15-intro-to-crud-and-firebase/crud/</guid>
+      <guid>/14-intro-to-crud-and-firebase/crud/</guid>
       <description> What is CRUD  Stands for Create, Read, Update and Delete
  CRUD paradigm is common in constructing data-backed software applications
  Helps developers plan how their application&amp;rsquo;s data should be structured
@@ -1001,10 +980,10 @@ Instructions 1) Download starter code
     
     <item>
       <title>Instructions</title>
-      <link>/14-oop-order-checkout-app/instructions/</link>
+      <link>/13-object-oriented-programming/lab-oop-order-checkout/instructions/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/14-oop-order-checkout-app/instructions/</guid>
+      <guid>/13-object-oriented-programming/lab-oop-order-checkout/instructions/</guid>
       <description> Overview You are tasked with completing an application that mimics a rudimentary ordering system
 Instructions 1) Download starter code
  The starter code for this code along is hosted on Github, see the url below:
@@ -1014,10 +993,10 @@ Instructions 1) Download starter code
     
     <item>
       <title>Instructions</title>
-      <link>/16-project-firebase-todo-app/instructions/</link>
+      <link>/14-intro-to-crud-and-firebase/lab-firebase-todo-app/instructions/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/16-project-firebase-todo-app/instructions/</guid>
+      <guid>/14-intro-to-crud-and-firebase/lab-firebase-todo-app/instructions/</guid>
       <description>Overview You are tasked with adding persistent data storage to an unfinished todo application using Firebase&amp;rsquo;s Firestore Database product
 Instructions 1) Download starter code
  The starter code for this code along is hosted on Github, see the url below:
@@ -1320,10 +1299,10 @@ API Endpoints:    Endpoint Description     GET /colors retrieve list of colors  
     
     <item>
       <title>NoSQL Databases</title>
-      <link>/15-intro-to-crud-and-firebase/firebase/nosql-databases/</link>
+      <link>/14-intro-to-crud-and-firebase/firebase/nosql-databases/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/15-intro-to-crud-and-firebase/firebase/nosql-databases/</guid>
+      <guid>/14-intro-to-crud-and-firebase/firebase/nosql-databases/</guid>
       <description>What is a NoSQL Database  Firebase uses a NoSQL for it&amp;rsquo;s cloud-based databases
  Like many NoSQL databases, Firebase&amp;rsquo;s Real-time database stores data as JSON objects
  NoSQL databases don&amp;rsquo;t enforce strict data structure which results in much more flexibility than traditional SQL databases
@@ -1376,10 +1355,10 @@ GET https://sat-words-api.herokuapp.com/api/v1/words/random  Note: This API does
     
     <item>
       <title>Requirements</title>
-      <link>/14-oop-order-checkout-app/requirements/</link>
+      <link>/13-object-oriented-programming/lab-oop-order-checkout/requirements/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/14-oop-order-checkout-app/requirements/</guid>
+      <guid>/13-object-oriented-programming/lab-oop-order-checkout/requirements/</guid>
       <description>Requirements Requirement #1: Add OOP Logic For this exercise you will be creating a Checkout class
 It will have the following properties&amp;hellip;
  items: which should be start out as an empty array
@@ -1392,10 +1371,10 @@ It will have the following properties&amp;hellip;
     
     <item>
       <title>Requirements</title>
-      <link>/16-project-firebase-todo-app/requirements/</link>
+      <link>/14-intro-to-crud-and-firebase/lab-firebase-todo-app/requirements/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/16-project-firebase-todo-app/requirements/</guid>
+      <guid>/14-intro-to-crud-and-firebase/lab-firebase-todo-app/requirements/</guid>
       <description>Requirements Requirement #1: Add Create Functionality When users attempt to add a new task using the #addItem form, the task should be successfully saved in the app&amp;rsquo;s Firebase database. Within your Firebase database, the name of the new task should be stored as name and the completed value of every newly created task should be set to false
 Requirement #2: Add Read Functionality The Doit app should list all tasks stored in your Firebase database within the #taskList div.</description>
     </item>
@@ -1561,10 +1540,10 @@ superHero[&#39;secret identity&#39;]`
     
     <item>
       <title>Code Along: Firebase Playlist App</title>
-      <link>/15-intro-to-crud-and-firebase/code-along-firebase-playlist-app/</link>
+      <link>/14-intro-to-crud-and-firebase/code-along-firebase-playlist-app/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/15-intro-to-crud-and-firebase/code-along-firebase-playlist-app/</guid>
+      <guid>/14-intro-to-crud-and-firebase/code-along-firebase-playlist-app/</guid>
       <description>Code Along: Firebase Playlist App  Together we&amp;rsquo;ll walk through creating a playlist application that has its data persisted in Firebase&amp;rsquo;s Firestore Database (see docs)  1. Get the starter code for this code along  The starter code for this code along is hosted on Github, see the url below:
  Code Along: Firebase Playlist App
  Use the Assignment Submission Git Workflow (detailed here) to access and submit the assignment</description>
@@ -1640,10 +1619,10 @@ superHero[&#39;secret identity&#39;]`
     
     <item>
       <title>Firestore Database</title>
-      <link>/15-intro-to-crud-and-firebase/firebase/firestore-database/</link>
+      <link>/14-intro-to-crud-and-firebase/firebase/firestore-database/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/15-intro-to-crud-and-firebase/firebase/firestore-database/</guid>
+      <guid>/14-intro-to-crud-and-firebase/firebase/firestore-database/</guid>
       <description>Firebase Firestore database overview  Cloud-hosted database
  NoSQL database; data is stored as JSON
  Changes made to the database are automatically synchronized for any other computer/phone (i.e. client) that is viewing data from the database

@@ -115,11 +115,11 @@
   </url>
   
   <url>
-    <loc>/18-lab-deployfest/lab-deployfest/</loc>
+    <loc>/15-final-projects-lab/lab-deployfest/</loc>
   </url>
   
   <url>
-    <loc>/19-final-projects-lab/lab-final-projects/</loc>
+    <loc>/15-final-projects-lab/lab-final-projects/</loc>
   </url>
   
   <url>
@@ -143,15 +143,7 @@
   </url>
   
   <url>
-    <loc>/14-oop-order-checkout-app/objectives/</loc>
-  </url>
-  
-  <url>
-    <loc>/15-intro-to-crud-and-firebase/objectives/</loc>
-  </url>
-  
-  <url>
-    <loc>/16-project-firebase-todo-app/objectives/</loc>
+    <loc>/14-intro-to-crud-and-firebase/objectives/</loc>
   </url>
   
   <url>
@@ -175,7 +167,7 @@
   </url>
   
   <url>
-    <loc>/15-intro-to-crud-and-firebase/firebase/overview/</loc>
+    <loc>/14-intro-to-crud-and-firebase/firebase/overview/</loc>
   </url>
   
   <url>
@@ -292,7 +284,7 @@
   </url>
   
   <url>
-    <loc>/15-intro-to-crud-and-firebase/firebase/benefits/</loc>
+    <loc>/14-intro-to-crud-and-firebase/firebase/benefits/</loc>
   </url>
   
   <url>
@@ -328,7 +320,7 @@
   </url>
   
   <url>
-    <loc>/15-intro-to-crud-and-firebase/crud/</loc>
+    <loc>/14-intro-to-crud-and-firebase/crud/</loc>
   </url>
   
   <url>
@@ -392,11 +384,11 @@
   </url>
   
   <url>
-    <loc>/14-oop-order-checkout-app/instructions/</loc>
+    <loc>/13-object-oriented-programming/lab-oop-order-checkout/instructions/</loc>
   </url>
   
   <url>
-    <loc>/16-project-firebase-todo-app/instructions/</loc>
+    <loc>/14-intro-to-crud-and-firebase/lab-firebase-todo-app/instructions/</loc>
   </url>
   
   <url>
@@ -520,7 +512,7 @@
   </url>
   
   <url>
-    <loc>/15-intro-to-crud-and-firebase/firebase/</loc>
+    <loc>/14-intro-to-crud-and-firebase/firebase/</loc>
   </url>
   
   <url>
@@ -540,7 +532,7 @@
   </url>
   
   <url>
-    <loc>/15-intro-to-crud-and-firebase/firebase/nosql-databases/</loc>
+    <loc>/14-intro-to-crud-and-firebase/firebase/nosql-databases/</loc>
   </url>
   
   <url>
@@ -560,11 +552,11 @@
   </url>
   
   <url>
-    <loc>/14-oop-order-checkout-app/requirements/</loc>
+    <loc>/13-object-oriented-programming/lab-oop-order-checkout/requirements/</loc>
   </url>
   
   <url>
-    <loc>/16-project-firebase-todo-app/requirements/</loc>
+    <loc>/14-intro-to-crud-and-firebase/lab-firebase-todo-app/requirements/</loc>
   </url>
   
   <url>
@@ -636,7 +628,7 @@
   </url>
   
   <url>
-    <loc>/15-intro-to-crud-and-firebase/code-along-firebase-playlist-app/</loc>
+    <loc>/14-intro-to-crud-and-firebase/code-along-firebase-playlist-app/</loc>
   </url>
   
   <url>
@@ -668,7 +660,7 @@
   </url>
   
   <url>
-    <loc>/15-intro-to-crud-and-firebase/firebase/firestore-database/</loc>
+    <loc>/14-intro-to-crud-and-firebase/firebase/firestore-database/</loc>
   </url>
   
   <url>
@@ -785,6 +777,10 @@
   
   <url>
     <loc>/06-dom-and-jquery/jquery-overview/jquery-selectors/</loc>
+  </url>
+  
+  <url>
+    <loc>/14-intro-to-crud-and-firebase/lab-firebase-todo-app/</loc>
   </url>
   
   <url>
@@ -972,6 +968,10 @@
   </url>
   
   <url>
+    <loc>/13-object-oriented-programming/lab-oop-order-checkout/</loc>
+  </url>
+  
+  <url>
     <loc>/10-asynchronous-js-and-promises/promises/</loc>
   </url>
   
@@ -1104,10 +1104,6 @@
   </url>
   
   <url>
-    <loc>/17-deploying-and-hosting/code-along-hosting-with-heroku/</loc>
-  </url>
-  
-  <url>
     <loc>/final-projects/milestones-due-dates/complete-final-project/</loc>
   </url>
   
@@ -1204,10 +1200,6 @@
   </url>
   
   <url>
-    <loc>/14-oop-order-checkout-app/</loc>
-  </url>
-  
-  <url>
     <loc>/12-project-build-a-slackbot/tutorial/step-14-handle-errors-gracefully/</loc>
   </url>
   
@@ -1221,7 +1213,7 @@
   </url>
   
   <url>
-    <loc>/15-intro-to-crud-and-firebase/</loc>
+    <loc>/14-intro-to-crud-and-firebase/</loc>
   </url>
   
   <url>
@@ -1238,14 +1230,6 @@
   
   <url>
     <loc>/01-course-intro-and-tools/what-is-javascript/</loc>
-  </url>
-  
-  <url>
-    <loc>/16-project-firebase-todo-app/</loc>
-  </url>
-  
-  <url>
-    <loc>/17-deploying-and-hosting/</loc>
   </url>
   
   <url>
@@ -1269,10 +1253,6 @@
   </url>
   
   <url>
-    <loc>/18-lab-deployfest/</loc>
-  </url>
-  
-  <url>
     <loc>/01-course-intro-and-tools/class-exercise-smart-thermostat-pseudocode/</loc>
   </url>
   
@@ -1281,7 +1261,7 @@
   </url>
   
   <url>
-    <loc>/19-final-projects-lab/</loc>
+    <loc>/15-final-projects-lab/</loc>
   </url>
   
   <url>
@@ -1289,7 +1269,7 @@
   </url>
   
   <url>
-    <loc>/20-final-project-presentations/</loc>
+    <loc>/16-final-project-presentations/</loc>
   </url>
   
   <url>

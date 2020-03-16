@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Lab: Firebase Todo App on JavaScript</title>
+    <link>/14-intro-to-crud-and-firebase/lab-firebase-todo-app/</link>
+    <description>Recent content in Lab: Firebase Todo App on JavaScript</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="/14-intro-to-crud-and-firebase/lab-firebase-todo-app/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Instructions</title>
+      <link>/14-intro-to-crud-and-firebase/lab-firebase-todo-app/instructions/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/14-intro-to-crud-and-firebase/lab-firebase-todo-app/instructions/</guid>
+      <description>Overview You are tasked with adding persistent data storage to an unfinished todo application using Firebase&amp;rsquo;s Firestore Database product
+Instructions 1) Download starter code
+ The starter code for this code along is hosted on Github, see the url below:
+ Project: Firebase Todo App   2) Create a new Firebase project called doit-app
+3) Add a &amp;ldquo;Firestore Database&amp;rdquo; to the project and choose the &amp;ldquo;Start in test mode&amp;rdquo; option</description>
+    </item>
+    
+    <item>
+      <title>Requirements</title>
+      <link>/14-intro-to-crud-and-firebase/lab-firebase-todo-app/requirements/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/14-intro-to-crud-and-firebase/lab-firebase-todo-app/requirements/</guid>
+      <description>Requirements Requirement #1: Add Create Functionality When users attempt to add a new task using the #addItem form, the task should be successfully saved in the app&amp;rsquo;s Firebase database. Within your Firebase database, the name of the new task should be stored as name and the completed value of every newly created task should be set to false
+Requirement #2: Add Read Functionality The Doit app should list all tasks stored in your Firebase database within the #taskList div.</description>
+    </item>
+    
+  </channel>
+</rss>

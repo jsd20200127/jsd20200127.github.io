@@ -196,18 +196,18 @@
 	"content": " JSON.stringify()  When JSON is used to send data from one service to the next \u0026ldquo;over the wire\u0026rdquo; (i.e. via cloud) it is transmitted as a string which makes it lightweight and fast\n JSON.stringify() allows developers to easily transform objects / arrays (or any value) into a JSON string which makes it compatible to be transmitted along with an HTTP Request\n \u0026ldquo;Stringify-ing\u0026rdquo; data is a common step developers take before sending data to another service\n  Example const avengers = { members: [ { name: \u0026#34;Spider-Man\u0026#34;, alias: \u0026#34;Peter Parker\u0026#34; }, { name: \u0026#34;Black Widow\u0026#34;, alias: \u0026#34;Natasha Romanova\u0026#34; } ] } // convert object into a JSON string  const jsonString = JSON.stringify(avengers)) console.log(jsonString) console.log(typeof jsonString); // result: string  JS Bin on jsbin.com\n"
 },
 {
-	"uri": "/18-lab-deployfest/lab-deployfest/",
+	"uri": "/15-final-projects-lab/lab-deployfest/",
 	"title": "Lab: Deployfest",
 	"tags": [],
 	"description": "",
-	"content": " Use class time to deploy and host your final projects using either Github Pages, Surge or Heroku (whichever is most appropriate for your project)\n Project Check-ins with Instructor\n In-class time to work on Final Projects\n  "
+	"content": " Use class time to deploy and host your final projects using Netlify\n Project Check-ins with Instructor\n In-class time to work on Final Projects\n  "
 },
 {
-	"uri": "/19-final-projects-lab/lab-final-projects/",
+	"uri": "/15-final-projects-lab/lab-final-projects/",
 	"title": "Lab: Final Projects",
 	"tags": [],
 	"description": "",
-	"content": " Use class time to work on your finalizing your projects\n Ensure your project is deployed \u0026amp; hosted using either Github Pages, Surge or Heroku\n You should avoid adding new features at this point (Feature freeze)\n  "
+	"content": " Use class time to work on your finalizing your projects  "
 },
 {
 	"uri": "/09-http-and-apis/objectives/",
@@ -245,25 +245,11 @@
 	"content": " Learn how OOP concepts can be applied using JavaScript\n Understand the benefit of OOP\n Understand the benefits of using Classes\n Create Classes with a public and private interface\n Create Classes that inherit properties and methods from another Class\n  "
 },
 {
-	"uri": "/14-oop-order-checkout-app/objectives/",
-	"title": "Objectives",
-	"tags": [],
-	"description": "",
-	"content": " Leverage knowledge of OOP to complete an application that mimics a basic order checkout application  "
-},
-{
-	"uri": "/15-intro-to-crud-and-firebase/objectives/",
+	"uri": "/14-intro-to-crud-and-firebase/objectives/",
 	"title": "Objectives",
 	"tags": [],
 	"description": "",
 	"content": " Explain what CRUD means\n Learn about Firebase and its benefits\n Use Firebase\u0026rsquo;s Firestore database to provide data persistence to a front-end app\n  "
-},
-{
-	"uri": "/16-project-firebase-todo-app/objectives/",
-	"title": "Objectives",
-	"tags": [],
-	"description": "",
-	"content": " Leverage knowledge of Firebase to add persistent data storage to a Todo Application  "
 },
 {
 	"uri": "/10-asynchronous-js-and-promises/async-await/overview/",
@@ -301,7 +287,7 @@
 	"content": " What is Inheritance?  Often we find commonality between our classes — repeated code that we’d like to consolidate\n Subclasses let us incorporate another class’s state and behavior into our own\n This process is often called inheritance, and our subclass is said to “inherit” from a parent class, also called a superclass\n Inheritance can avoid duplication and simplify the implementation of a class that needs the same data and functions as another class\n  Example class Animal { constructor(name, weight) { this._name = name this._weight = weight } eat() { return `${this._name}is eating!` } sleep() { return `${this._name}is going to sleep!` } wakeUp() { return `${this._name}is waking up!` } } class Gorilla extends Animal { constructor(name, weight, height) { super(name, weight) // property not shared with Animal class  this._height = height } get height() { return this._height } climbTrees() { return `${this._name}is climbing trees!` } poundChest() { return `${this._name}is pounding its chest!` } showVigour() { return `${this.eat()}${this.poundChest()}` } dailyRoutine() { return `${this.wakeUp()}${this.poundChest()}${this.eat()}${this.sleep()}` } } const gorilla = new Gorilla(\u0026#39;George\u0026#39;, \u0026#39;160Kg\u0026#39;) console.log(gorilla.eat()) console.log(gorilla.poundChest()) console.log(gorilla.sleep()) console.log(gorilla.height) console.log(gorilla.dailyRoutine())  JS Bin on jsbin.com\n"
 },
 {
-	"uri": "/15-intro-to-crud-and-firebase/firebase/overview/",
+	"uri": "/14-intro-to-crud-and-firebase/firebase/overview/",
 	"title": "Overview",
 	"tags": [],
 	"description": "",
@@ -504,7 +490,7 @@
 	"content": " Array Review  Creating Arrays   Accessing Array Values   Updating Array Values   Adding \u0026amp; Removing Items   length Property   "
 },
 {
-	"uri": "/15-intro-to-crud-and-firebase/firebase/benefits/",
+	"uri": "/14-intro-to-crud-and-firebase/firebase/benefits/",
 	"title": "Benefits",
 	"tags": [],
 	"description": "",
@@ -567,7 +553,7 @@
 	"content": " Creating Promise Objects  To create a new Promise object, we use the new keyword and the Promise constructor method:\nconst executorFunction = (resolve, reject) =\u0026gt; { } const myPromise = new Promise(executorFunction)  The Promise constructor method takes a function parameter called the executor function which runs automatically when the constructor is called\n The executor function generally starts an asynchronous operation and dictates how the promise should be settled\n  We\u0026rsquo;ll talk more about constructor methods in a later lesson\n Executor Function  The executor function has two function parameters:\n resolve(): If invoked, resolve() will change the promise’s status from \u0026ldquo;pending\u0026rdquo; to \u0026ldquo;fulfilled\u0026rdquo;, and the promise’s resolved value will be set to the argument passed into resolve()\n reject(): If invoked, reject() will change the promise’s status from \u0026ldquo;pending\u0026rdquo; to \u0026ldquo;rejected\u0026rdquo;, and the promise’s rejection reason be set to the argument passed into reject()\n  The resolve() and reject() functions aren’t defined by the programmer; when the Promise constructor runs, JavaScript will pass its own resolve() and reject() functions into the executor function\n  Example: Basic structure of an executor function // example below is meant to show structure only, this is not working code  const executorFunction = (resolve, reject) =\u0026gt; { if (someCondition) { resolve(\u0026#39;I resolved!\u0026#39;) } else { reject(\u0026#39;I rejected!\u0026#39;) } } // pass the executor function as a parameter to the Promise constructor  const myPromise = new Promise(executorFunction)  In the example above, myPromise resolves or rejects based on a simple condition, but, in practice, promises settle based on the results of asynchronous operations.; for example an API request to another service may \u0026ldquo;fulfill\u0026rdquo; by returning the desired data or it may \u0026ldquo;reject\u0026rdquo; if an error occurred during the request\n Example: Creating a Promise const inventory = { sunglasses: 202, pants: 421, shirts: 1344 } // Write your code below:  const myExecutor = (resolve, reject) =\u0026gt; { if (inventory.sunglasses \u0026gt; 0) { resolve(\u0026#39;Sunglasses order processed.\u0026#39;) } else { reject(\u0026#39;That item is sold out.\u0026#39;) } } const orderSunglasses = () =\u0026gt; { return new Promise(myExecutor) } const orderPromise = orderSunglasses() // print out the promise object  console.log(orderPromise)   Run the jsbin below and open up chrome developer tools and inspect the promise object that is being printed to the console. Can you identify the current status of the promise?  JS Bin on jsbin.com\nAlternative Syntax The most common syntax for constructing promise involves combining the executor function with the Promise constructor\nconst inventory = { sunglasses: 202, pants: 421, shirts: 1344 } const orderSunglasses = () =\u0026gt; { // Most common syntax for creating promises  return new Promise((resolve, reject) =\u0026gt; { if (inventory.sunglasses \u0026gt; 0) { resolve(\u0026#39;Sunglasses order processed.\u0026#39;) } else { reject(\u0026#39;That item is sold out.\u0026#39;) } }) } const orderPromise = orderSunglasses() // print out the promise object  console.log(orderPromise)  JS Bin on jsbin.com\n"
 },
 {
-	"uri": "/15-intro-to-crud-and-firebase/crud/",
+	"uri": "/14-intro-to-crud-and-firebase/crud/",
 	"title": "CRUD",
 	"tags": [],
 	"description": "",
@@ -679,14 +665,14 @@
 	"content": " Overview You are tasked with building an application that leverages different APIs to display a random SAT word and it\u0026rsquo;s Scrabble score\nInstructions 1) Download starter code\n The starter code for this code along is hosted on Github, see the url below:\n Lab: SAT Vocab Flashcards App  Use the Assignment Submission Git Workflow (detailed here) to access and submit the assignment\n  "
 },
 {
-	"uri": "/14-oop-order-checkout-app/instructions/",
+	"uri": "/13-object-oriented-programming/lab-oop-order-checkout/instructions/",
 	"title": "Instructions",
 	"tags": [],
 	"description": "",
 	"content": " Overview You are tasked with completing an application that mimics a rudimentary ordering system\nInstructions 1) Download starter code\n The starter code for this code along is hosted on Github, see the url below:\n Lab: OOP Order Checkout App  Use the Assignment Submission Git Workflow (detailed here) to access and submit the assignment\n  "
 },
 {
-	"uri": "/16-project-firebase-todo-app/instructions/",
+	"uri": "/14-intro-to-crud-and-firebase/lab-firebase-todo-app/instructions/",
 	"title": "Instructions",
 	"tags": [],
 	"description": "",
@@ -903,7 +889,7 @@
 	"content": " Documentation Since we\u0026rsquo;ll be the APIs of both Slack and OpenWeather, you should have the API docs of both platforms open in your browser so you can quickly reference them when needed:\n Slack API Docs\n OpenWeather API Docs\n  "
 },
 {
-	"uri": "/15-intro-to-crud-and-firebase/firebase/",
+	"uri": "/14-intro-to-crud-and-firebase/firebase/",
 	"title": "Firebase",
 	"tags": [],
 	"description": "",
@@ -938,7 +924,7 @@
 	"content": " JSON  Overview   JSON.stringify()   JSON.parse()   "
 },
 {
-	"uri": "/15-intro-to-crud-and-firebase/firebase/nosql-databases/",
+	"uri": "/14-intro-to-crud-and-firebase/firebase/nosql-databases/",
 	"title": "NoSQL Databases",
 	"tags": [],
 	"description": "",
@@ -973,14 +959,14 @@
 	"content": " Requirements Requirement #1: Make API Request to the SAT Vocabulary API to fetch Random SAT Word When users press the \u0026ldquo;Get New SAT Word\u0026rdquo; button the following should happen:\n The application should make an API request the to the API endpoint below to receive a random SAT vocabulary word:\nGET https://sat-words-api.herokuapp.com/api/v1/words/random  Note: This API does not require an API key\n The application should display both the word and its definition in the UI\n  Requirement #2: Make a 2nd API Request to fetch a Scrabble score for the Random SAT word  After receiving the Random SAT word, make an API request to the endpoint below to get the associated Scrabble Score for the word:\nGET https://scrabble-scorer-api.herokuapp.com/api/v1/words/score?word=add_your_word_here   Note: The request parameter: word is required; this API does not require an API Key\n Display the Scrabble Score in the UI  Requirement #3: API calls must use Promises  Promises must be used to make consume / handle the API responses\n Axios must be used to make the API requests\n Vanilla Promise Syntax or Async/Await can be used\n  "
 },
 {
-	"uri": "/14-oop-order-checkout-app/requirements/",
+	"uri": "/13-object-oriented-programming/lab-oop-order-checkout/requirements/",
 	"title": "Requirements",
 	"tags": [],
 	"description": "",
 	"content": " Requirements Requirement #1: Add OOP Logic For this exercise you will be creating a Checkout class\nIt will have the following properties\u0026hellip;\n items: which should be start out as an empty array\n subtotal: which should start out as 0\n  It should have the following methods\u0026hellip;\n addItem(item):\n accepts an item object as a parameter\n this method adds a new item to the items property (remember this property should be an array)\n Each item object should be structured as follows:\n   { id: 1, name: \u0026#39;something cool\u0026#39;, price: \u0026#39;9.99\u0026#39;, quantity: 1, }   calculateSubtotal():\n calculates and updates the subtotal property based on the items in the order  calculateTax():\n calculates the sales tax based on the tax rate (8.875%) and the current subtotal  calculateTotal():\n calculates the total amount based on the sales tax and the current subtotal  incrementQuantity(itemId):\n accepts an itemId as the parameter\n this method should take the itemId and use it to find the item in the items (array) property that matches itemId; after which, it will increment the quantity of the matched item by 1\n  decrementQuantity(itemId):\n which accepts an itemId as the parameter\n this method should take the itemId and use it to find the item in the items (array) property that matches itemId; after which, it will decrement the quantity of the matched item by 1\n  removeItem(itemId):\n accepts an itemId as the parameter\n this method should take the \u0026lsquo;itemId\u0026rsquo; and use it to find the item in the items (array) property that matches itemId; after which, it will remove the matched item from the items property\n   Tip: Use console.log() as a means of testing to ensure all of your OOP logic works before moving on to Requirement #2\nRequirement #2: Wire up the UI logic Combine the OOP logic from Requirement #1 with the existing UI code to \u0026ldquo;wire up\u0026rdquo; the application (i.e. make the application fully functional).\nThis will require reviewing the existing UI code and understanding how it works.\nAny changes made the UI should also be reflected in your OOP logic. For example, when a users adds a new item from the UI, that new item should be also be \u0026ldquo;added\u0026rdquo; to the instance of the Checkout class via the addItem(item) method\nTip: use the generateRandomId() function to generate a random id when adding a new item from the UI\n"
 },
 {
-	"uri": "/16-project-firebase-todo-app/requirements/",
+	"uri": "/14-intro-to-crud-and-firebase/lab-firebase-todo-app/requirements/",
 	"title": "Requirements",
 	"tags": [],
 	"description": "",
@@ -1106,7 +1092,7 @@
 	"content": " Bracket Notation  Bracket notation is another way to to access a key’s value is by using bracket notation, [ ]\n To use bracket notation to access an object’s property, we pass in the property name (key) as a string\nsuperHero['secret identity']`\n We must use bracket notation when accessing keys that have numbers, spaces, or special characters in them\n Remember, object keys are always strings\n  Example const superHero = { \u0026#39;secret identity\u0026#39;: \u0026#39;Peter Parker\u0026#39;, name: \u0026#39;Spiderman\u0026#39;, powers: [\u0026#39;super strength\u0026#39;, \u0026#39;hyper awareness\u0026#39;, \u0026#39;agility\u0026#39;, \u0026#39;genius intellect\u0026#39;], age: 17 } console.log(superHero[\u0026#34;secret identity\u0026#34;]) console.log(superHero[\u0026#34;name\u0026#34;])  JS Bin on jsbin.com\nUsing variables to access properties  Bracket notation also allows us to use a variable inside the brackets to select the keys of an object  Example const superHero = { \u0026#39;secret identity\u0026#39;: \u0026#39;Peter Parker\u0026#39;, name: \u0026#39;Spiderman\u0026#39;, powers: [\u0026#39;super strength\u0026#39;, \u0026#39;hyper awareness\u0026#39;, \u0026#39;agility\u0026#39;, \u0026#39;genius intellect\u0026#39;], age: 17 } const attribute = \u0026#34;name\u0026#34; // use the \u0026#39;attribute\u0026#39; variable to access a property in superHero const attributeValue = superHero[attribute] console.log(superHero[attribute]) // This is the result of trying the same thing using dot notation console.log(superHero.attribute) // undefined  JS Bin on jsbin.com\n"
 },
 {
-	"uri": "/15-intro-to-crud-and-firebase/code-along-firebase-playlist-app/",
+	"uri": "/14-intro-to-crud-and-firebase/code-along-firebase-playlist-app/",
 	"title": "Code Along: Firebase Playlist App",
 	"tags": [],
 	"description": "",
@@ -1162,7 +1148,7 @@
 	"content": " event.currentTarget  JavaScript property (not specific to jQuery) that identifies the current target for the event\n It always refers to the element to which the event handler has been attached, as opposed\n Similar to $(this), with the added benefit that it works with arrow functions\n When using event.currentTarget in the context of jQuery, it should be wrapped in a jQuery object: $(event.currentTarget)\n  Example $(() =\u0026gt; { $(\u0026#34;#box\u0026#34;).click((event) =\u0026gt; { // use $(event.currentTarget) with with an arrow function  // to reference the element that is being \u0026#34;acted on\u0026#34;  $(event.currentTarget).fadeOut(1000) }) })  JS Bin on jsbin.com\n"
 },
 {
-	"uri": "/15-intro-to-crud-and-firebase/firebase/firestore-database/",
+	"uri": "/14-intro-to-crud-and-firebase/firebase/firestore-database/",
 	"title": "Firestore Database",
 	"tags": [],
 	"description": "",
@@ -1370,6 +1356,13 @@
 	"tags": [],
 	"description": "",
 	"content": " Selecting Elements  A most common usage pattern for jQuery is to:\n Programmatically select (or grab) an element, then\n Add an event listener to it or manipulate (change) it in some way\n  jQuery allows us to use css selectors to select elements:\n// We can use css selectors to programmatically select elements $('p') // Type (Tag) selector $('.feature') // Class selector $('#checkout') // ID selector $('li .active') // Descendant selector $('p, #add-todo') // Multiple selector $('a[target=\u0026quot;_blank\u0026quot;]') // Attribute selector $('p:nth-child(2)') // Pseudo-class selector  ID, Class, Type and Descendant selectors are the selectors we\u0026rsquo;ll be using the most during this course\n  A complete list of CSS Selectors can be found here\n  Dynamically changing your page using JavaScript is commonly referred to as manipulating the DOM  Example #1\nJS Bin on jsbin.com\nIn the example above jQuery is used to listen for a .click() event on the #button element and then execute the callback function when that element is clicked\nInside the callback function, $(\u0026quot;p\u0026quot;) selects the p element and uses the .toggleClass() method to dynamically toggle the class of .red-background\nExample #2\nJS Bin on jsbin.com\nIn the example above jQuery is used to listen for a .click() event on the #mark-complete element and then call the callback function when the element is clicked\nInside the callback function, $(\u0026quot;p.last-of-type\u0026quot;) selects the last p element and uses the .addClass() method to dynamically add a class to the element\n"
+},
+{
+	"uri": "/14-intro-to-crud-and-firebase/lab-firebase-todo-app/",
+	"title": "Lab: Firebase Todo App",
+	"tags": [],
+	"description": "",
+	"content": "  Instructions   Requirements   "
 },
 {
 	"uri": "/command-line-js-and-git/git-vocabulary/merge/",
@@ -1694,6 +1687,13 @@
 	"content": " Summary of this week\u0026rsquo;s homework assignment: Due Date: Friday, March 13th\nComplete Homework #4 - Rock, Paper, Scissors Application  You are tasked with finishing the partially built Rock, Paper, Scissors application. The code is hosted on Github, see the url below:\n Github Repo for Homework #4 - Rock, Paper, Scissors Application  Use the Assignment Submission Git Workflow (detailed here) to access and submit the assignment\n  "
 },
 {
+	"uri": "/13-object-oriented-programming/lab-oop-order-checkout/",
+	"title": "Lab: OOP Order Checkout",
+	"tags": [],
+	"description": "",
+	"content": "  Instructions   Requirements   "
+},
+{
 	"uri": "/10-asynchronous-js-and-promises/promises/",
 	"title": "Promises",
 	"tags": [],
@@ -1925,13 +1925,6 @@
 	"content": " Lesson 10 Asynchronous JS and Promises "
 },
 {
-	"uri": "/17-deploying-and-hosting/code-along-hosting-with-heroku/",
-	"title": "Code Along: Hosting with Heroku",
-	"tags": [],
-	"description": "",
-	"content": ""
-},
-{
 	"uri": "/final-projects/milestones-due-dates/complete-final-project/",
 	"title": "Complete Final Project",
 	"tags": [],
@@ -2100,13 +2093,6 @@
 	"content": " What is Programming?  List of instructions that a computer needs in order to complete a task\n Instructions are provided in a programming language that the computer understands\n These set of instructions are commonly referred as source code or a program\n There are many programming languages available, during this course we will be learning JavaScript\n  "
 },
 {
-	"uri": "/14-oop-order-checkout-app/",
-	"title": "Lab: OOP Order Checkout App",
-	"tags": [],
-	"description": "",
-	"content": " Lesson 14 Lab: Object Oriented Programming Order Checkout App "
-},
-{
 	"uri": "/12-project-build-a-slackbot/tutorial/step-14-handle-errors-gracefully/",
 	"title": "Step 14: Handle Errors Gracefully",
 	"tags": [],
@@ -2128,7 +2114,7 @@
 	"content": " .reduce()  .reduce() is used calculate a single value based on the array\n A reducer function (that you provide) is called on each element of the array and results in a single output value\n Often used to perform a calculation that accepts all the elements of an array (usually numbers) as inputs\n For example: Calculating the sum of all the items in an array  .reduce() accepts the following parameters\n The callback function (also referred to the reducer function in this case) for .reduce() accepts the following parameters:\n accumulator: (required) the accumulated value previously returned in from the last iteration;\n currentValue: (required) current element being processed in the array.\n index: (optional) index of the current element being processed in the array\n array: (optional) the array map was called upon\n  initialValue: (optional) the value to use as the first argument to for the first iteration of reduce(); If no initialValue is supplied, the first element in the array will be used\n  Syntax Using traditional (ES5) function syntax\nconst value = arr.reduce(function(previousValue, item, index, array) { // ... }, [initial]);  Using arrow syntax (ES6)\nconst value = arr.reduce((previousValue, item, index, array) =\u0026gt; { // ... }, [initial]);  Example  Example where no initialValue is supplied  const numbers = [1, 2, 3, 4, 5] const result = numbers.reduce((sum, currentNumber) =\u0026gt; { return sum + currentNumber }) console.log(result) // 15  JS Bin on jsbin.com\n Example where we set the initialValue to 10  const numbers = [1, 2, 3, 4, 5] const result = numbers.reduce((sum, currentNumber) =\u0026gt; { return sum + currentNumber }, 10) console.log(result) // 25  JS Bin on jsbin.com\nExercise Use .reduce() to calculate the sum of the numbers found in the amounts array; Save the result in a variable declared with const called total\nJS Bin on jsbin.com\n"
 },
 {
-	"uri": "/15-intro-to-crud-and-firebase/",
+	"uri": "/14-intro-to-crud-and-firebase/",
 	"title": "Intro to CRUD and Firebase",
 	"tags": [],
 	"description": "",
@@ -2161,20 +2147,6 @@
 	"tags": [],
 	"description": "",
 	"content": " What is JavaScript?  programming language created in 1995 by Netscape (now Mozilla)\n It was created in 10 days\n Not the same as Java\n  What does JavaScript do?  Adds interactivity to your websites\n Makes web based software feel more like desktop software\n Can be used to save data to a database or to create desktop applications\n Improves overall user experience of web-based applications\n  Advantages of JavaScript  JavaScript is the only programming language that all web browsers understand\n JavaScript is a programming language that is essential for web development\n JavaScript can be run in the browser (i.e. front-end) and on the server (i.e. backend through the use of Node.js)\n  This makes JavaScript the only programming language that is truly \u0026ldquo;full-stack\u0026rdquo; (i.e. supports both front-end and backend development)\n Documentation  Best resource of JavaScript documentation on the web can be found here: Mozilla Development Network - JavaScript Documentation  "
-},
-{
-	"uri": "/16-project-firebase-todo-app/",
-	"title": "Project: Firebase Todo App",
-	"tags": [],
-	"description": "",
-	"content": " Lesson 16 Project: Firebase Todo App "
-},
-{
-	"uri": "/17-deploying-and-hosting/",
-	"title": "Deploying and Hosting",
-	"tags": [],
-	"description": "",
-	"content": " Lesson 18 Deploying and Hosting "
 },
 {
 	"uri": "/06-dom-and-jquery/jquery-traversing/",
@@ -2212,13 +2184,6 @@
 	"content": " Coding Challenge Sites The following a list of sites that offer coding challenges (i.e. exercises) that will help you sharpen you programming skills:\n Coderbyte | Coding Assessment Platform\n Codewars | Train with Programming Challenges/Kata \n CodinGames | Coding Games and Programming Challenges to Code Better\n Exercism\n HackerRank\n  "
 },
 {
-	"uri": "/18-lab-deployfest/",
-	"title": "Lab: Deployfest",
-	"tags": [],
-	"description": "",
-	"content": " Lesson 18 Lab: Deployfest "
-},
-{
 	"uri": "/01-course-intro-and-tools/class-exercise-smart-thermostat-pseudocode/",
 	"title": "Class Exercise - Smart Thermostat Pseudocode",
 	"tags": [],
@@ -2233,7 +2198,7 @@
 	"content": " CORS  CORS is the policy that defines this, an acronym that stands for \u0026ldquo;Cross-Origin Resource Sharing\u0026rdquo;\n You cannot normally make an AJAX request (i.e. JavaScript initiated requests) across different domains\n Some domains don\u0026rsquo;t allow you to ping them from other domains and some do\n  Click here for more information about CORS\n "
 },
 {
-	"uri": "/19-final-projects-lab/",
+	"uri": "/15-final-projects-lab/",
 	"title": "Final Projects Lab",
 	"tags": [],
 	"description": "",
@@ -2247,7 +2212,7 @@
 	"content": " Common Final Project Tasks Use the following list to help you get started when deciding on how to break of your final project into actionable steps / tasks\nThese are the most common tasks that I\u0026rsquo;ve found are applicable to \u0026ldquo;most\u0026rdquo; student projects. You should add additional project tasks that are specific to your particular project.\n   Task Description / Notes     Translate wireframes into HTML / CSS Use your wireframes as a guide to create html and css for your final project, this should be one of the first tasks you complete as html and css can be time consuming   Research viable APIs If you plan on using an API, you need to read the API documentation and ensure it provides that data needed for your project   Test API to confirm data can successfully be retrieved Once you\u0026rsquo;ve selected an API, use Insomnia or make an sample API request from your code to ensure you can successfully fetch data from the API; this should be done as soon as possible   Set up Final project repo and confirm that I can commit without any issues You should be committing your code early and often, ensure that you can commit and push changes to Github using git add . \u0026amp; git commit -m [add commit message] \u0026amp; git push origin master without any issues   Choose most appropriate hosting option (Github Pages, Heroku or Surge) for my final project We will be going over hosting and deploying in a later lesson; you\u0026rsquo;ll have a better idea of which option is most appropriate for your final project then   Successfully deploy and host final project IMPORTANT: your project does not need to be finished in order for it to be deployed - this step should be done before the project is complete to address any issues as early as possible   Create sample test data If your project requires test data, you should create that data (most likely as a JS objects)    "
 },
 {
-	"uri": "/20-final-project-presentations/",
+	"uri": "/16-final-project-presentations/",
 	"title": "Final Project Presentations",
 	"tags": [],
 	"description": "",
