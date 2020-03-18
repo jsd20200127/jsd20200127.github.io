@@ -384,25 +384,25 @@ List Of Commonly Used APIs Here is a short list of commonly used APIs for testin
     
     <item>
       <title>Objectives</title>
-      <link>/12-project-build-a-slackbot/objectives/</link>
+      <link>/12-object-oriented-programming/objectives/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/12-project-build-a-slackbot/objectives/</guid>
-      <description> Leverage Slack&amp;rsquo;s API and OpenWeather&amp;rsquo;s API to build a slackbot that delivers a city&amp;rsquo;s current weather directly in Slack  </description>
-    </item>
-    
-    <item>
-      <title>Objectives</title>
-      <link>/13-object-oriented-programming/objectives/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/13-object-oriented-programming/objectives/</guid>
+      <guid>/12-object-oriented-programming/objectives/</guid>
       <description> Learn how OOP concepts can be applied using JavaScript
  Understand the benefit of OOP
  Understand the benefits of using Classes
  Create Classes with a public and private interface
  Create Classes that inherit properties and methods from another Class
   </description>
+    </item>
+    
+    <item>
+      <title>Objectives</title>
+      <link>/13-project-build-a-slackbot/objectives/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/13-project-build-a-slackbot/objectives/</guid>
+      <description> Leverage Slack&amp;rsquo;s API and OpenWeather&amp;rsquo;s API to build a slackbot that delivers a city&amp;rsquo;s current weather directly in Slack  </description>
     </item>
     
     <item>
@@ -444,10 +444,10 @@ List Of Commonly Used APIs Here is a short list of commonly used APIs for testin
     
     <item>
       <title>Overview</title>
-      <link>/13-object-oriented-programming/classes/methods/overview/</link>
+      <link>/12-object-oriented-programming/classes/methods/overview/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/13-object-oriented-programming/classes/methods/overview/</guid>
+      <guid>/12-object-oriented-programming/classes/methods/overview/</guid>
       <description>Methods  Methods in a Class function very similar to a method of an regular JavasScript object
  Let&amp;rsquo;s recap, an method in an object is a property that has a function as a value, for example:
   const superHero = { secretIdentity: &amp;#39;Peter Parker&amp;#39;, name: &amp;#39;Spiderman&amp;#39;, sayTagline: function() { // &amp;lt;- method  console.log(&amp;#34;Hey everyone it&amp;#39;s your friendly neighborhood Spiderman&amp;#34;) } }   If we were to rewrite this object as a Class, it may look something like this:  class superHero { constructor(secretIdentity, name) { this.</description>
@@ -455,10 +455,10 @@ List Of Commonly Used APIs Here is a short list of commonly used APIs for testin
     
     <item>
       <title>Overview</title>
-      <link>/13-object-oriented-programming/classes/overview/</link>
+      <link>/12-object-oriented-programming/classes/overview/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/13-object-oriented-programming/classes/overview/</guid>
+      <guid>/12-object-oriented-programming/classes/overview/</guid>
       <description>What are Classes?  As we have discussed earlier in the course, in JavaScript, objects are oftentimes used to represent (or model) real world items
  Here&amp;rsquo;s an example of using an object to represent a car:
   const myCar = { make: &amp;#39;Honda&amp;#39;, model: &amp;#39;Accord&amp;#39;, color: &amp;#39;blue&amp;#39;, year: 2015 } console.log(myHonda.make) console.log(myHonda.model) console.log(myHonda.color) // change color  myHonda.color = `blue` console.log(myHonda.color)   In practice, we often need to create many objects of the same kind, like cars, or users or whatever</description>
@@ -466,10 +466,10 @@ List Of Commonly Used APIs Here is a short list of commonly used APIs for testin
     
     <item>
       <title>Overview</title>
-      <link>/13-object-oriented-programming/inheritance/overview/</link>
+      <link>/12-object-oriented-programming/inheritance/overview/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/13-object-oriented-programming/inheritance/overview/</guid>
+      <guid>/12-object-oriented-programming/inheritance/overview/</guid>
       <description>What is Inheritance?  Often we find commonality between our classes — repeated code that we’d like to consolidate
  Subclasses let us incorporate another class’s state and behavior into our own
  This process is often called inheritance, and our subclass is said to “inherit” from a parent class, also called a superclass
@@ -537,10 +537,10 @@ List Of Commonly Used APIs Here is a short list of commonly used APIs for testin
     
     <item>
       <title>Step 1: Create New Slack Workspace</title>
-      <link>/12-project-build-a-slackbot/tutorial/step-1-new-slack-workspace/</link>
+      <link>/13-project-build-a-slackbot/tutorial/step-1-new-slack-workspace/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/12-project-build-a-slackbot/tutorial/step-1-new-slack-workspace/</guid>
+      <guid>/13-project-build-a-slackbot/tutorial/step-1-new-slack-workspace/</guid>
       <description>Step 1: Create New Slack Workspace We&amp;rsquo;re going to need a Slack workspace to test our bot. Click on the link below and follow the instructions to create a new Slack workspace
 Create a new workspace</description>
     </item>
@@ -821,10 +821,10 @@ We&amp;rsquo;ll discuss currentTarget and the .find() method later in the course
     
     <item>
       <title>Constructor</title>
-      <link>/13-object-oriented-programming/classes/constructor/</link>
+      <link>/12-object-oriented-programming/classes/constructor/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/13-object-oriented-programming/classes/constructor/</guid>
+      <guid>/12-object-oriented-programming/classes/constructor/</guid>
       <description>Constructor  JavaScript calls the constructor() method every time it creates a new instance of a class (using the new keyword)  // define Car class  class Car { constructor(make, model) { this._make = make this._model = model } }   Car is the name of our class; by convention, we capitalize and CamelCase class names
  JavaScript will invoke the constructor() method every time we create a new instance of our Car class</description>
     </item>
@@ -926,10 +926,10 @@ const executorFunction = (resolve, reject) =&amp;gt; { } const myPromise = new P
     
     <item>
       <title>Getters &amp; Setters</title>
-      <link>/13-object-oriented-programming/classes/methods/getters-and-setters/</link>
+      <link>/12-object-oriented-programming/classes/methods/getters-and-setters/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/13-object-oriented-programming/classes/methods/getters-and-setters/</guid>
+      <guid>/12-object-oriented-programming/classes/methods/getters-and-setters/</guid>
       <description>Getters &amp;amp; Setters  Getters and Setters allow developers to write methods that enable reading (get) and the writing (set) of properties of the instances (objects)
  Getters and setters is a common pattern used in object oriented programming; ES6 classes introduced a new syntax for getters and setters on object properties
   class Car { constructor(make, model) { this._make = make this._model = model } get make() { return this.</description>
@@ -980,10 +980,10 @@ Instructions 1) Download starter code
     
     <item>
       <title>Instructions</title>
-      <link>/13-object-oriented-programming/lab-oop-order-checkout/instructions/</link>
+      <link>/12-object-oriented-programming/lab-oop-order-checkout/instructions/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/13-object-oriented-programming/lab-oop-order-checkout/instructions/</guid>
+      <guid>/12-object-oriented-programming/lab-oop-order-checkout/instructions/</guid>
       <description> Overview You are tasked with completing an application that mimics a rudimentary ordering system
 Instructions 1) Download starter code
  The starter code for this code along is hosted on Github, see the url below:
@@ -1081,10 +1081,10 @@ Converting Strings to Numbers  Sometimes you will find yourself in a position wh
     
     <item>
       <title>Project Overview</title>
-      <link>/12-project-build-a-slackbot/project-overview/</link>
+      <link>/13-project-build-a-slackbot/project-overview/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/12-project-build-a-slackbot/project-overview/</guid>
+      <guid>/13-project-build-a-slackbot/project-overview/</guid>
       <description>Project Overview OpenWeatherBot: We will be building a slackbot that allows users to get information about a city&amp;rsquo;s current weather directly in Slack.
 Here&amp;rsquo;s a diagram that provides a high-level view of how our slackbot will work:</description>
     </item>
@@ -1100,10 +1100,10 @@ Here&amp;rsquo;s a diagram that provides a high-level view of how our slackbot w
     
     <item>
       <title>Step 2: Create New Slack App</title>
-      <link>/12-project-build-a-slackbot/tutorial/step-2-create-new-slack-app/</link>
+      <link>/13-project-build-a-slackbot/tutorial/step-2-create-new-slack-app/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/12-project-build-a-slackbot/tutorial/step-2-create-new-slack-app/</guid>
+      <guid>/13-project-build-a-slackbot/tutorial/step-2-create-new-slack-app/</guid>
       <description> Step 2: Create New Slack App Slack bots are packaged as Slack apps. Slack apps allow you to add more functionality into your Slack workspace
  To create your new Slack app, go to this page: https://api.slack.com/apps?new_app=1 and set your app name to OpenWeatherBot.
  Set the &amp;ldquo;Development Slack Workspace&amp;rdquo; to the new workspace you created in Step 1.
@@ -1125,10 +1125,10 @@ Here&amp;rsquo;s a diagram that provides a high-level view of how our slackbot w
     
     <item>
       <title>Super &amp; Extends</title>
-      <link>/13-object-oriented-programming/inheritance/super-and-extends/</link>
+      <link>/12-object-oriented-programming/inheritance/super-and-extends/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/13-object-oriented-programming/inheritance/super-and-extends/</guid>
+      <guid>/12-object-oriented-programming/inheritance/super-and-extends/</guid>
       <description>Super &amp;amp; Extends  super keyword is used to access and call functions on an object&amp;rsquo;s parent
  The extends keyword is used in a Class to create a class which is a child of another class
  super and extends are used together to create parent-child relationships between Classes
@@ -1169,10 +1169,10 @@ API Endpoints:    Endpoint Description     GET /colors retrieve list of colors  
     
     <item>
       <title>Encapsulation</title>
-      <link>/13-object-oriented-programming/classes/encapsulation/</link>
+      <link>/12-object-oriented-programming/classes/encapsulation/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/13-object-oriented-programming/classes/encapsulation/</guid>
+      <guid>/12-object-oriented-programming/classes/encapsulation/</guid>
       <description>What is Encapsulation?  A core concept in OOP
  Refers to enclosing all the functionality of an object within that object so that the object’s internal workings (its methods and properties) are hidden from the rest of the application
  This allows us to only we only expose data and functionality that is needed to accomplish such a task and nothing else; this makes your code less prone to errors</description>
@@ -1259,10 +1259,10 @@ API Endpoints:    Endpoint Description     GET /colors retrieve list of colors  
     
     <item>
       <title>Documentation</title>
-      <link>/12-project-build-a-slackbot/documentaton/</link>
+      <link>/13-project-build-a-slackbot/documentaton/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/12-project-build-a-slackbot/documentaton/</guid>
+      <guid>/13-project-build-a-slackbot/documentaton/</guid>
       <description> Documentation Since we&amp;rsquo;ll be the APIs of both Slack and OpenWeather, you should have the API docs of both platforms open in your browser so you can quickly reference them when needed:
  Slack API Docs
  OpenWeather API Docs
@@ -1271,10 +1271,10 @@ API Endpoints:    Endpoint Description     GET /colors retrieve list of colors  
     
     <item>
       <title>General Methods</title>
-      <link>/13-object-oriented-programming/classes/methods/general-methods/</link>
+      <link>/12-object-oriented-programming/classes/methods/general-methods/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/13-object-oriented-programming/classes/methods/general-methods/</guid>
+      <guid>/12-object-oriented-programming/classes/methods/general-methods/</guid>
       <description>General Methods  You can specify &amp;ldquo;regular&amp;rdquo; methods that allow you do things other than simply getting and setting the property values  Example class Car { constructor(make, model) { this._make = make this._model = model this._miles = 30 } get make() { return this._make } get model() { return this._model } get miles() { return this._miles } set model(newModel) { this._model = newModel } drive(newMiles) { console.log(`driving ${newMiles}miles`) this.</description>
     </item>
     
@@ -1290,10 +1290,10 @@ API Endpoints:    Endpoint Description     GET /colors retrieve list of colors  
     
     <item>
       <title>Instances</title>
-      <link>/13-object-oriented-programming/classes/instances/</link>
+      <link>/12-object-oriented-programming/classes/instances/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/13-object-oriented-programming/classes/instances/</guid>
+      <guid>/12-object-oriented-programming/classes/instances/</guid>
       <description>Instances  An instance is an object that contains the property names and methods of a class, but with unique property values (i.e. instances of a Class have their own unique identities)  Example - Creating Instances // define Car class  class Car { constructor(make, model) { this._make = make this._model = model } } // create a new instance of the Car class  // and store it in a variable named myTesla  const myTesla = new Car(&amp;#34;Tesla&amp;#34;, &amp;#34;Model 3&amp;#34;) console.</description>
     </item>
     
@@ -1355,10 +1355,10 @@ GET https://sat-words-api.herokuapp.com/api/v1/words/random  Note: This API does
     
     <item>
       <title>Requirements</title>
-      <link>/13-object-oriented-programming/lab-oop-order-checkout/requirements/</link>
+      <link>/12-object-oriented-programming/lab-oop-order-checkout/requirements/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/13-object-oriented-programming/lab-oop-order-checkout/requirements/</guid>
+      <guid>/12-object-oriented-programming/lab-oop-order-checkout/requirements/</guid>
       <description>Requirements Requirement #1: Add OOP Logic For this exercise you will be creating a Checkout class
 It will have the following properties&amp;hellip;
  items: which should be start out as an empty array
@@ -1381,10 +1381,10 @@ Requirement #2: Add Read Functionality The Doit app should list all tasks stored
     
     <item>
       <title>Step 3: Set Up Node Application</title>
-      <link>/12-project-build-a-slackbot/tutorial/step-3-set-up-node-application/</link>
+      <link>/13-project-build-a-slackbot/tutorial/step-3-set-up-node-application/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/12-project-build-a-slackbot/tutorial/step-3-set-up-node-application/</guid>
+      <guid>/13-project-build-a-slackbot/tutorial/step-3-set-up-node-application/</guid>
       <description>Step 3: Set up Node Application In this step we&amp;rsquo;re going to create a node application that will function as our server
 1. Create project folder  Navigate to the appropriate lesson_0x_file in your class folder
  Create a new folder named openweather-bot
@@ -1764,10 +1764,10 @@ Atom Editor v1.</description>
     
     <item>
       <title>Static Methods</title>
-      <link>/13-object-oriented-programming/classes/methods/static-methods/</link>
+      <link>/12-object-oriented-programming/classes/methods/static-methods/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/13-object-oriented-programming/classes/methods/static-methods/</guid>
+      <guid>/12-object-oriented-programming/classes/methods/static-methods/</guid>
       <description>Static Methods  Static method calls are made directly on the class and are not callable on instances of the class
  Static methods are prepended with the static keyword
   class Car { constructor(make, model, price) { this._make = make this._model = model this._price = price } // instance methods  get price() { return this._price } drive() { console.log(&amp;#39;calling &amp;#34;this&amp;#34; in an instance method&amp;#39;, this) console.log(`driving ${this.</description>
@@ -1775,10 +1775,10 @@ Atom Editor v1.</description>
     
     <item>
       <title>Step 4: Run ngrok</title>
-      <link>/12-project-build-a-slackbot/tutorial/step-4-run-ngrok/</link>
+      <link>/13-project-build-a-slackbot/tutorial/step-4-run-ngrok/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/12-project-build-a-slackbot/tutorial/step-4-run-ngrok/</guid>
+      <guid>/13-project-build-a-slackbot/tutorial/step-4-run-ngrok/</guid>
       <description>Run ngrok  Next we need to give our local server access to the internet so our slack app can communicate with it
  ngrok is a tool that allows developers to create &amp;ldquo;tunnels&amp;rdquo; that connect the server running locally (i.e. on your computer) to the internet
   1. Run ngrok command from within project folder  In a new command line tab run the following command (make sure you run this within the project folder)</description>
@@ -1913,10 +1913,10 @@ An easy approach to fixing this issue is to do the following:
     
     <item>
       <title>Step 5: Create a test Slash command</title>
-      <link>/12-project-build-a-slackbot/tutorial/step-5-create-a-test-slash-command/</link>
+      <link>/13-project-build-a-slackbot/tutorial/step-5-create-a-test-slash-command/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/12-project-build-a-slackbot/tutorial/step-5-create-a-test-slash-command/</guid>
+      <guid>/13-project-build-a-slackbot/tutorial/step-5-create-a-test-slash-command/</guid>
       <description> Step 5: Create a test Slash command 1. Go to your Slack developer page  Go to https://api.slack.com/apps and select your OpenWeatherBot app  2. Create a new slash command for OpenWeatherBot  Click on Slack Commands in the left side panel and then press the button labeled Create New Command
  Next fill out the form with the following information and press the &amp;ldquo;Save&amp;rdquo; button:
  Command: test Request URL: [YOUR NGROK HTTPS URL]/test Short Description: Test command Usage Hint: [name]   We are creating a slash command called test, when initiated in Slack, this command will make a POST request to our server using the ngrok https url for our app (remember the ngrok url is unique to your server)   </description>
@@ -2041,10 +2041,10 @@ An easy approach to fixing this issue is to do the following:
     
     <item>
       <title>Code Along: Bank ATM</title>
-      <link>/13-object-oriented-programming/code-along-bank-atm/</link>
+      <link>/12-object-oriented-programming/code-along-bank-atm/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/13-object-oriented-programming/code-along-bank-atm/</guid>
+      <guid>/12-object-oriented-programming/code-along-bank-atm/</guid>
       <description> Code Along: Bank ATM We&amp;rsquo;re going to use Classes to complete an application that simulates basic functionality of an ATM
 Get the starter code  The starter code for this lab is hosted on Github, see the url below:
  Code Along: Bank ATM  Use the Assignment Submission Git Workflow (detailed here) to access and submit the assignment
@@ -2218,10 +2218,10 @@ Complete Homework #3 - Iterators  You are tasked with completing the problem set
     
     <item>
       <title>Step 6: Install App to Workspace</title>
-      <link>/12-project-build-a-slackbot/tutorial/step-6-install-app-to-workspace/</link>
+      <link>/13-project-build-a-slackbot/tutorial/step-6-install-app-to-workspace/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/12-project-build-a-slackbot/tutorial/step-6-install-app-to-workspace/</guid>
+      <guid>/13-project-build-a-slackbot/tutorial/step-6-install-app-to-workspace/</guid>
       <description>Step 6: Install App to your Workspace 1. Go to your Slack developer page  Go to https://api.slack.com/apps and select your OpenWeatherBot app  2. Install App to your workspace  Click on OAuth &amp;amp; Permissions in the left side panel and then press the button labeled Install App to Workspace
  Confirm that your newly created workspace (from Step 1) is listed and press &amp;ldquo;Allow&amp;rdquo;
   3. Confirm that your slash command is available in your workspace  Navigate to your slack workspace via the web: https://slack.</description>
@@ -2351,10 +2351,10 @@ Complete Homework #4 - Rock, Paper, Scissors Application  You are tasked with fi
     
     <item>
       <title>Step 7: Responding to Slash Commands</title>
-      <link>/12-project-build-a-slackbot/tutorial/step-7-responding-to-slash-commands/</link>
+      <link>/13-project-build-a-slackbot/tutorial/step-7-responding-to-slash-commands/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/12-project-build-a-slackbot/tutorial/step-7-responding-to-slash-commands/</guid>
+      <guid>/13-project-build-a-slackbot/tutorial/step-7-responding-to-slash-commands/</guid>
       <description>Step 7: Responding to Slash Commands Next we&amp;rsquo;ll set up our server to respond to the Slash command, here&amp;rsquo;s how Slack describes the process in their documentation:
  When a slash command is invoked, Slack sends an HTTP POST to the Request URL you specified above. This request contains a data payload describing the source command and who invoked it, like a really detailed knock at the door.
  We are going to have our server send back an immediate response the process is detailed here</description>
@@ -2560,10 +2560,10 @@ Complete Homework #5 - Weather App using OpenWeather API  You are tasked with le
     
     <item>
       <title>Step 8: Test your Slash Command</title>
-      <link>/12-project-build-a-slackbot/tutorial/step-8-test-your-slash-command/</link>
+      <link>/13-project-build-a-slackbot/tutorial/step-8-test-your-slash-command/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/12-project-build-a-slackbot/tutorial/step-8-test-your-slash-command/</guid>
+      <guid>/13-project-build-a-slackbot/tutorial/step-8-test-your-slash-command/</guid>
       <description> Step 8: Test your Slash Command Now we&amp;rsquo;ll test our Slash command to see if our Server is able to successfully return a response
 1. Navigate back to your workspace  Navigate to your slack workspace via the web: https://slack.com/signin
  Select your testing workspace from Step 1
@@ -2573,10 +2573,10 @@ Complete Homework #5 - Weather App using OpenWeather API  You are tasked with le
     
     <item>
       <title>Step 9: Access Slash Command Parameters</title>
-      <link>/12-project-build-a-slackbot/tutorial/step-9-access-slash-command-parameters/</link>
+      <link>/13-project-build-a-slackbot/tutorial/step-9-access-slash-command-parameters/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/12-project-build-a-slackbot/tutorial/step-9-access-slash-command-parameters/</guid>
+      <guid>/13-project-build-a-slackbot/tutorial/step-9-access-slash-command-parameters/</guid>
       <description>Step 9: Access Slash Command Parameters Next we will take a look at the information that Slack sends us when we receive a request from a Slash command
 1. Update the app.post(/test..) function in index.js  Inside the our app.post(/test) function, change the console.log(req) to console.log(req.body)  app.post(&amp;#39;/test&amp;#39;, async (req, res) =&amp;gt; { try { console.log(req.body) // &amp;lt;-- update this line  const data = { &amp;#39;response_type&amp;#39;: &amp;#39;in_channel&amp;#39;, &amp;#39;text&amp;#39;: &amp;#39;Testing testing 123!</description>
     </item>
@@ -2605,10 +2605,10 @@ let yearOfBirth = 2001 if (yearOfBirth &amp;lt;= 2002) { console.</description>
     
     <item>
       <title>Step 10: Create Weather Slash Command</title>
-      <link>/12-project-build-a-slackbot/tutorial/step-10-create-weather-slash-command/</link>
+      <link>/13-project-build-a-slackbot/tutorial/step-10-create-weather-slash-command/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/12-project-build-a-slackbot/tutorial/step-10-create-weather-slash-command/</guid>
+      <guid>/13-project-build-a-slackbot/tutorial/step-10-create-weather-slash-command/</guid>
       <description>Step 10: Create a Weather Slash command 1. Go to your Slack developer page  Go to https://api.slack.com/apps and select your OpenWeatherBot app  2. Create a /weather slash command for OpenWeatherBot  Click on Slack Commands in the left side panel and then press the button labeled Create New Command
  Next fill out the form with the following information and press the &amp;ldquo;Save&amp;rdquo; button:
  Command: weather Request URL: [YOUR NGROK HTTPS URL]/weather Short Description: Get the current weather of a U.</description>
@@ -2677,10 +2677,10 @@ let yearOfBirth = 2001 if (yearOfBirth &amp;lt;= 2002) { console.</description>
     
     <item>
       <title>Step 11: Make API Request to OpenWeather</title>
-      <link>/12-project-build-a-slackbot/tutorial/step-11-make-api-request-to-openweather/</link>
+      <link>/13-project-build-a-slackbot/tutorial/step-11-make-api-request-to-openweather/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/12-project-build-a-slackbot/tutorial/step-11-make-api-request-to-openweather/</guid>
+      <guid>/13-project-build-a-slackbot/tutorial/step-11-make-api-request-to-openweather/</guid>
       <description>Step 11: Make API Request to OpenWeather Now it&amp;rsquo;s time to make an API request from our server to OpenWeather
 1. Add the following code to the bottom of index.js  Add the following code to the bottom of index.js and replace [YOUR_OPENWEATHER_API_KEY] with your api key from OpenWeather  async function openWeatherApi (query) { try { const url = &amp;#39;https://api.openweathermap.org/data/2.5/weather&amp;#39; const apiKey = &amp;#39;[YOUR_OPENWEATHER_API_KEY]&amp;#39; // make api request using axios  const response = await axios.</description>
     </item>
@@ -2751,10 +2751,10 @@ let yearOfBirth = 2001 if (yearOfBirth &amp;lt;= 2002) { console.</description>
     
     <item>
       <title>Step 12: Respond to Slack with Current Weather</title>
-      <link>/12-project-build-a-slackbot/tutorial/step-12-respond-to-slack-with-current-weather/</link>
+      <link>/13-project-build-a-slackbot/tutorial/step-12-respond-to-slack-with-current-weather/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/12-project-build-a-slackbot/tutorial/step-12-respond-to-slack-with-current-weather/</guid>
+      <guid>/13-project-build-a-slackbot/tutorial/step-12-respond-to-slack-with-current-weather/</guid>
       <description>Step 12: Respond to Slack with Current Weather Now that we&amp;rsquo;ve confirmed that we can make an successful API call to OpenWeather, we need to send weather data back to Slack
 According to Slack&amp;rsquo;s API documentation, if we are going to make an API call on our server as a result of slash command then we should send data back to Slack as a &amp;ldquo;delayed response&amp;rdquo; (see docs)
 In order to send a delayed response to Slack we need to make a POST request back to Slack using the response_url that is sent with the initial request associated with the slash command (in req.</description>
@@ -2810,10 +2810,10 @@ In order to send a delayed response to Slack we need to make a POST request back
     
     <item>
       <title>Step 13: Use Environment Variables to Protect Secure Credentials</title>
-      <link>/12-project-build-a-slackbot/tutorial/step-13-use-environment-variables-to-protect-secure-credentials/</link>
+      <link>/13-project-build-a-slackbot/tutorial/step-13-use-environment-variables-to-protect-secure-credentials/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/12-project-build-a-slackbot/tutorial/step-13-use-environment-variables-to-protect-secure-credentials/</guid>
+      <guid>/13-project-build-a-slackbot/tutorial/step-13-use-environment-variables-to-protect-secure-credentials/</guid>
       <description>Step 13: Use Environment Variables to Protect Secure Credentials In our openWeatherApi() function we&amp;rsquo;ve hard coded our API key from OpenWeather. While this works, it is not a best practice because if we were to push our code to Github then anyone who had access to the code would be able to see and potential use our API key. This introduces security risk and can lead to some serious consequences in a real-world application.</description>
     </item>
     
@@ -2832,10 +2832,10 @@ In order to send a delayed response to Slack we need to make a POST request back
     
     <item>
       <title>Step 14: Handle Errors Gracefully</title>
-      <link>/12-project-build-a-slackbot/tutorial/step-14-handle-errors-gracefully/</link>
+      <link>/13-project-build-a-slackbot/tutorial/step-14-handle-errors-gracefully/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/12-project-build-a-slackbot/tutorial/step-14-handle-errors-gracefully/</guid>
+      <guid>/13-project-build-a-slackbot/tutorial/step-14-handle-errors-gracefully/</guid>
       <description>Step 14: Handle Errors Gracefully If you try the pass an invalid city name to your /weather slash command, we&amp;rsquo;ll receive the following error in our server log:
 This is happening because we aren&amp;rsquo;t appropriately handling errors. In an ideal scenario, if a user was to pass an invalid city name to the /weather slash command our server should respond back a message informing users of the error
 1. Update openWeatherApi() in index.</description>
@@ -2877,10 +2877,10 @@ This is happening because we aren&amp;rsquo;t appropriately handling errors. In 
     
     <item>
       <title>Step 15: Enhance Weather Response with Emojis</title>
-      <link>/12-project-build-a-slackbot/tutorial/step-15-enhance-weather-response-with-emojis/</link>
+      <link>/13-project-build-a-slackbot/tutorial/step-15-enhance-weather-response-with-emojis/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/12-project-build-a-slackbot/tutorial/step-15-enhance-weather-response-with-emojis/</guid>
+      <guid>/13-project-build-a-slackbot/tutorial/step-15-enhance-weather-response-with-emojis/</guid>
       <description>Step 15: Enhance Weather Response with Emojis As a final touch, let&amp;rsquo;s spruce up our forecasts with emojis. Slack has native support for emojies using codes such as 👍
 OpenWeather&amp;rsquo;s API provides &amp;ldquo;weather codes&amp;rdquo; that it uses to categorize the different types of weather conditions (see docs). For example, rain falls under codes in the 500&amp;rsquo;s (5xx) and snow falls under codes in the 600&amp;rsquo;s (6xx).
 Let&amp;rsquo;s map some emojis to the weather codes we receive from OpenWeather to help make our OpenWeatherBot even more informative.</description>

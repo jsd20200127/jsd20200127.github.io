@@ -231,18 +231,18 @@
 	"content": " Leverage knowledge of Promises to build an application that makes asynchronous requests to multiple APIs  "
 },
 {
-	"uri": "/12-project-build-a-slackbot/objectives/",
-	"title": "Objectives",
-	"tags": [],
-	"description": "",
-	"content": " Leverage Slack\u0026rsquo;s API and OpenWeather\u0026rsquo;s API to build a slackbot that delivers a city\u0026rsquo;s current weather directly in Slack  "
-},
-{
-	"uri": "/13-object-oriented-programming/objectives/",
+	"uri": "/12-object-oriented-programming/objectives/",
 	"title": "Objectives",
 	"tags": [],
 	"description": "",
 	"content": " Learn how OOP concepts can be applied using JavaScript\n Understand the benefit of OOP\n Understand the benefits of using Classes\n Create Classes with a public and private interface\n Create Classes that inherit properties and methods from another Class\n  "
+},
+{
+	"uri": "/13-project-build-a-slackbot/objectives/",
+	"title": "Objectives",
+	"tags": [],
+	"description": "",
+	"content": " Leverage Slack\u0026rsquo;s API and OpenWeather\u0026rsquo;s API to build a slackbot that delivers a city\u0026rsquo;s current weather directly in Slack  "
 },
 {
 	"uri": "/14-intro-to-crud-and-firebase/objectives/",
@@ -266,21 +266,21 @@
 	"content": " What are Promises?  Promises are objects that represent the eventual outcome of an asynchronous operation\n A Promise object can be in one of three states:\n Pending: The initial state the operation has not completed yet\n Fulfilled: The operation has completed successfully and the promise now has a resolved value; for example, a request’s promise might resolve with a JSON object as its value.\n Rejected: The operation has failed and the promise has a reason for the failure; This reason is usually an Error of some kind.\n   Dishwasher Analogy  We refer to a promise as settled if it is no longer pending— it is either fulfilled or rejected\n Let’s think of a dishwasher as having the states of a promise:\n Pending: The dishwasher is running but has not completed the washing cycle.\n Fulfilled: The dishwasher has completed the washing cycle and is full of clean dishes.\n Rejected: The dishwasher encountered a problem (it didn’t receive soap!) and returns unclean dishes.\n  If our dishwashing promise is fulfilled, we’ll be able to perform related tasks, such as unloading the clean dishes from the dishwasher\n If it’s rejected, we can take alternate steps, such as running it again with soap or washing the dishes by hand\n All promises must eventually settle; this enables us to write logic for what to do if the promise fulfills or if it rejects\n  "
 },
 {
-	"uri": "/13-object-oriented-programming/classes/methods/overview/",
+	"uri": "/12-object-oriented-programming/classes/methods/overview/",
 	"title": "Overview",
 	"tags": [],
 	"description": "",
 	"content": " Methods  Methods in a Class function very similar to a method of an regular JavasScript object\n Let\u0026rsquo;s recap, an method in an object is a property that has a function as a value, for example:\n  const superHero = { secretIdentity: \u0026#39;Peter Parker\u0026#39;, name: \u0026#39;Spiderman\u0026#39;, sayTagline: function() { // \u0026lt;- method  console.log(\u0026#34;Hey everyone it\u0026#39;s your friendly neighborhood Spiderman\u0026#34;) } }   If we were to rewrite this object as a Class, it may look something like this:  class superHero { constructor(secretIdentity, name) { this._secretIdentity = secretIdentity this._name = name } sayTagline() { console.log(\u0026#34;Hey everyone it\u0026#39;s your friendly neighborhood Spiderman\u0026#34;) } }   The key difference here is that methods of a class are not separated by commas  "
 },
 {
-	"uri": "/13-object-oriented-programming/classes/overview/",
+	"uri": "/12-object-oriented-programming/classes/overview/",
 	"title": "Overview",
 	"tags": [],
 	"description": "",
 	"content": " What are Classes?  As we have discussed earlier in the course, in JavaScript, objects are oftentimes used to represent (or model) real world items\n Here\u0026rsquo;s an example of using an object to represent a car:\n  const myCar = { make: \u0026#39;Honda\u0026#39;, model: \u0026#39;Accord\u0026#39;, color: \u0026#39;blue\u0026#39;, year: 2015 } console.log(myHonda.make) console.log(myHonda.model) console.log(myHonda.color) // change color  myHonda.color = `blue` console.log(myHonda.color)   In practice, we often need to create many objects of the same kind, like cars, or users or whatever\n Classes are a tool that developers use to quickly produce similar objects\n  Example - Creating a Car class  If we were creating an application for a used car dealership that needed to keep track of many cars, we could use \u0026ldquo;classes\u0026rdquo; to help us quickly produce cars within our program\n Here\u0026rsquo;s what that class might look like:\n  // define Car class  class Car { constructor(make, model, color, year) { this._make = make this._model = model this._color = color this._year = year } get make() { return this._make } get model() { return this._model } get color() { return this._color } get year () { return this._year } set model (newModel) { this._model = newModel } set color (newColor) { this._color = newColor } } // create new \u0026#34;cars\u0026#34; using the Car class as a blueprint  const myHonda = new Car(\u0026#39;Honda\u0026#39;, \u0026#39;Accord\u0026#39;, \u0026#39;gray\u0026#39;, \u0026#39;2017\u0026#39;) console.log(myHonda.make) console.log(myHonda.model) console.log(myHonda.color) // change color  myHonda.color = `blue` console.log(myHonda.color)  JS Bin on jsbin.com\nCompare our Car class with our earlier car object example. Note the similarities and the differences. We\u0026rsquo;ll discuss those differences in the upcoming sections\n"
 },
 {
-	"uri": "/13-object-oriented-programming/inheritance/overview/",
+	"uri": "/12-object-oriented-programming/inheritance/overview/",
 	"title": "Overview",
 	"tags": [],
 	"description": "",
@@ -322,7 +322,7 @@
 	"content": " Status Codes  In the HTTP response that is sent to a client, the status code, which is a three-digit number, is accompanied by a reason phrase (also known as status text) that summarizes the meaning of the code\n Along with the HTTP version of the response, these items are placed in the first line of the response, which is therefore known as the status line.\n The status codes are classified by number range, with each class of codes having the same basic meaning\n The range 100-199 is classed as Informational\n 200-299 is Successful\n 300-399 is Redirection\n 400-499 is Client error\n 500-599 is Server error\n   Check out HTTP Status Dogs for a fun way to learn the different status codes\n Exercise: See example of 404 Status Code  404 means resource not found\n Let\u0026rsquo;s see an example of how some websites handle situations where users try to navigate to a page on their site that doesn\u0026rsquo;t exist\n   Try navigating to the following url: https://github.com/okokwhatupareyouthere\n Open up your developer tools and navigate to the \u0026ldquo;Network\u0026rdquo; tab; see if you can find the 404 response returned from Github\u0026rsquo;s servers\n  "
 },
 {
-	"uri": "/12-project-build-a-slackbot/tutorial/step-1-new-slack-workspace/",
+	"uri": "/13-project-build-a-slackbot/tutorial/step-1-new-slack-workspace/",
 	"title": "Step 1: Create New Slack Workspace",
 	"tags": [],
 	"description": "",
@@ -504,7 +504,7 @@
 	"content": " Benefits of jQuery?  Uses CSS selectors to help us grab or select elements programmatically (i.e. in our code)\n Accomplishes more with less code vs using native JavaScript\n  CSS selectors means less code Here\u0026rsquo;s how we would programmatically select an element with an id of \u0026ldquo;flavors\u0026rdquo; using native JavaScript\n// selecting an element using native JavaScript document.getElementById(\u0026#39;flavors\u0026#39;).onClick = doSomething()  Here\u0026rsquo;s how we would programmatically select an element with an id of \u0026ldquo;flavors\u0026rdquo; using jQuery\n// using jQuery (same as above but with much more intuitive syntax) $(\u0026#39;#flavors\u0026#39;).click(doSomething)  In this code snippet above you can see jQuery allows us to use CSS selectors to programmatically select elements on our page\nThe ability to use CSS selectors to programmatically select elements is the main reason jQuery is so popular today\n Another Example Here\u0026rsquo;s another example of how jQuery results in much more clear and readable DOM manipulation logic\nIn this code snippet, we are using native JavaScript to programmatically select the \u0026lt;body\u0026gt; element and then change the background color to white\n// selecting an element using native JavaScript  document.getElementsByTagName(\u0026#39;body\u0026#39;)[0].style.backgroundColor = \u0026#39;white\u0026#39;  Compare the snippet above with the following snippet that accomplishes the same result using jQuery\n// using jQuery (same as above but with much more intuitive syntax)  $(\u0026#39;body\u0026#39;).css(\u0026#39;backgroundColor\u0026#39;, \u0026#39;white\u0026#39;)  Note: best practice is to use camel case when referencing css properties that have multiple words i.e. \u0026lsquo;backgroundColor\u0026rsquo; instead of \u0026lsquo;background-color\u0026rsquo;\n "
 },
 {
-	"uri": "/13-object-oriented-programming/classes/",
+	"uri": "/12-object-oriented-programming/classes/",
 	"title": "Classes",
 	"tags": [],
 	"description": "",
@@ -532,7 +532,7 @@
 	"content": " What are Conditionals?  Conditional statements enable our programs to decide which blocks of code to execute and which to skip, based on whether an \u0026ldquo;expression\u0026rdquo; evaluates to true or false\n if statements are the most common form of conditionals\n There are a few types of if statements\n if statement\n if..else statement\n if..else if statement\n ternary operator\n   "
 },
 {
-	"uri": "/13-object-oriented-programming/classes/constructor/",
+	"uri": "/12-object-oriented-programming/classes/constructor/",
 	"title": "Constructor",
 	"tags": [],
 	"description": "",
@@ -595,7 +595,7 @@
 	"content": " Dot Notation  Dot notation allows us to access properties with a .  Example const superHero = { \u0026#39;secret identity\u0026#39;: \u0026#39;Peter Parker\u0026#39;, name: \u0026#39;Spiderman\u0026#39;, powers: [\u0026#39;super strength\u0026#39;, \u0026#39;hyper awareness\u0026#39;, \u0026#39;agility\u0026#39;, \u0026#39;genius intellect\u0026#39;], age: 17 } console.log(superHero.name) console.log(superHero.powers)  JS Bin on jsbin.com\n"
 },
 {
-	"uri": "/13-object-oriented-programming/classes/methods/getters-and-setters/",
+	"uri": "/12-object-oriented-programming/classes/methods/getters-and-setters/",
 	"title": "Getters &amp; Setters",
 	"tags": [],
 	"description": "",
@@ -665,7 +665,7 @@
 	"content": " Overview You are tasked with building an application that leverages different APIs to display a random SAT word and it\u0026rsquo;s Scrabble score\nInstructions 1) Download starter code\n The starter code for this code along is hosted on Github, see the url below:\n Lab: SAT Vocab Flashcards App  Use the Assignment Submission Git Workflow (detailed here) to access and submit the assignment\n  "
 },
 {
-	"uri": "/13-object-oriented-programming/lab-oop-order-checkout/instructions/",
+	"uri": "/12-object-oriented-programming/lab-oop-order-checkout/instructions/",
 	"title": "Instructions",
 	"tags": [],
 	"description": "",
@@ -749,7 +749,7 @@
 	"content": " POST  A POST request creates a new item on the server\n A request like POST https://restaurant-reviews.com/reviews could make a new review when we click the \u0026ldquo;Submit review\u0026rdquo; button on the webpage\n POST requests are often accompanied by data passed along in the HTTP request body. e.g. when we write a review for Little Beet, we would include our username (eric), our review (The shrimp salad is so delightful), and a star rating (4 out of 5)\n POST requests often return an ID of the new item, like 3\n POST requests are not idempotent\n When we make one of these requests, the state of the server changes\n Making the request again would create another item with another ID\n   "
 },
 {
-	"uri": "/12-project-build-a-slackbot/project-overview/",
+	"uri": "/13-project-build-a-slackbot/project-overview/",
 	"title": "Project Overview",
 	"tags": [],
 	"description": "",
@@ -763,7 +763,7 @@
 	"content": " Scope in Block Statements  Block statements like if and switch conditions or for and while loops, unlike functions, will create a new scope if you use let or const but NOT when you use var  Example  Declaring a variable within a Block statement using let creates local scope  if (true) { // this \u0026#39;if\u0026#39; conditional block creates a new scope because we use \u0026#39;let\u0026#39;  const name = \u0026#39;Prince\u0026#39; // name is local to the if block  console.log(name) // logs \u0026#39;Prince\u0026#39; } console.log(\u0026#39;----\u0026#39;) console.log(name) // \u0026lt;--- error because the \u0026#39;name\u0026#39; variable can only be accessed from within the block (due to the use of \u0026#39;let\u0026#39;)  JS Bin on jsbin.com\n Declaring a variable within a Block statement using var DOES NOT create local scope  if (true) { var name = \u0026#39;Prince\u0026#39; // declare a variable using \u0026#39;var`  console.log(name) // logs \u0026#39;Prince\u0026#39; } console.log(\u0026#39;----\u0026#39;) console.log(name) // \u0026lt;--- logs \u0026#39;Prince\u0026#39; because the \u0026#39;name\u0026#39; variable is in the global scope due to the use of `var`  JS Bin on jsbin.com\n"
 },
 {
-	"uri": "/12-project-build-a-slackbot/tutorial/step-2-create-new-slack-app/",
+	"uri": "/13-project-build-a-slackbot/tutorial/step-2-create-new-slack-app/",
 	"title": "Step 2: Create New Slack App",
 	"tags": [],
 	"description": "",
@@ -777,7 +777,7 @@
 	"content": " Milestone I: Submit Project Ideas  Submit three (3) ideas for your final project\n Due Date: Mon, Mar 9th\n Deliverable: Use this form to submit your final project ideas\n After your project ideas are submitted, I will schedule some time to meet with you to discuss your ideas\n  "
 },
 {
-	"uri": "/13-object-oriented-programming/inheritance/super-and-extends/",
+	"uri": "/12-object-oriented-programming/inheritance/super-and-extends/",
 	"title": "Super &amp; Extends",
 	"tags": [],
 	"description": "",
@@ -805,7 +805,7 @@
 	"content": " Code Along: CRUD API Requests with Colors API During this Code Along, we\u0026rsquo;ll be using Insomnia to make API requests to a REST-based API\nBASE API URL: https://css-colors-api.herokuapp.com/api/v1\nAPI Endpoints:    Endpoint Description     GET /colors retrieve list of colors   GET /colors/:id retrieve details for one color   POST /colors create a new color   PUT /colors/:id update an existing color   DELETE /colors/:id delete an existing color   GET /colors/search?q=purple search for a color name or hexcode   GET /colors/user_generated retrieve list of colors created by users    Examples  Retrieve list of all colors (GET /colors)  (GET) https://css-colors-api.herokuapp.com/api/v1/colors  Retrieve details for one color (GET /colors/:id)\n Fetch the color associated with id = 3   (GET) https://css-colors-api.herokuapp.com/api/v1/colors/3  Create a new color (POST /colors)\n Here we need to give the server additional information, the name and hexcode of the color we want to create\n We are sending this additional information through a \u0026ldquo;body\u0026rdquo; of the request\n   (POST) https://css-colors-api.herokuapp.com/api/v1/colors  request body:\n{ \u0026quot;color\u0026quot;: { \u0026quot;name\u0026quot;: \u0026quot;Kareem Gray\u0026quot;, \u0026quot;hexcode\u0026quot;: \u0026quot;#728ca0\u0026quot; } }   Update an existing color (PUT /colors/:id)\n Here we need to tell the server which color we want to update and the information we want to update\n The update info is sent via a the \u0026ldquo;request body\u0026rdquo;\n Here\u0026rsquo;s an example of updating the \u0026ldquo;name\u0026rdquo; of the color with the id = 7 to \u0026ldquo;Sky Blue\u0026rdquo;\n   (PUT) https://css-colors-api.herokuapp.com/api/v1/colors/7  request body:\n{ \u0026quot;color\u0026quot;: { \u0026quot;name\u0026quot;: \u0026quot;Sky Blue\u0026quot;, } }   Delete a color (DELETE /colors/:id)\n Delete the color associated with id = 28   (DELETE) https://css-colors-api.herokuapp.com/api/v1/colors/28  Search for color by name or hexcode (GET /colors/search?q={searchTerm})\n Search for all the colors that have the text \u0026ldquo;blue\u0026rdquo; in their name   (GET) https://css-colors-api.herokuapp.com/api/v1/colors/search?q=blue  Get all colors created by users (GET /colors/user_generated)\n Retrieve all the colors that have been created by users (via a POST request)   (GET) https://css-colors-api.herokuapp.com/api/v1/colors/user_generated "
 },
 {
-	"uri": "/13-object-oriented-programming/classes/encapsulation/",
+	"uri": "/12-object-oriented-programming/classes/encapsulation/",
 	"title": "Encapsulation",
 	"tags": [],
 	"description": "",
@@ -882,7 +882,7 @@
 	"content": " Lesson 03 Control Flow and Loops "
 },
 {
-	"uri": "/12-project-build-a-slackbot/documentaton/",
+	"uri": "/13-project-build-a-slackbot/documentaton/",
 	"title": "Documentation",
 	"tags": [],
 	"description": "",
@@ -896,7 +896,7 @@
 	"content": " Firebase  Overview   Benefits   NoSQL Databases   Firestore Database   "
 },
 {
-	"uri": "/13-object-oriented-programming/classes/methods/general-methods/",
+	"uri": "/12-object-oriented-programming/classes/methods/general-methods/",
 	"title": "General Methods",
 	"tags": [],
 	"description": "",
@@ -910,7 +910,7 @@
 	"content": " Milestone II: Get Final Project Idea Approved  Due Date: Wed, Mar 11th\n After meeting with the instructor and discussing your idea, you\u0026rsquo;ll formally decide what you want to build   "
 },
 {
-	"uri": "/13-object-oriented-programming/classes/instances/",
+	"uri": "/12-object-oriented-programming/classes/instances/",
 	"title": "Instances",
 	"tags": [],
 	"description": "",
@@ -959,7 +959,7 @@
 	"content": " Requirements Requirement #1: Make API Request to the SAT Vocabulary API to fetch Random SAT Word When users press the \u0026ldquo;Get New SAT Word\u0026rdquo; button the following should happen:\n The application should make an API request the to the API endpoint below to receive a random SAT vocabulary word:\nGET https://sat-words-api.herokuapp.com/api/v1/words/random  Note: This API does not require an API key\n The application should display both the word and its definition in the UI\n  Requirement #2: Make a 2nd API Request to fetch a Scrabble score for the Random SAT word  After receiving the Random SAT word, make an API request to the endpoint below to get the associated Scrabble Score for the word:\nGET https://scrabble-scorer-api.herokuapp.com/api/v1/words/score?word=add_your_word_here   Note: The request parameter: word is required; this API does not require an API Key\n Display the Scrabble Score in the UI  Requirement #3: API calls must use Promises  Promises must be used to make consume / handle the API responses\n Axios must be used to make the API requests\n Vanilla Promise Syntax or Async/Await can be used\n  "
 },
 {
-	"uri": "/13-object-oriented-programming/lab-oop-order-checkout/requirements/",
+	"uri": "/12-object-oriented-programming/lab-oop-order-checkout/requirements/",
 	"title": "Requirements",
 	"tags": [],
 	"description": "",
@@ -973,7 +973,7 @@
 	"content": " Requirements Requirement #1: Add Create Functionality When users attempt to add a new task using the #addItem form, the task should be successfully saved in the app\u0026rsquo;s Firebase database. Within your Firebase database, the name of the new task should be stored as name and the completed value of every newly created task should be set to false\nRequirement #2: Add Read Functionality The Doit app should list all tasks stored in your Firebase database within the #taskList div. Make sure you comment out the hardcoded tasks after you\u0026rsquo;ve successfully completed this step.\nRequirement #3: Add Update Functionality 2a: Users should be able update a task name and have that change reflected in the app\u0026rsquo;s Firebase database.\n2b: Users should be able toggle the checkbox (i.e. check and uncheck) to change the completed status of a task. The updated completed status (resulting from a checkbox change) should be reflected in the app\u0026rsquo;s Firebase database.\nRequirement #4: Add Delete Functionality Users should be able delete a task and have that task also deleted from the app\u0026rsquo;s Firebase database.\n"
 },
 {
-	"uri": "/12-project-build-a-slackbot/tutorial/step-3-set-up-node-application/",
+	"uri": "/13-project-build-a-slackbot/tutorial/step-3-set-up-node-application/",
 	"title": "Step 3: Set Up Node Application",
 	"tags": [],
 	"description": "",
@@ -1232,7 +1232,7 @@
 	"content": " Master Branch  The default branch found in every Git respository\n For most companies, the master branch reflects that latest version of production code (i.e. working code available to customers)\n  "
 },
 {
-	"uri": "/13-object-oriented-programming/classes/methods/",
+	"uri": "/12-object-oriented-programming/classes/methods/",
 	"title": "Methods",
 	"tags": [],
 	"description": "",
@@ -1267,21 +1267,21 @@
 	"content": " setTimeout()  .setTimeout() function, available both in Node.js and in browsers, waits a given number of milliseconds (1 sec = 1000 ms) and then calls a function\n .setTimeout() takes two parameters:\n A callback function (remember callbacks are just functions passed in as parameters)\n The number of seconds after which the method will be called\n  .setTimeout() is async by default; this is the primary reason it\u0026rsquo;s often used to simulate asynchronous operations\n  Example const delayedGreeting = () =\u0026gt; { console.log(\u0026#39;Hi, sorry for the wait!\u0026#39;) } /* call setTimout(), it accepts 2 parameters 1. callback (function to be executed) 2. delay in milliseconds (1000 ms = 1 sec) */ console.log(\u0026#39;calling .setTimeout()\u0026#39;) setTimeout(delayedGreeting, 3000) console.log(\u0026#39;end of the code\u0026#39;)  In the code above, .setTimeout() is used to delay the execution of the .delayedGreeting() function by 3 seconds.\n Run the example in the jsbin below and notice how the message: end of the code is executed before the Hi, sorry for the wait!.  JS Bin on jsbin.com\n This means that our program did not wait for .delayedGreeting() to finishing running before it executed  Event Loop  Asynchronous JavaScript uses something called the event-loop\n In the example above, After 3 seconds, .delayedGreeting() is added to a line of code (Event Queue) waiting to be run\n Before it can run, any synchronous code from the program will run first (from the Call Stack)\n Next, any code in front of it in the line will run\n This means it might be more than two seconds before delayedHello() is actually executed\n  "
 },
 {
-	"uri": "/13-object-oriented-programming/classes/methods/static-methods/",
+	"uri": "/12-object-oriented-programming/classes/methods/static-methods/",
 	"title": "Static Methods",
 	"tags": [],
 	"description": "",
 	"content": " Static Methods  Static method calls are made directly on the class and are not callable on instances of the class\n Static methods are prepended with the static keyword\n  class Car { constructor(make, model, price) { this._make = make this._model = model this._price = price } // instance methods  get price() { return this._price } drive() { console.log(\u0026#39;calling \u0026#34;this\u0026#34; in an instance method\u0026#39;, this) console.log(`driving ${this._make}${this._model}`) } // static method  static mostExpensiveCar(cars) { console.log(\u0026#39;calling \u0026#34;this\u0026#34; in a static method\u0026#39;, this) return cars.sort((a, b) =\u0026gt; b.price - a.price)[0] } } // Create 3 instances of the Car class  const car1 = new Car(\u0026#34;honda\u0026#34;, \u0026#34;accord\u0026#34;, 20000) const car2 = new Car(\u0026#34;aston martin\u0026#34;, \u0026#34;db7\u0026#34;, 110000) const car3 = new Car(\u0026#34;bmw\u0026#34;, \u0026#34;5 series\u0026#34;, 50000) // call static method mostExpensiveCar() on the Class (Car)  // not the instance  const priceyCar = Car.mostExpensiveCar([car1, car2, car3]) console.log(priceyCar)  JS Bin on jsbin.com\n"
 },
 {
-	"uri": "/12-project-build-a-slackbot/tutorial/step-4-run-ngrok/",
+	"uri": "/13-project-build-a-slackbot/tutorial/step-4-run-ngrok/",
 	"title": "Step 4: Run ngrok",
 	"tags": [],
 	"description": "",
 	"content": " Run ngrok  Next we need to give our local server access to the internet so our slack app can communicate with it\n ngrok is a tool that allows developers to create \u0026ldquo;tunnels\u0026rdquo; that connect the server running locally (i.e. on your computer) to the internet\n  1. Run ngrok command from within project folder  In a new command line tab run the following command (make sure you run this within the project folder)\n$ ngrok http 3000  Here, we are are telling ngrok to create a local tunnel that connects our server running on port 3000 (i.e. http://localhost:3000) and to ngrok url that is accessible to the internet\n You ngrok command should display output that looks similar to the following (the urls will be unique to your server and will not match the output below):\n  2. Confirm your local server is accessible via the internet At this point in the project, you will want to have multiple tabs open in your command line application. In order for the Slack to be able to communicate with our server both our local server and ngrok must be running in their own separate tabs.\n  Copy the ngrok \u0026ldquo;forwarding\u0026rdquo; url (from our ngrok tab) that begins with https and paste it into the address bar of a new browser tab\n Confirm that the welcome message is successfully displayed when using the ngrok url to access your server\n  "
 },
 {
-	"uri": "/12-project-build-a-slackbot/tutorial/",
+	"uri": "/13-project-build-a-slackbot/tutorial/",
 	"title": "Tutorial",
 	"tags": [],
 	"description": "",
@@ -1344,7 +1344,7 @@
 	"content": " Git Vocabulary  Repository   Commit   Branch   Master Branch   Merge   Push   Pull   Fork   Clone   Pull Request   "
 },
 {
-	"uri": "/13-object-oriented-programming/inheritance/",
+	"uri": "/12-object-oriented-programming/inheritance/",
 	"title": "Inheritance",
 	"tags": [],
 	"description": "",
@@ -1393,7 +1393,7 @@
 	"content": " Show Git-Ignored Files in Atom Atom, by default, will not show files in its file pane (file tree view) if those files have been added to .gitignore.\nAn easy approach to fixing this issue is to do the following:\n Click anywhere in the Tree View (left hand pane with files and folders) Press i (this will toggle the visibility of hidden files)  "
 },
 {
-	"uri": "/12-project-build-a-slackbot/tutorial/step-5-create-a-test-slash-command/",
+	"uri": "/13-project-build-a-slackbot/tutorial/step-5-create-a-test-slash-command/",
 	"title": "Step 5: Create a test Slash command",
 	"tags": [],
 	"description": "",
@@ -1477,7 +1477,7 @@
 	"content": " Class Logistics  Class Schedule: Mondays \u0026amp; Wednesdays, 6:30pm - 9:30pm, from Jan 27th through Apr 6th\n Break: 15 minute break during the middle of class from 7:45pm to 8:00pm (subject to change depending on flow of the class, but you\u0026rsquo;ll always get a 15 min break)\n Homework: Homework assignments will be assigned at the end of class on Thursdays and assignments will be due the following Thursdays\n Reading Assignment / Tutorials: Reading Assignments and Tutorials may be assigned after a class. They are usual short in nature and are meant to help increase your understanding of upcoming or past concepts. If assigned, you will be expected to complete them before the next class.\n Labs: Labs are in-class assignments completed at the end of class; they can be done completed individually or in groups.\n Code Alongs: Small projects or exercises that the instructor and the class complete together\n Exercises / Warm ups: Short in-class exercises that are completed by students (either individually or in teams)\n Office Hours: Weekly Office Hours - Schedule TBD\n Final Project: Pick something your passionate about; Single Page Application (SPA) that incorporates concepts covered throughout the class (more detail will be provided later in the course)\n  "
 },
 {
-	"uri": "/13-object-oriented-programming/code-along-bank-atm/",
+	"uri": "/12-object-oriented-programming/code-along-bank-atm/",
 	"title": "Code Along: Bank ATM",
 	"tags": [],
 	"description": "",
@@ -1603,7 +1603,7 @@
 	"content": " Push  Refers to sending your committed changes to a remote repository such as GitHub.com\n For instance, if you change something locally, you\u0026rsquo;d want to then push those changes so that others may access them\n  "
 },
 {
-	"uri": "/12-project-build-a-slackbot/tutorial/step-6-install-app-to-workspace/",
+	"uri": "/13-project-build-a-slackbot/tutorial/step-6-install-app-to-workspace/",
 	"title": "Step 6: Install App to Workspace",
 	"tags": [],
 	"description": "",
@@ -1687,7 +1687,7 @@
 	"content": " Summary of this week\u0026rsquo;s homework assignment: Due Date: Friday, March 13th\nComplete Homework #4 - Rock, Paper, Scissors Application  You are tasked with finishing the partially built Rock, Paper, Scissors application. The code is hosted on Github, see the url below:\n Github Repo for Homework #4 - Rock, Paper, Scissors Application  Use the Assignment Submission Git Workflow (detailed here) to access and submit the assignment\n  "
 },
 {
-	"uri": "/13-object-oriented-programming/lab-oop-order-checkout/",
+	"uri": "/12-object-oriented-programming/lab-oop-order-checkout/",
 	"title": "Lab: OOP Order Checkout",
 	"tags": [],
 	"description": "",
@@ -1708,7 +1708,7 @@
 	"content": " Pull  Pulls code from a remote repository and merges it with code in your local repository (on your computer)  "
 },
 {
-	"uri": "/12-project-build-a-slackbot/tutorial/step-7-responding-to-slash-commands/",
+	"uri": "/13-project-build-a-slackbot/tutorial/step-7-responding-to-slash-commands/",
 	"title": "Step 7: Responding to Slash Commands",
 	"tags": [],
 	"description": "",
@@ -1876,14 +1876,14 @@
 	"content": " Scope Overview  Scope is the set of variables you have access to\n As we learned in the beginning of this class, JavaScript reads from top to bottom\n Sometimes, however, we declare variables inside functions (just like arguments), which aren\u0026rsquo;t accessible in other parts of our code; this is the concept of scope.\n  Types of Scope  A variables scope is determined primarily based on where is was declared\n Variables declared inside a function are in local scope\n Variables defined outside of a function are in the global scope\n Each function when invoked creates a new scope\n  Details  Global Scope   Local Scope   Scope in Block Statements   "
 },
 {
-	"uri": "/12-project-build-a-slackbot/tutorial/step-8-test-your-slash-command/",
+	"uri": "/13-project-build-a-slackbot/tutorial/step-8-test-your-slash-command/",
 	"title": "Step 8: Test your Slash Command",
 	"tags": [],
 	"description": "",
 	"content": " Step 8: Test your Slash Command Now we\u0026rsquo;ll test our Slash command to see if our Server is able to successfully return a response\n1. Navigate back to your workspace  Navigate to your slack workspace via the web: https://slack.com/signin\n Select your testing workspace from Step 1\n Go to any channel and type /test and press enter\n   Congrat\u0026rsquo;s your server successfully responded to your Slash Command  "
 },
 {
-	"uri": "/12-project-build-a-slackbot/tutorial/step-9-access-slash-command-parameters/",
+	"uri": "/13-project-build-a-slackbot/tutorial/step-9-access-slash-command-parameters/",
 	"title": "Step 9: Access Slash Command Parameters",
 	"tags": [],
 	"description": "",
@@ -1904,7 +1904,7 @@
 	"content": " Code Along: Random Color API with Async/Await We\u0026rsquo;re going to modify a working version of the CSS Colors API App to use Async/Await instead of $.ajax() to make the API call\n1) Get the starter code  The starter code for this lab is hosted on Github, see the url below:\n Code Along: Random Color API with Async / Await  Use the Assignment Submission Git Workflow (detailed here) to access and submit the assignment\n  2) We\u0026rsquo;ll be using axios to make our API request. Add the following script tag right before your closing \u0026lt;body\u0026gt; tag but before the script tag targeting your js file\n\u0026lt;script src=\u0026#34;https://code.jquery.com/jquery-3.4.1.min.js\u0026#34; integrity=\u0026#34;sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=\u0026#34; crossorigin=\u0026#34;anonymous\u0026#34;\u0026gt;\u0026lt;/script\u0026gt; \u0026lt;script src=\u0026#34;https://unpkg.com/axios/dist/axios.min.js\u0026#34;\u0026gt;\u0026lt;/script\u0026gt; \u0026lt;!-- Add the axios script tag here --\u0026gt; \u0026lt;script src=\u0026#34;js/app.js\u0026#34;\u0026gt;\u0026lt;/script\u0026gt;  "
 },
 {
-	"uri": "/12-project-build-a-slackbot/tutorial/step-10-create-weather-slash-command/",
+	"uri": "/13-project-build-a-slackbot/tutorial/step-10-create-weather-slash-command/",
 	"title": "Step 10: Create Weather Slash Command",
 	"tags": [],
 	"description": "",
@@ -1960,7 +1960,7 @@
 	"content": " Single Responsibility Principle (SRP)  SRP is a programming best practice that advocates modular code\n Put another way, your programs should be broken up in such a way where each part is responsible for only one \u0026ldquo;thing\u0026rdquo; or domain\n SRP is often applied to functions\n  Applying SRP to Functions  This concepts calls for your functions to only be \u0026ldquo;responsible\u0026rdquo; for one thing\n Often you\u0026rsquo;ll find that the logic in your functions are doing too much (for example: making calculations AND displaying the result to the screen)\n In these cases you should break out those multiple responsibilities into multiple functions\n This is what we did in the Geometry Calculator code along\n  "
 },
 {
-	"uri": "/12-project-build-a-slackbot/tutorial/step-11-make-api-request-to-openweather/",
+	"uri": "/13-project-build-a-slackbot/tutorial/step-11-make-api-request-to-openweather/",
 	"title": "Step 11: Make API Request to OpenWeather",
 	"tags": [],
 	"description": "",
@@ -2030,7 +2030,7 @@
 	"content": " Other Traversal Methods There are many other traversal methods available click here to see a complete list\n"
 },
 {
-	"uri": "/12-project-build-a-slackbot/tutorial/step-12-respond-to-slack-with-current-weather/",
+	"uri": "/13-project-build-a-slackbot/tutorial/step-12-respond-to-slack-with-current-weather/",
 	"title": "Step 12: Respond to Slack with Current Weather",
 	"tags": [],
 	"description": "",
@@ -2044,11 +2044,11 @@
 	"content": " Confirm Node \u0026amp; Git Installation 1) Ensure that you followed the installation instructions for your Operation System found here: Node and Git Installation\n2) Open up your console / terminal\n For Mac OS X users:\n Open the \u0026ldquo;Terminal\u0026rdquo; app (Applications \u0026gt; Utilities \u0026gt; Terminal)  For Windows:\n Open the \u0026ldquo;Command Prompt\u0026rdquo; application.   3) In the terminal type the following command to confirm git was successfully installed:\n $ git  4) In the terminal type the following command to confirm node was successfully installed:\n $ node  Note: type control-c to exit out of node\n"
 },
 {
-	"uri": "/12-project-build-a-slackbot/",
-	"title": "Project: Build a Slackbot",
+	"uri": "/12-object-oriented-programming/",
+	"title": "Object Oriented Programming (OOP)",
 	"tags": [],
 	"description": "",
-	"content": " Lesson 12 Project: Build a Slackbot "
+	"content": " Lesson 12 Object Oriented Programming (OOP) "
 },
 {
 	"uri": "/command-line-js-and-git/git-vocabulary/pull-request/",
@@ -2072,14 +2072,14 @@
 	"content": " Code Along: Rolling Dice  We\u0026rsquo;ll walk through the process using functions to create a program that simulates rolling dice\n The starter code for this code along is hosted on Github, see the url below:\n Code Along: Rolling Dice  Use the Assignment Submission Git Workflow (detailed here) to access and submit the assignment\n  "
 },
 {
-	"uri": "/13-object-oriented-programming/",
-	"title": "Object Oriented Programming (OOP)",
+	"uri": "/13-project-build-a-slackbot/",
+	"title": "Project: Build a Slackbot",
 	"tags": [],
 	"description": "",
-	"content": " Lesson 13 Object Oriented Programming (OOP) "
+	"content": " Lesson 13 Project: Build a Slackbot "
 },
 {
-	"uri": "/12-project-build-a-slackbot/tutorial/step-13-use-environment-variables-to-protect-secure-credentials/",
+	"uri": "/13-project-build-a-slackbot/tutorial/step-13-use-environment-variables-to-protect-secure-credentials/",
 	"title": "Step 13: Use Environment Variables to Protect Secure Credentials",
 	"tags": [],
 	"description": "",
@@ -2093,7 +2093,7 @@
 	"content": " What is Programming?  List of instructions that a computer needs in order to complete a task\n Instructions are provided in a programming language that the computer understands\n These set of instructions are commonly referred as source code or a program\n There are many programming languages available, during this course we will be learning JavaScript\n  "
 },
 {
-	"uri": "/12-project-build-a-slackbot/tutorial/step-14-handle-errors-gracefully/",
+	"uri": "/13-project-build-a-slackbot/tutorial/step-14-handle-errors-gracefully/",
 	"title": "Step 14: Handle Errors Gracefully",
 	"tags": [],
 	"description": "",
@@ -2135,7 +2135,7 @@
 	"content": " Lab: CitiPix  The starter code for this lab is hosted on Github, see the url below:\n Lab: CitiPix  Use the Assignment Submission Git Workflow (detailed here) to access and submit the assignment\n  "
 },
 {
-	"uri": "/12-project-build-a-slackbot/tutorial/step-15-enhance-weather-response-with-emojis/",
+	"uri": "/13-project-build-a-slackbot/tutorial/step-15-enhance-weather-response-with-emojis/",
 	"title": "Step 15: Enhance Weather Response with Emojis",
 	"tags": [],
 	"description": "",
