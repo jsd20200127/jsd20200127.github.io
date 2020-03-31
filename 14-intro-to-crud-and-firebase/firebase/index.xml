@@ -18,7 +18,7 @@
       <guid>/14-intro-to-crud-and-firebase/firebase/overview/</guid>
       <description> What is Firebase?  Firebase is a mobile and web application platform for developers
  Acquired by Google in 2014
- Offers many other services but we&amp;rsquo;ll be covering the basics of Firebase&amp;rsquo;s real-time backend database and seeing how we can use this in our applications
+ Offers many other services but we&amp;rsquo;ll be covering the basics of Firebase&amp;rsquo;s Firestore database and seeing how we can use this in our applications
   </description>
     </item>
     

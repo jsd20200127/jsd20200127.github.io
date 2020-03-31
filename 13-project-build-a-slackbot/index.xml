@@ -47,10 +47,10 @@ Here&amp;rsquo;s a diagram that provides a high-level view of how our slackbot w
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/13-project-build-a-slackbot/scabble-score-bot/</guid>
-      <description>Lab: Add a &amp;ldquo;Slack Bot&amp;rdquo; that returns a Scrabble Score for a given word Overview You are tasked with creating a Slack Bot that returns an scrabble score when provided with a word
+      <description>Lab: Add a &amp;ldquo;Slack Bot&amp;rdquo; that returns a Scrabble Score for a given word Overview You are tasked with creating a Slack Bot that returns a scrabble score when provided with a word
 For example:
 If a user of your ScrabbleScoreBot types in the following slash command into Slack:
-Then an score of 12 should be returned by the Slack bot
+Then a score of 12 should be returned by the Slack bot
 Requirements 1) Create a new Slack App called ScrabbleScoreBot (follow the same steps from the OpenWeatherBot tutorial)</description>
     </item>
     

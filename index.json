@@ -123,7 +123,7 @@
 	"title": "Classwork &amp; Lab Solutions",
 	"tags": [],
 	"description": "",
-	"content": " Solutions Disclaimer: These files are not meant to be viewed as the \u0026ldquo;right answer, instead view them as a way to learn how another developer approached the same problem.\n Lesson 03: Control Flow \u0026amp; Loops  JS Basics, Control Flow \u0026amp; Loops Lab Solution  Lesson 04: Functions \u0026amp; Scope  Rolling Dice (vanilla JavaScript) Solution  Lesson 05: Arrays \u0026amp; Objects  Warmup Functions Practice Solution  Lesson 06: DOM \u0026amp; jQuery  Warmup Iterators Practice (Countries) Solution\n Rolling Dice (jQuery) Solution\n  Lesson 07: DOM \u0026amp; jQuery II  Color Scheme Switcher Solution\n Traffic Light Solution\n Score Keeper Solution\n  Lesson 08: DOM \u0026amp; jQuery III  HiLo Solution  Lesson 09: HTTP and APIs  Giphy API Solution\n Random Color API Solution\n  Lesson 10: Asynchronous JS and Promises  Code Along: Random Color API with Promises Solution\n Code Along: Random Color API with Async / Await Solution\n Lab: Giphy API with Promises Solution\n Lab: Giphy API with Async/Await Solution\n  Lesson 11: Lab: SAT Vocab Flashcard App  Lab: SAT Vocab Flashcard App Solution  "
+	"content": " Solutions Disclaimer: These files are not meant to be viewed as the \u0026ldquo;right answer, instead view them as a way to learn how another developer approached the same problem.\n Lesson 03: Control Flow \u0026amp; Loops  JS Basics, Control Flow \u0026amp; Loops Lab Solution  Lesson 04: Functions \u0026amp; Scope  Rolling Dice (vanilla JavaScript) Solution  Lesson 05: Arrays \u0026amp; Objects  Warmup Functions Practice Solution  Lesson 06: DOM \u0026amp; jQuery  Warmup Iterators Practice (Countries) Solution\n Rolling Dice (jQuery) Solution\n  Lesson 07: DOM \u0026amp; jQuery II  Color Scheme Switcher Solution\n Traffic Light Solution\n Score Keeper Solution\n  Lesson 08: DOM \u0026amp; jQuery III  HiLo Solution  Lesson 09: HTTP and APIs  Giphy API Solution\n Random Color API Solution\n  Lesson 10: Asynchronous JS and Promises  Code Along: Random Color API with Promises Solution\n Code Along: Random Color API with Async / Await Solution\n Lab: Giphy API with Promises Solution\n Lab: Giphy API with Async/Await Solution\n  Lesson 11: Lab: SAT Vocab Flashcard App  Lab: SAT Vocab Flashcard App Solution  Lesson 12: Object Oriented Programming (OOP)  Code Along: OOP Bank ATM App Solution\n OOP Order Checkout App Solution\n  Lesson 13: Project: Build a Slackbot  OpenWeatherBot Solution  "
 },
 {
 	"uri": "/05-arrays-objects/objects/creating-objects/",
@@ -291,7 +291,7 @@
 	"title": "Overview",
 	"tags": [],
 	"description": "",
-	"content": " What is Firebase?  Firebase is a mobile and web application platform for developers\n Acquired by Google in 2014\n Offers many other services but we\u0026rsquo;ll be covering the basics of Firebase\u0026rsquo;s real-time backend database and seeing how we can use this in our applications\n  "
+	"content": " What is Firebase?  Firebase is a mobile and web application platform for developers\n Acquired by Google in 2014\n Offers many other services but we\u0026rsquo;ll be covering the basics of Firebase\u0026rsquo;s Firestore database and seeing how we can use this in our applications\n  "
 },
 {
 	"uri": "/final-projects/overview-requirements/",
@@ -305,7 +305,7 @@
 	"title": "Recordings",
 	"tags": [],
 	"description": "",
-	"content": " Lesson Recordings    Lesson Date Link Notes     09 3/11/2020 lesson 09 recording    10 3/16/2020 lesson 10 recording    11 3/18/2020 lesson 11 recording    12 3/23/2020 lesson 12 recording    13 3/25/2020 lesson 12 recording     "
+	"content": " Lesson Recordings    Lesson Date Link Notes     09 3/11/2020 lesson 09 recording    10 3/16/2020 lesson 10 recording    11 3/18/2020 lesson 11 recording    12 3/23/2020 lesson 12 recording    13 3/25/2020 lesson 13 recording    14 3/30/2020 lesson 14 recording     "
 },
 {
 	"uri": "/command-line-js-and-git/git-vocabulary/repository/",
@@ -620,7 +620,7 @@
 	"title": "Homework Solutions",
 	"tags": [],
 	"description": "",
-	"content": " Homework Solutions Disclaimer: These files are not meant to be viewed as the \u0026ldquo;right answer, instead view them as a way to learn how another developer approached the same problem.\n Homework #1:  Homework #1: JS Basics, Control Flow Loops Solution  Homework #2:  Homework #2: Functions Solution  Homework #3:  Homework #3: Iterators Solution  Homework #4:  Homework #4: Rock, Paper, Scissors Solution  "
+	"content": " Homework Solutions Disclaimer: These files are not meant to be viewed as the \u0026ldquo;right answer, instead view them as a way to learn how another developer approached the same problem.\n Homework #1:  Homework #1: JS Basics, Control Flow Loops Solution  Homework #2:  Homework #2: Functions Solution  Homework #3:  Homework #3: Iterators Solution  Homework #4:  Homework #4: Rock, Paper, Scissors Solution  Homework #5:  Homework #5: Weather App using OpenWeather API  "
 },
 {
 	"uri": "/09-http-and-apis/http/",
@@ -1964,7 +1964,7 @@
 	"title": "Step 11: Make API Request to OpenWeather",
 	"tags": [],
 	"description": "",
-	"content": " Step 11: Make API Request to OpenWeather Now it\u0026rsquo;s time to make an API request from our server to OpenWeather\n1. Add the following code to the bottom of index.js  Add the following code to the bottom of index.js and replace [YOUR_OPENWEATHER_API_KEY] with your api key from OpenWeather  async function openWeatherApi (query) { try { const url = \u0026#39;https://api.openweathermap.org/data/2.5/weather\u0026#39; const apiKey = \u0026#39;[YOUR_OPENWEATHER_API_KEY]\u0026#39; // make api request using axios  const response = await axios.get(url, { params: { appid: apiKey, q: query, units: \u0026#39;imperial\u0026#39; } }) console.log(response) return response.data } catch (e) { console.log(e) } }   Here\u0026rsquo;s a summary of the code above:\n We\u0026rsquo;re going to use async/await to handle our API request to OpenWeather so we\u0026rsquo;ve prepended async in front of openWeatherApi()\n openWeatherApi() accepts a query parameter which will represent the city name received from slash command\n axios is being used to make a get request to the OpenWeather API\n axios is a \u0026ldquo;promise-based\u0026rdquo; http client, which means it will return a promise after it\u0026rsquo;s done making the request\n we are using await to halt the execution of the rest of the code in the function until a response is received from OpenWeather\n Once the response is received, we are returning the response.data object since axios always includes any payload (data information) in a key named data\n If an error occurs, we are simply logging the error to the console for now\n   2. Update app.post(/weather...) in index.js We are going to update the logic in our route handler app.post(/weather...) so it calls the openWeatherApi()\n Update the app.post(/weather...) route handler to reflect the code below:  app.post(\u0026#39;/weather\u0026#39;, async (req, res) =\u0026gt; { try { console.log(req.body) // respond with an OK to sender within 3 secs  // as required by Slack for delayed responses  // documentation: https://api.slack.com/slash-commands#responding_response_url  res.json() // extract city passed in as a parameter to  // our slash command (/weather cityName)  const query = req.body.text // making API request via openWeatherApi function  const response = await openWeatherApi(query) // print out OpenWeather API  // response to the console  console.log(response) // res.json(data)  } catch (e) { console.log(e) }  3. Try your /weather slash command again  Restart your Express server and go back to your development workspace on Slack and try the /weather slash command again (make sure you include a valid city name): /weather brooklyn   Go to your command line application and open the tab associated with your Express server\n Confirm the data from our OpenWeather API request is now being displayed in our server log (via) - the output should look similar to the image below:\n   Nice! We just made a successful API request to OpenWeather  "
+	"content": " Step 11: Make API Request to OpenWeather Now it\u0026rsquo;s time to make an API request from our server to OpenWeather\n1. Add the following code to the bottom of index.js  Add the following code to the bottom of index.js and replace [YOUR_OPENWEATHER_API_KEY] with your api key from OpenWeather  async function openWeatherApi (query) { try { const url = \u0026#39;https://api.openweathermap.org/data/2.5/weather\u0026#39; const apiKey = \u0026#39;[YOUR_OPENWEATHER_API_KEY]\u0026#39; // make api request using axios  const response = await axios.get(url, { params: { appid: apiKey, q: query, units: \u0026#39;imperial\u0026#39; } }) console.log(response) return response.data } catch (e) { console.log(e) } }   Here\u0026rsquo;s a summary of the code above:\n We\u0026rsquo;re going to use async/await to handle our API request to OpenWeather so we\u0026rsquo;ve prepended async in front of openWeatherApi()\n openWeatherApi() accepts a query parameter which will represent the city name received from slash command\n axios is being used to make a get request to the OpenWeather API\n axios is a \u0026ldquo;promise-based\u0026rdquo; http client, which means it will return a promise after it\u0026rsquo;s done making the request\n we are using await to halt the execution of the rest of the code in the function until a response is received from OpenWeather\n Once the response is received, we are returning the response.data object since axios always includes any payload (data information) in a key named data\n If an error occurs, we are simply logging the error to the console for now\n   2. Update app.post(/weather...) in index.js We are going to update the logic in our route handler app.post(/weather...) so it calls the openWeatherApi()\n Update the app.post(/weather...) route handler to reflect the code below:  app.post(\u0026#39;/weather\u0026#39;, async (req, res) =\u0026gt; { try { console.log(req.body) // respond with an OK to sender within 3 secs  // as required by Slack for delayed responses  // documentation: https://api.slack.com/slash-commands#responding_response_url  res.json() // extract city passed in as a parameter to  // our slash command (/weather cityName)  const query = req.body.text // making API request via openWeatherApi function  const response = await openWeatherApi(query) // print out OpenWeather API  // response to the console  console.log(response) // res.json(data)  } catch (e) { console.log(e) } })  3. Try your /weather slash command again  Restart your Express server and go back to your development workspace on Slack and try the /weather slash command again (make sure you include a valid city name): /weather brooklyn   Go to your command line application and open the tab associated with your Express server\n Confirm the data from our OpenWeather API request is now being displayed in our server log (via) - the output should look similar to the image below:\n   Nice! We just made a successful API request to OpenWeather  "
 },
 {
 	"uri": "/10-asynchronous-js-and-promises/lab-giphy-api-with-async-await/",
@@ -2097,7 +2097,7 @@
 	"title": "Lab: Scrabble Score Bot",
 	"tags": [],
 	"description": "",
-	"content": " Lab: Add a \u0026ldquo;Slack Bot\u0026rdquo; that returns a Scrabble Score for a given word Overview You are tasked with creating a Slack Bot that returns an scrabble score when provided with a word\nFor example:\nIf a user of your ScrabbleScoreBot types in the following slash command into Slack:\nThen an score of 12 should be returned by the Slack bot\nRequirements 1) Create a new Slack App called ScrabbleScoreBot (follow the same steps from the OpenWeatherBot tutorial)\n2) Follow the same steps from the tutorial to set up your Node application\n3) Create a slash command (see Step 10 from the tutorial) with the following specs:\n   Field Value     Command /scrabblescore   Request URL https://{Add your ngrok url}/scrabblescore   Short Description Get the scrabble score for any word   Usage Hint [word]    4) Use the following API endpoint to fetch the scrabble score associated with a word\n GET https://scrabble-scorer-api.herokuapp.com/api/v1/words/score?word={add_your_word_here}  Note: The request parameter: word is required; this API does not require an API Key\n"
+	"content": " Lab: Add a \u0026ldquo;Slack Bot\u0026rdquo; that returns a Scrabble Score for a given word Overview You are tasked with creating a Slack Bot that returns a scrabble score when provided with a word\nFor example:\nIf a user of your ScrabbleScoreBot types in the following slash command into Slack:\nThen a score of 12 should be returned by the Slack bot\nRequirements 1) Create a new Slack App called ScrabbleScoreBot (follow the same steps from the OpenWeatherBot tutorial)\n2) Follow the same steps from the tutorial to set up your Node application\n3) Create a slash command (see Step 10 from the tutorial) with the following specs:\n   Field Value     Command /scrabblescore   Request URL https://{Add your ngrok url}/scrabblescore   Short Description Get the scrabble score for any word   Usage Hint [word]    4) Use the following API endpoint to fetch the scrabble score associated with a word\n GET https://scrabble-scorer-api.herokuapp.com/api/v1/words/score?word={add_your_word_here}  Note: The request parameter: word is required; this API does not require an API Key\n"
 },
 {
 	"uri": "/13-project-build-a-slackbot/tutorial/step-14-handle-errors-gracefully/",
@@ -2125,7 +2125,7 @@
 	"title": "Intro to CRUD and Firebase",
 	"tags": [],
 	"description": "",
-	"content": " Lesson 15 Intro to CRUD and Firebase "
+	"content": " Lesson 14 Intro to CRUD and Firebase "
 },
 {
 	"uri": "/06-dom-and-jquery/jquery-effects/",
@@ -2209,7 +2209,7 @@
 	"title": "Final Projects Lab",
 	"tags": [],
 	"description": "",
-	"content": " Lesson 19 Final Projects Lab "
+	"content": " Lesson 15 Final Projects Lab "
 },
 {
 	"uri": "/class-resources/common-final-project-tasks/",
@@ -2223,7 +2223,7 @@
 	"title": "Final Project Presentations",
 	"tags": [],
 	"description": "",
-	"content": " Lesson 20 Final Project Presentations "
+	"content": " Lesson 16 Final Project Presentations "
 },
 {
 	"uri": "/01-course-intro-and-tools/group-exercise-rock-paper-scissors/",

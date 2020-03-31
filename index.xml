@@ -484,7 +484,7 @@ List Of Commonly Used APIs Here is a short list of commonly used APIs for testin
       <guid>/14-intro-to-crud-and-firebase/firebase/overview/</guid>
       <description> What is Firebase?  Firebase is a mobile and web application platform for developers
  Acquired by Google in 2014
- Offers many other services but we&amp;rsquo;ll be covering the basics of Firebase&amp;rsquo;s real-time backend database and seeing how we can use this in our applications
+ Offers many other services but we&amp;rsquo;ll be covering the basics of Firebase&amp;rsquo;s Firestore database and seeing how we can use this in our applications
   </description>
     </item>
     
@@ -507,7 +507,7 @@ List Of Commonly Used APIs Here is a short list of commonly used APIs for testin
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/lesson-recordings/recordings/</guid>
-      <description> Lesson Recordings    Lesson Date Link Notes     09 3/11/2020 lesson 09 recording    10 3/16/2020 lesson 10 recording    11 3/18/2020 lesson 11 recording    12 3/23/2020 lesson 12 recording    13 3/25/2020 lesson 12 recording     </description>
+      <description> Lesson Recordings    Lesson Date Link Notes     09 3/11/2020 lesson 09 recording    10 3/16/2020 lesson 10 recording    11 3/18/2020 lesson 11 recording    12 3/23/2020 lesson 12 recording    13 3/25/2020 lesson 13 recording    14 3/30/2020 lesson 14 recording     </description>
     </item>
     
     <item>
@@ -2836,10 +2836,10 @@ In order to send a delayed response to Slack we need to make a POST request back
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/13-project-build-a-slackbot/scabble-score-bot/</guid>
-      <description>Lab: Add a &amp;ldquo;Slack Bot&amp;rdquo; that returns a Scrabble Score for a given word Overview You are tasked with creating a Slack Bot that returns an scrabble score when provided with a word
+      <description>Lab: Add a &amp;ldquo;Slack Bot&amp;rdquo; that returns a Scrabble Score for a given word Overview You are tasked with creating a Slack Bot that returns a scrabble score when provided with a word
 For example:
 If a user of your ScrabbleScoreBot types in the following slash command into Slack:
-Then an score of 12 should be returned by the Slack bot
+Then a score of 12 should be returned by the Slack bot
 Requirements 1) Create a new Slack App called ScrabbleScoreBot (follow the same steps from the OpenWeatherBot tutorial)</description>
     </item>
     
